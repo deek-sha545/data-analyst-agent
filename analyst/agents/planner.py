@@ -15,7 +15,7 @@ def planner(state: AnalysisState, ctx: RunContext) -> dict:
     )
     if state.get("plan_feedback"):
         user += (
-            f"\n\nA human reviewed your previous plan:\n- " + "\n- ".join(state.get("plan", []))
+            "\n\nA human reviewed your previous plan:\n- " + "\n- ".join(state.get("plan", []))
             + f"\n\nTheir feedback: {state['plan_feedback']}\nWrite an improved plan."
         )
     reply = ctx.llm.chat(

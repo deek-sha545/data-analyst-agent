@@ -8,7 +8,6 @@ from __future__ import annotations
 
 import re
 import shutil
-from pathlib import Path
 
 from analyst import prompts
 from analyst.agents.state import AnalysisState, RunContext

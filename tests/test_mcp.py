@@ -2,7 +2,6 @@
 import json
 
 import anyio
-import pytest
 from mcp import Client
 
 from analyst.config import get_settings

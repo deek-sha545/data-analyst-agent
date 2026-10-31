@@ -235,7 +235,7 @@ def parse_json(text: str) -> dict:
     except json.JSONDecodeError:
         start, end = text.find("{"), text.rfind("}")
         if start == -1 or end <= start:
-            raise ValueError(f"no JSON object in reply: {text[:200]!r}")
+            raise ValueError(f"no JSON object in reply: {text[:200]!r}") from None
         obj = json.loads(text[start : end + 1])
     if not isinstance(obj, dict):
         raise ValueError(f"expected a JSON object, got {type(obj).__name__}")

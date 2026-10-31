@@ -20,7 +20,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 from analyst.config import ROOT
-from eval.questions import BY_ID
 
 RESULTS = ROOT / "results"
 VARIANT_ORDER = ["multi", "no_reviewer", "single"]

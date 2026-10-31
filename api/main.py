@@ -206,7 +206,7 @@ def start_run(req: RunRequest) -> dict:
         tracker = RunTracker()
         llm = app.state.llm_factory(settings, tracker)
     except Exception as e:  # e.g. missing API key
-        raise HTTPException(503, f"LLM not available: {e}")
+        raise HTTPException(503, f"LLM not available: {e}") from e
     job = Job(tracker.run_id, req.question, req.variant, req.datasets, tracker)
     tracker.listeners.append(job.notify)
     JOBS[job.run_id] = job
