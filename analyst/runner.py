@@ -45,6 +45,7 @@ class RunResult:
     code: str = ""
     plan: list[str] = field(default_factory=list)
     review: dict = field(default_factory=dict)
+    review_rounds: int = 0
     attempts: list[dict] = field(default_factory=list)
     metrics: dict = field(default_factory=dict)
     error: str = ""
@@ -104,6 +105,7 @@ def run_analysis(
         result.report = state.get("report", "")
         result.plan = state.get("plan", [])
         result.review = state.get("review", {})
+        result.review_rounds = state.get("review_rounds", 0)
         result.attempts = state.get("attempts", [])
         good = state.get("last_good") or {}
         result.code = good.get("code") or state.get("code", "")

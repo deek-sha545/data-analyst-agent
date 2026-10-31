@@ -64,6 +64,7 @@ def run_one(q: Question, model: str, variant: str, provider: str) -> dict:
         "executions": len(res.attempts),
         "failed_executions": sum(not a["ok"] for a in res.attempts),
         "review_verdict": (res.review or {}).get("verdict"),
+        "review_rounds": res.review_rounds,
         "llm_calls": m["llm_calls"],
         "prompt_tokens": m["prompt_tokens"],
         "completion_tokens": m["completion_tokens"],
