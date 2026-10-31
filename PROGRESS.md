@@ -45,3 +45,8 @@ This file tracks the build so work can be resumed if interrupted.
 - 2026-10-31 — M8: `analyst_mcp/server.py` (mcp 2.x `MCPServer`; tools list_datasets / profile_dataset / run_python /
   ask_analyst; dataset paths restricted to data/ + uploads/ unless ANALYST_MCP_ALLOW_ANY_PATH=1). 5 in-process
   client tests + verified over real stdio transport.
+- 2026-10-31 — M6 notes: `gemini-3.5-flash` free tier = 20 requests/DAY (exhausted; "retry in 18h") -> second model
+  is `gemini-3.1-flash-lite` (was returning 503 "high demand" at 17:53; harness retries error rows on re-run).
+  Hinted suite was ~100% for every variant so far -> added the **unhinted** suite (`--suite unhinted`, 16 questions
+  with the data-error hints removed) to test whether agents find data errors themselves.
+  Resume: `python -m eval.harness --models <m> --variants ... [--suite unhinted]` then `python -m eval.report`.
