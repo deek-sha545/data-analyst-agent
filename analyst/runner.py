@@ -97,6 +97,7 @@ def run_analysis(
                     pending = chunk["__interrupt__"][0].value
             if pending is None:
                 break
+            tracker.event("system", "awaiting_approval", pending["plan"])
             decision = approval_callback(pending) if approval_callback else {"approved": True}
             inp = Command(resume=decision)
         state = graph.get_state(config).values

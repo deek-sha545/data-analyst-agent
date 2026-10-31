@@ -26,6 +26,7 @@ from eval.reference import DATA_DIR
         "import pandas as pd\npd.read_csv('../secret.csv')",
         "import pandas as pd\npd.read_csv('https://example.com/x.csv')",
         "import pandas as pd\npd.read_csv('~/.ssh/id_rsa')",
+        "import pandas as pd\nx = 'passwd'\npd.read_csv(f'/etc/{x}')",
         "def f(:\n  pass",
     ],
 )
@@ -39,6 +40,7 @@ def test_unsafe_code_rejected(code):
         "import pandas as pd\nimport numpy as np\ndf = pd.read_csv('sales.csv')\nprint(df.head())",
         "import matplotlib.pyplot as plt\nplt.plot([1, 2])\nplt.title('Revenue / units')",
         "x = 'a/b'.split('/')\nprint(f'{x[0]}/{x[1]}')",
+        "r = 5\nprint(f'Revenue: {r:,.2f}/month')",
         "from collections import Counter\nprint(Counter('aab'))",
         "if __name__ == '__main__':\n    print('...')",
     ],

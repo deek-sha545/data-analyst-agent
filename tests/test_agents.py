@@ -195,3 +195,15 @@ def test_extract_answer():
     assert extract_answer("**Answer:** West fell 27%.\n\n## Key") == "West fell 27%."
     assert extract_answer("intro\n\n**Answer**: two\nlines\n## X") == "two lines"
     assert extract_answer("## Title\n\nFirst para here.\n\nSecond") == "First para here."
+
+
+def test_approval_events_not_duplicated(settings):
+    from analyst.tracker import RunTracker
+
+    llm, _ = scripted(planner=[PLAN], coder=[GOOD_CODE], reviewer=[APPROVE], reporter=[REPORT])
+    tracker = RunTracker()
+    run_analysis("q", [SALES], settings=settings, llm=llm, tracker=tracker, require_approval=True,
+                 approval_callback=lambda p: {"approved": True})
+    kinds = [e.kind for e in tracker.events]
+    assert kinds.count("awaiting_approval") == 1 and kinds.count("approval") == 1
+    assert kinds.index("awaiting_approval") < kinds.index("approval") < kinds.index("code")

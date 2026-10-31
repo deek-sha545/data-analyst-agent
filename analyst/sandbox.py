@@ -157,6 +157,12 @@ def check_code(code: str) -> list[str]:
     def bad(node: ast.AST, msg: str) -> None:
         problems.append(f"line {getattr(node, 'lineno', '?')}: {msg}")
 
+    # Literal pieces in the middle of an f-string (f"{x}/month") cannot start a path or URL.
+    inner_fstring_parts = {
+        id(v) for n in ast.walk(tree) if isinstance(n, ast.JoinedStr) for v in n.values[1:]
+        if isinstance(v, ast.Constant)
+    }
+
     for node in ast.walk(tree):
         if isinstance(node, ast.Import):
             for alias in node.names:
@@ -175,7 +181,7 @@ def check_code(code: str) -> list[str]:
                 bad(node, f"dunder attribute '{node.attr}' is not allowed")
             elif node.attr in BANNED_ATTRS:
                 bad(node, f"'.{node.attr}' is not allowed")
-        elif isinstance(node, ast.Constant) and isinstance(node.value, str):
+        elif isinstance(node, ast.Constant) and isinstance(node.value, str) and id(node) not in inner_fstring_parts:
             v = node.value.strip()
             if _ABS_PATH.match(v) or "../" in v or "..\\" in v:
                 bad(node, f"file paths outside the working directory are not allowed: {v[:60]!r}")

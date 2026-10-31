@@ -37,8 +37,11 @@ def profile_node(state: AnalysisState, ctx: RunContext) -> dict:
 
 
 def human_approval(state: AnalysisState, ctx: RunContext) -> dict:
-    """Pause the graph until a human approves, rejects, or comments on the plan."""
-    ctx.tracker.event("system", "awaiting_approval", state["plan"])
+    """Pause the graph until a human approves, rejects, or comments on the plan.
+
+    Note: on resume LangGraph re-runs this node from the top, so side effects before
+    interrupt() would happen twice - the "awaiting_approval" event is emitted by the runner.
+    """
     decision = interrupt({"plan": state["plan"], "question": state["question"]})
     if not isinstance(decision, dict):
         decision = {"approved": bool(decision)}
