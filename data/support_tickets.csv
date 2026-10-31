@@ -1,0 +1,2621 @@
+ticket_id,created_at,product,priority,channel,agent_id,resolution_hours,satisfaction_score,status
+T00001,2024-01-01 02:01,Laptop Air,Medium,Email,A02,,3.0,Open
+T00002,2024-01-01 03:16,Phone X,Low,Email,A11,20.6,3.0,Closed
+T00003,2024-01-01 03:26,Headphones,Medium,Email,A08,20.5,,Closed
+T00004,2024-01-01 13:59,Phone Mini,Low,Email,A05,29.5,3.0,Closed
+T00005,2024-01-01 16:13,Phone X,Medium,Chat,A11,19.2,5.0,Closed
+T00006,2024-01-01 19:46,Laptop Pro,High,Email,A12,8.0,,Closed
+T00007,2024-01-01 21:29,Phone X,Urgent,Chat,A05,2.6,5.0,Closed
+T00008,2024-01-01 23:37,Phone Mini,High,Phone,A04,11.6,5.0,Closed
+T00009,2024-01-02 00:56,Phone Mini,Low,Email,A08,30.6,4.0,Closed
+T00010,2024-01-02 04:57,Laptop Pro,Low,Chat,A04,34.9,3.0,Closed
+T00011,2024-01-02 05:16,Laptop Air,Medium,Email,A04,,3.0,Open
+T00012,2024-01-02 12:20,Headphones,Low,Phone,A06,42.8,3.0,Closed
+T00013,2024-01-03 00:40,Phone X,Medium,Chat,A04,6.2,5.0,Closed
+T00014,2024-01-03 00:59,Headphones,Urgent,Email,A05,5.4,4.0,Closed
+T00015,2024-01-03 04:15,Phone Mini,Low,Email,A01,27.7,3.0,Closed
+T00016,2024-01-03 05:07,Laptop Air,Low,Email,A04,42.1,3.0,Closed
+T00017,2024-01-03 16:30,Laptop Pro,Medium,Chat,A06,21.4,4.0,Closed
+T00018,2024-01-03 16:40,Laptop Pro,Low,Chat,A11,36.4,4.0,Closed
+T00019,2024-01-03 19:28,Laptop Pro,High,Phone,A10,15.9,4.0,Closed
+T00020,2024-01-03 21:01,Headphones,Medium,Chat,A09,11.9,4.0,Closed
+T00021,2024-01-03 22:43,Phone Mini,Medium,Email,A11,24.2,4.0,Closed
+T00022,2024-01-03 23:10,Laptop Air,Low,Email,A04,13.2,4.0,Closed
+T00023,2024-01-04 00:12,Phone Mini,Urgent,Email,A09,1.4,4.0,Closed
+T00024,2024-01-04 03:28,Laptop Air,Low,Email,A01,16.7,4.0,Closed
+T00025,2024-01-04 12:35,Laptop Pro,Low,Email,A08,14.9,4.0,Closed
+T00026,2024-01-04 15:41,Phone X,High,Email,A04,8.7,4.0,Closed
+T00027,2024-01-04 19:11,Laptop Pro,Urgent,Email,A05,2.2,5.0,Closed
+T00028,2024-01-04 22:36,Phone Mini,High,Chat,A06,7.6,4.0,Closed
+T00029,2024-01-05 04:06,Smartwatch,Low,Email,A03,35.3,4.0,Closed
+T00030,2024-01-05 05:02,Phone X,Low,Email,A04,14.6,3.0,Closed
+T00031,2024-01-05 16:22,Laptop Pro,Medium,Chat,A08,6.9,4.0,Closed
+T00032,2024-01-05 16:27,Smartwatch,Urgent,Chat,A05,2.9,4.0,Closed
+T00033,2024-01-05 17:06,Headphones,Urgent,Chat,A12,3.0,5.0,Closed
+T00034,2024-01-05 18:21,Phone Mini,Urgent,Email,A11,5.2,5.0,Closed
+T00035,2024-01-06 02:45,Headphones,High,Chat,A02,11.4,,Closed
+T00036,2024-01-06 09:17,Phone X,Medium,Email,A11,33.1,3.0,Closed
+T00037,2024-01-06 11:03,Smartwatch,Low,Email,A09,82.5,2.0,Closed
+T00038,2024-01-06 15:47,Smartwatch,High,Phone,A06,2.9,5.0,Closed
+T00039,2024-01-06 18:26,Phone Mini,Low,Email,A02,20.5,4.0,Closed
+T00040,2024-01-07 01:44,Headphones,Medium,Email,A02,32.4,4.0,Closed
+T00041,2024-01-07 02:34,Laptop Pro,Medium,Phone,A01,21.5,4.0,Closed
+T00042,2024-01-07 04:32,Laptop Air,Medium,Chat,A02,15.2,4.0,Closed
+T00043,2024-01-07 06:00,Headphones,Low,Chat,A02,18.8,5.0,Closed
+T00044,2024-01-07 07:21,Phone X,Low,Chat,A01,30.4,4.0,Closed
+T00045,2024-01-07 07:22,Smartwatch,Medium,Email,A11,16.8,5.0,Closed
+T00046,2024-01-07 09:11,Laptop Pro,Medium,Phone,A08,28.2,4.0,Closed
+T00047,2024-01-07 10:58,Phone X,High,Email,A01,8.2,4.0,Closed
+T00048,2024-01-07 17:30,Smartwatch,Medium,Email,A11,21.4,,Closed
+T00049,2024-01-07 20:39,Phone Mini,Medium,Email,A05,16.7,4.0,Closed
+T00050,2024-01-07 23:00,Phone X,Low,Email,A02,38.8,4.0,Closed
+T00051,2024-01-08 07:34,Smartwatch,Medium,Email,A12,32.2,4.0,Closed
+T00052,2024-01-08 07:46,Phone Mini,Low,Email,A12,19.9,4.0,Closed
+T00053,2024-01-08 08:23,Phone X, Medium ,Chat,A06,29.0,4.0,Closed
+T00054,2024-01-08 12:33,Phone X,Low,Phone,A10,36.5,,Closed
+T00055,2024-01-08 12:40,Phone Mini,Low,Email,A05,16.3,5.0,Closed
+T00056,2024-01-08 18:25,Smartwatch,Medium,Email,A04,14.6,,Closed
+T00057,2024-01-09 02:42,Headphones,Low,Chat,A07,134.4,1.0,Closed
+T00058,2024-01-09 03:30,Phone X,Medium,Email,A06,21.4,4.0,Closed
+T00059,2024-01-09 05:53,Phone X,Medium,Email,A11,14.9,5.0,Closed
+T00060,2024-01-09 09:34,Smartwatch,High,Chat,A11,20.9,,Closed
+T00061,2024-01-09 11:14,Laptop Pro,Low,Chat,A05,45.3,,Closed
+T00062,2024-01-09 15:33,Phone Mini,Low,Chat,A11,22.5,4.0,Closed
+T00063,2024-01-09 16:24,Headphones,Low,Email,A10,28.2,3.0,Closed
+T00064,2024-01-09 18:25,Phone Mini,Medium,Phone,A10,26.7,4.0,Closed
+T00065,2024-01-09 20:53,Phone X,High,Phone,A12,,,Open
+T00066,2024-01-10 06:23,Smartwatch,Low,Email,A05,30.4,3.0,Closed
+T00067,2024-01-10 09:02,Laptop Air,High,Email,A11,7.4,4.0,Closed
+T00068,2024-01-10 11:16,Smartwatch,Low,Chat,A10,42.5,,Closed
+T00069,2024-01-10 18:14,Phone X,Medium,Phone,A10,21.6,3.0,Closed
+T00070,2024-01-10 18:20,Smartwatch,Low,Phone,A02,33.4,4.0,Closed
+T00071,2024-01-11 00:46,Phone Mini,Medium,Chat,A11,27.4,4.0,Closed
+T00072,2024-01-11 02:36,Headphones,Urgent,Chat,A04,3.6,5.0,Closed
+T00073,2024-01-11 15:34,Phone X,Medium,Email,A06,13.7,4.0,Closed
+T00074,2024-01-11 22:50,Laptop Air,High,Email,A10,13.8,4.0,Closed
+T00075,2024-01-12 02:42,Phone X,High,Chat,A11,31.5,4.0,Closed
+T00076,2024-01-12 03:40,Laptop Pro,Medium,Chat,A07,95.2,2.0,Closed
+T00077,2024-01-12 12:35,Phone X,Low,Phone,A05,19.7,,Closed
+T00078,2024-01-13 08:35,Phone Mini,Medium,Phone,A08,15.9,3.0,Closed
+T00079,2024-01-13 10:05,Laptop Pro,Low,Email,A10,49.3,3.0,Closed
+T00080,2024-01-13 12:06,Laptop Pro,Medium,Email,A02,25.6,3.0,Closed
+T00081,2024-01-13 13:38,Phone X,High,Email,A04,8.6,,Closed
+T00082,2024-01-13 19:54,Phone Mini,High,Email,A06,9.6,,Closed
+T00083,2024-01-13 23:47,Smartwatch,Urgent,Email,A03,,4.0,Open
+T00084,2024-01-14 00:14,Phone Mini,Medium,Email,A01,33.9,4.0,Closed
+T00085,2024-01-14 00:27,Laptop Pro,Medium,Phone,A04,14.6,4.0,Closed
+T00086,2024-01-14 10:24,Laptop Pro,Medium,Phone,A05,17.3,,Closed
+T00087,2024-01-14 10:27,Laptop Pro,Medium,Email,A07,28.2,4.0,Closed
+T00088,2024-01-14 12:04,Smartwatch,Low,Chat,A04,34.4,,Closed
+T00089,2024-01-14 16:51,Smartwatch,High,Email,A01,8.0,4.0,Closed
+T00090,2024-01-14 16:58,Headphones,High,Email,A04,4.6,3.0,Closed
+T00091,2024-01-14 18:20,Phone X,Low,Email,A02,,4.0,Open
+T00092,2024-01-15 03:29,Headphones,Medium,Email,A10,27.1,4.0,Closed
+T00093,2024-01-15 03:33,Laptop Pro,Low,Phone,A09,56.8,3.0,Closed
+T00094,2024-01-15 08:57,Smartwatch,High,Chat,A03,,,Open
+T00095,2024-01-15 12:44,Phone Mini,Medium,Email,A04,18.4,,Closed
+T00096,2024-01-15 17:00,Phone X,Low,Phone,A10,81.3,2.0,Closed
+T00097,2024-01-15 17:14,Phone Mini,Low,Phone,A04,41.3,3.0,Closed
+T00098,2024-01-15 19:54,Laptop Pro,Low,Email,A09,58.6,2.0,Closed
+T00099,2024-01-15 20:01,Headphones,Medium,Email,A12,,4.0,Open
+T00100,2024-01-15 22:10,Headphones,Medium,Email,A06,16.4,4.0,Closed
+T00101,2024-01-15 22:39,Headphones,High,Email,A03,5.3,4.0,Closed
+T00102,2024-01-15 22:55,Headphones,Medium,Email,A02,32.5,3.0,Closed
+T00103,2024-01-16 03:26,Laptop Pro,Medium,Email,A09,25.0,3.0,Closed
+T00104,2024-01-16 04:51,Phone X,Medium,Chat,A08,27.6,3.0,Closed
+T00105,2024-01-16 11:12,Smartwatch,Medium,Chat,A12,47.1,,Closed
+T00106,2024-01-16 23:28,Phone Mini,Medium,Phone,A11,,4.0,Open
+T00107,2024-01-17 00:41,Smartwatch,Medium,Chat,A02,20.7,4.0,Closed
+T00108,2024-01-17 03:31,Phone X, Medium ,Chat,A08,12.7,4.0,Closed
+T00109,2024-01-17 04:04,Smartwatch,Medium,Chat,A06,14.2,4.0,Closed
+T00110,2024-01-17 09:07,Smartwatch,High,Chat,A06,8.9,4.0,Closed
+T00111,2024-01-17 14:38,Phone Mini,Medium,Chat,A05,27.5,4.0,Closed
+T00112,2024-01-18 00:15,Phone X,Medium,Chat,A04,15.0,,Closed
+T00113,2024-01-18 03:08,Phone Mini,High,Chat,A10,11.4,5.0,Closed
+T00114,2024-01-18 03:44,Phone Mini,High,Email,A02,9.4,5.0,Closed
+T00115,2024-01-18 05:18,Smartwatch,High,Phone,A07,27.9,3.0,Closed
+T00116,2024-01-18 07:15,Laptop Air,Low,Email,A10,48.3,3.0,Closed
+T00117,2024-01-18 14:41,Smartwatch,Medium,Chat,A05,24.3,,Closed
+T00118,2024-01-18 20:14,Smartwatch,Medium,Chat,A09,27.5,,Closed
+T00119,2024-01-18 22:01,Laptop Pro,Medium,Chat,A04,21.0,5.0,Closed
+T00120,2024-01-18 22:46,Laptop Pro,High,Chat,A07,27.4,4.0,Closed
+T00121,2024-01-18 23:28,Headphones,Medium,Chat,A03,16.8,4.0,Closed
+T00122,2024-01-19 00:00,Phone Mini,High,Email,A02,4.2,4.0,Closed
+T00123,2024-01-19 02:19,Phone Mini,Medium,Phone,A01,16.8,3.0,Closed
+T00124,2024-01-19 02:48,Laptop Air,Medium,Chat,A08,20.2,5.0,Closed
+T00125,2024-01-19 03:06,Headphones,Medium,Chat,A02,26.8,,Closed
+T00126,2024-01-19 03:42,Phone X,Low,Chat,A11,33.6,,Closed
+T00127,2024-01-19 04:07,Laptop Pro,High,Chat,A10,,4.0,Open
+T00128,2024-01-19 05:45,Laptop Air,High,Chat,A05,11.2,4.0,Closed
+T00129,2024-01-19 06:52,Phone X,Low,Phone,A09,36.1,2.0,Closed
+T00130,2024-01-19 11:25,Smartwatch,Urgent,Phone,A10,2.3,4.0,Closed
+T00131,2024-01-19 14:00,Smartwatch,Low,Email,A05,9.2,,Closed
+T00132,2024-01-19 17:13,Laptop Air,High,Chat,A05,11.4,5.0,Closed
+T00133,2024-01-19 18:19,Phone Mini,Low,Email,A06,34.5,2.0,Closed
+T00134,2024-01-19 22:14,Phone X,Low,Email,A11,36.7,3.0,Closed
+T00135,2024-01-20 00:05,Laptop Pro, High ,Email,A05,10.8,,Closed
+T00136,2024-01-20 04:06,Laptop Air,Low,Chat,A04,33.5,3.0,Closed
+T00137,2024-01-20 11:56,Headphones,High,Chat,A08,13.5,4.0,Closed
+T00138,2024-01-20 15:46,Phone Mini,Urgent,Email,A02,-2.9,4.0,Closed
+T00139,2024-01-20 23:44,Phone Mini,High,Chat,A07,29.2,,Closed
+T00140,2024-01-21 06:50,Smartwatch,Medium,Email,A06,10.9,,Closed
+T00141,2024-01-21 07:09,Phone Mini,Low,Email,A03,47.6,,Closed
+T00142,2024-01-21 07:28,Smartwatch,Medium,Email,A12,17.4,2.0,Closed
+T00143,2024-01-21 10:18,Laptop Pro,Medium,Chat,A05,,5.0,Open
+T00144,2024-01-21 11:44,Phone Mini,High,Phone,A04,7.3,3.0,Closed
+T00145,2024-01-21 13:45,Smartwatch,Medium,Email,A01,26.1,,Closed
+T00146,2024-01-21 15:29,Laptop Air,Low,Phone,A09,21.6,4.0,Closed
+T00147,2024-01-21 22:09,Smartwatch,High,Email,A02,8.0,4.0,Closed
+T00148,2024-01-21 22:21,Laptop Air,high,Email,A09,16.2,4.0,Closed
+T00149,2024-01-21 23:49,Headphones,Urgent,Chat,A01,3.8,5.0,Closed
+T00150,2024-01-22 01:43,Laptop Pro,Low,Email,A03,17.8,4.0,Closed
+T00151,2024-01-22 03:25,Laptop Air,Medium,Email,A11,18.1,4.0,Closed
+T00152,2024-01-22 06:41,Phone Mini,Urgent,Phone,A04,4.0,5.0,Closed
+T00153,2024-01-22 06:42,Laptop Air,High,Email,A10,12.8,4.0,Closed
+T00154,2024-01-22 07:33,Headphones,High,Phone,A07,15.1,4.0,Closed
+T00155,2024-01-22 10:36,Laptop Air,Medium,Chat,A08,7.4,4.0,Closed
+T00156,2024-01-22 21:26,Smartwatch,Medium,Phone,A03,,,Open
+T00157,2024-01-23 01:14,Smartwatch,High,Email,A04,6.6,4.0,Closed
+T00158,2024-01-23 05:20,Phone Mini,Medium,Email,A08,15.7,4.0,Closed
+T00159,2024-01-23 05:46,Laptop Air,High,Chat,A01,3.6,5.0,Closed
+T00160,2024-01-23 18:26,Phone Mini,Medium,Email,A10,23.6,4.0,Closed
+T00161,2024-01-23 18:59,Laptop Air,Medium,Email,A11,16.6,4.0,Closed
+T00162,2024-01-23 20:46,Laptop Air,High,Email,A04,4.6,4.0,Closed
+T00163,2024-01-23 22:35,Phone X,Medium,Chat,A08,31.0,3.0,Closed
+T00164,2024-01-24 01:23,Headphones,Medium,Chat,A09,22.3,5.0,Closed
+T00165,2024-01-24 03:02,Phone Mini,High,Email,A07,16.4,4.0,Closed
+T00166,2024-01-24 03:16,Headphones,Medium,Email,A03,9.2,3.0,Closed
+T00167,2024-01-24 06:59,Laptop Air,Low,Chat,A01,32.3,4.0,Closed
+T00168,2024-01-24 09:45,Phone X,Low,Email,A11,39.0,2.0,Closed
+T00169,2024-01-24 17:46,Smartwatch,Medium,Chat,A07,75.8,,Closed
+T00170,2024-01-24 18:15,Smartwatch,Low,Chat,A03,18.6,4.0,Closed
+T00171,2024-01-25 01:09,Phone Mini,Low,Phone,A08,16.7,,Closed
+T00172,2024-01-25 02:03,Laptop Air,Medium,Phone,A09,17.6,,Closed
+T00173,2024-01-25 03:37,Smartwatch,Medium,Email,A11,14.7,4.0,Closed
+T00174,2024-01-25 23:27,Headphones,Low,Phone,A05,50.1,4.0,Closed
+T00175,2024-01-26 07:19,Phone X,Low,Email,A03,25.5,3.0,Closed
+T00176,2024-01-26 10:44,Headphones,Low,Chat,A12,36.5,4.0,Closed
+T00177,2024-01-26 20:03,Phone X,Low,Chat,A07,37.1,3.0,Closed
+T00178,2024-01-26 20:24,Headphones,Low,Email,A08,29.1,3.0,Closed
+T00179,2024-01-26 22:58,Laptop Pro,Medium,Chat,A01,8.6,,Closed
+T00180,2024-01-26 23:07,Smartwatch,High,Chat,A10,11.6,5.0,Closed
+T00181,2024-01-27 00:06,Laptop Air,Low,Email,A11,20.3,,Closed
+T00182,2024-01-27 02:46,Smartwatch,Medium,Phone,A01,19.5,3.0,Closed
+T00183,2024-01-27 02:52,Smartwatch,High,Phone,A05,5.0,5.0,Closed
+T00184,2024-01-27 10:14,Headphones,Low,Email,A06,18.0,3.0,Closed
+T00185,2024-01-27 11:02,Smartwatch,Urgent,Chat,A10,4.2,5.0,Closed
+T00186,2024-01-27 11:54,Phone Mini,Low,Chat,A01,25.5,3.0,Closed
+T00187,2024-01-27 16:43,Phone Mini,Medium,Phone,A10,6.3,5.0,Closed
+T00188,2024-01-27 22:18,Smartwatch,MEDIUM,Chat,A06,15.4,5.0,Closed
+T00189,2024-01-27 22:40,Smartwatch,Medium,Chat,A05,10.8,5.0,Closed
+T00190,2024-01-28 04:33,Phone Mini,Low,Email,A02,33.6,,Closed
+T00191,2024-01-28 13:38,Laptop Pro,Low,Email,A02,20.2,4.0,Closed
+T00192,2024-01-28 15:25,Headphones,Medium,Email,A06,,3.0,Open
+T00193,2024-01-29 05:10,Phone Mini,Low,Email,A08,27.2,4.0,Closed
+T00194,2024-01-29 07:10,Laptop Air,Low,Chat,A11,79.0,2.0,Closed
+T00195,2024-01-29 12:36,Headphones,Medium,Email,A10,12.5,4.0,Closed
+T00196,2024-01-29 16:29,Headphones,High,Chat,A09,,4.0,Open
+T00197,2024-01-30 05:50,Phone Mini,High,Email,A08,5.6,4.0,Closed
+T00198,2024-01-30 11:08,Laptop Pro,Medium,Chat,A11,,4.0,Open
+T00199,2024-01-30 17:28,Phone X,High,Phone,A07,12.8,4.0,Closed
+T00200,2024-01-30 21:20,Phone Mini,Low,Phone,A10,29.0,,Closed
+T00201,2024-01-30 21:20,Phone X,Low,Chat,A06,,3.0,Open
+T00202,2024-01-31 00:30,Phone X,Medium,Email,A04,23.9,4.0,Closed
+T00203,2024-01-31 01:21,Phone Mini,Low,Email,A08,44.5,,Closed
+T00204,2024-01-31 01:48,Laptop Air,Medium,Email,A11,27.9,4.0,Closed
+T00205,2024-01-31 04:39,Headphones,Medium,Chat,A06,13.1,5.0,Closed
+T00206,2024-01-31 07:34,Phone X,Medium,Chat,A02,18.1,4.0,Closed
+T00207,2024-01-31 10:50,Phone Mini,Low,Chat,A04,46.7,4.0,Closed
+T00208,2024-01-31 12:36,Laptop Air,Medium,Phone,A07,38.1,4.0,Closed
+T00209,2024-01-31 13:13,Headphones,High,Chat,A06,7.1,4.0,Closed
+T00210,2024-01-31 18:22,Phone Mini,Low,Chat,A02,21.7,,Closed
+T00211,2024-01-31 18:29,Headphones,Medium,Email,A10,35.7,3.0,Closed
+T00212,2024-01-31 20:46,Laptop Air, Low ,Chat,A12,53.9,3.0,Closed
+T00213,2024-01-31 21:19,Laptop Pro,Medium,Email,A04,17.7,5.0,Closed
+T00214,2024-01-31 23:04,Smartwatch,Medium,Email,A02,9.0,,Closed
+T00215,2024-02-01 02:01,Headphones,Medium,Email,A07,33.9,4.0,Closed
+T00216,2024-02-01 04:21,Phone X,Medium,Email,A07,25.7,4.0,Closed
+T00217,2024-02-01 12:36,Laptop Pro,Low,Email,A04,45.1,3.0,Closed
+T00218,2024-02-01 19:33,Phone Mini,High,Chat,A06,8.6,5.0,Closed
+T00219,2024-02-02 03:11,Headphones,Medium,Email,A12,19.4,3.0,Closed
+T00220,2024-02-02 04:25,Laptop Pro,Medium,Chat,A03,22.3,4.0,Closed
+T00221,2024-02-02 04:27,Smartwatch,Low,Chat,A09,40.9,4.0,Closed
+T00222,2024-02-02 04:37,Smartwatch,Medium,Chat,A12,18.1,5.0,Closed
+T00223,2024-02-02 05:25,Laptop Pro,Low,Email,A03,,,Open
+T00224,2024-02-02 05:29,Laptop Pro,Low,Chat,A07,62.7,2.0,Closed
+T00225,2024-02-02 06:04,Smartwatch,Medium,Email,A11,19.5,4.0,Closed
+T00226,2024-02-02 09:35,Laptop Pro,Medium,Phone,A08,17.1,3.0,Closed
+T00227,2024-02-02 16:31,Smartwatch,Medium,Phone,A05,22.4,2.0,Closed
+T00228,2024-02-02 17:16,Laptop Pro,Medium,Email,A04,22.4,,Closed
+T00229,2024-02-02 19:21,Phone X,Urgent,Chat,A02,12.1,5.0,Closed
+T00230,2024-02-03 04:02,Laptop Pro,Medium,Email,A06,35.7,,Closed
+T00231,2024-02-03 16:49,Laptop Air,MEDIUM,Email,A10,,4.0,Open
+T00232,2024-02-03 20:13,Phone X,Urgent,Chat,A05,,,Open
+T00233,2024-02-04 01:19,Phone X,Medium,Email,A02,26.7,,Closed
+T00234,2024-02-04 03:14,Laptop Air,Low,Phone,A05,56.0,3.0,Closed
+T00235,2024-02-04 04:34,Smartwatch,Medium,Chat,A05,14.8,4.0,Closed
+T00236,2024-02-04 07:34,Phone X,Medium,Email,A09,29.7,4.0,Closed
+T00237,2024-02-04 09:58,Laptop Pro,Urgent,Phone,A08,3.3,4.0,Closed
+T00238,2024-02-04 11:35,Headphones,Low,Phone,A07,76.6,1.0,Closed
+T00239,2024-02-04 12:52,Phone X,Low,Email,A08,35.3,,Closed
+T00240,2024-02-04 14:40,Smartwatch,Low,Chat,A06,39.1,3.0,Closed
+T00241,2024-02-04 15:03,Smartwatch,Low,Phone,A04,29.3,3.0,Closed
+T00242,2024-02-04 17:26,Phone X,MEDIUM,Email,A07,,2.0,Open
+T00243,2024-02-04 21:02,Smartwatch,Low,Email,A03,32.5,3.0,Closed
+T00244,2024-02-04 22:45,Smartwatch,Medium,Chat,A08,14.6,4.0,Closed
+T00245,2024-02-05 01:20,Laptop Air,Medium,Phone,A12,21.4,4.0,Closed
+T00246,2024-02-05 02:57,Phone X,Low,Email,A08,15.0,4.0,Closed
+T00247,2024-02-05 08:04,Phone X,Low,Chat,A10,,4.0,Open
+T00248,2024-02-05 13:06,Phone X,Low,Email,A06,29.6,3.0,Closed
+T00249,2024-02-05 20:43,Phone X,High,Phone,A10,8.6,5.0,Closed
+T00250,2024-02-06 01:41,Laptop Air,High,Email,A02,11.1,4.0,Closed
+T00251,2024-02-06 02:03,Laptop Pro,High,Chat,A06,24.7,5.0,Closed
+T00252,2024-02-06 04:27,Headphones,Medium,Email,A06,15.8,4.0,Closed
+T00253,2024-02-06 07:06,Laptop Air,Medium,Chat,A06,21.6,4.0,Closed
+T00254,2024-02-06 11:56,Headphones,Low,Chat,A05,16.2,5.0,Closed
+T00255,2024-02-06 12:39,Smartwatch,High,Chat,A05,6.4,5.0,Closed
+T00256,2024-02-06 14:16,Laptop Air,Medium,Chat,A07,,3.0,Open
+T00257,2024-02-07 00:30,Phone Mini,Medium,Chat,A04,29.5,3.0,Closed
+T00258,2024-02-07 04:57,Laptop Pro,Medium,Chat,A08,13.6,5.0,Closed
+T00259,2024-02-07 06:34,Laptop Pro,Medium,Phone,A06,17.1,4.0,Closed
+T00260,2024-02-07 07:30,Laptop Air,Urgent,Phone,A08,6.8,5.0,Closed
+T00261,2024-02-07 11:22,Laptop Air,Medium,Email,A09,26.8,4.0,Closed
+T00262,2024-02-07 16:42,Phone X,Medium,Phone,A05,27.0,5.0,Closed
+T00263,2024-02-07 20:51,Laptop Pro,Low,Email,A06,23.9,4.0,Closed
+T00264,2024-02-08 02:44,Phone Mini,Low,Email,A06,26.8,4.0,Closed
+T00265,2024-02-08 03:42,Smartwatch,Low,Email,A03,25.8,4.0,Closed
+T00266,2024-02-08 04:08,Laptop Pro,High,Phone,A04,11.5,5.0,Closed
+T00267,2024-02-08 06:03,Smartwatch,Low,Email,A02,28.7,4.0,Closed
+T00268,2024-02-08 07:22,Headphones,Medium,Email,A10,33.1,3.0,Closed
+T00269,2024-02-08 19:15,Phone X,High,Email,A10,10.1,3.0,Closed
+T00270,2024-02-09 07:48,Phone X,High,Chat,A03,10.1,5.0,Closed
+T00271,2024-02-09 17:03,Phone Mini,Urgent,Phone,A07,6.9,4.0,Closed
+T00272,2024-02-10 19:15,Phone X,Low,Email,A09,38.6,4.0,Closed
+T00273,2024-02-10 22:21,Headphones,Low,Email,A04,54.8,3.0,Closed
+T00274,2024-02-10 22:54,Phone X, Low ,Chat,A12,21.4,4.0,Closed
+T00275,2024-02-11 06:37,Phone X,Low,Chat,A11,30.8,4.0,Closed
+T00276,2024-02-11 17:47,Phone Mini,Medium,Email,A03,12.1,4.0,Closed
+T00277,2024-02-11 21:22,Laptop Pro,Medium,Phone,A06,23.1,4.0,Closed
+T00278,2024-02-12 06:24,Smartwatch,High,Email,A05,,,Open
+T00279,2024-02-12 07:01,Laptop Pro,Medium,Chat,A02,7.9,4.0,Closed
+T00280,2024-02-12 09:33,Smartwatch,Medium,Chat,A07,21.9,4.0,Closed
+T00281,2024-02-12 12:03,Headphones,Low,Chat,A05,35.1,4.0,Closed
+T00282,2024-02-12 13:43,Laptop Air,High,Phone,A05,8.1,4.0,Closed
+T00283,2024-02-12 14:13,Phone X,High,Phone,A01,16.9,,Closed
+T00284,2024-02-12 18:15,Laptop Pro,Medium,Chat,A08,18.8,4.0,Closed
+T00285,2024-02-12 19:08,Phone X,Low,Phone,A02,,3.0,Open
+T00286,2024-02-12 22:55,Laptop Pro,Medium,Email,A09,16.4,3.0,Closed
+T00287,2024-02-13 03:17,Phone Mini,High,Email,A11,5.5,5.0,Closed
+T00288,2024-02-13 05:14,Phone X,Low,Chat,A01,44.9,,Closed
+T00289,2024-02-13 06:48,Phone X,Low,Email,A08,52.3,3.0,Closed
+T00290,2024-02-13 15:33,Phone X,Low,Chat,A07,71.4,3.0,Closed
+T00291,2024-02-14 06:11,Laptop Pro,Low,Phone,A09,26.0,3.0,Closed
+T00292,2024-02-14 08:42,Phone Mini,Medium,Email,A05,12.9,3.0,Closed
+T00293,2024-02-14 15:55,Laptop Air,Low,Email,A02,,3.0,Open
+T00294,2024-02-15 03:12,Phone X,High,Phone,A08,12.3,,Closed
+T00295,2024-02-15 07:13,Phone X,Medium,Phone,A12,25.3,3.0,Closed
+T00296,2024-02-15 08:52,Phone Mini,Medium,Chat,A09,19.8,4.0,Closed
+T00297,2024-02-15 14:50,Smartwatch,Medium,Email,A11,22.0,,Closed
+T00298,2024-02-15 16:56,Headphones,Medium,Email,A06,20.2,3.0,Closed
+T00299,2024-02-15 17:37,Headphones,Low,Chat,A12,,5.0,Open
+T00300,2024-02-15 21:51,Laptop Air,Medium,Chat,A02,6.7,5.0,Closed
+T00301,2024-02-15 23:16,Phone X,Medium,Chat,A06,13.4,5.0,Closed
+T00302,2024-02-16 04:01,Phone Mini,Medium,Email,A09,20.2,,Closed
+T00303,2024-02-16 05:31,Headphones,Medium,Email,A10,15.9,4.0,Closed
+T00304,2024-02-16 05:46,Laptop Air,Low,Email,A01,27.2,3.0,Closed
+T00305,2024-02-16 09:57,Laptop Air,High,Email,A05,13.3,5.0,Closed
+T00306,2024-02-16 10:30,Laptop Air,High,Chat,A04,10.4,5.0,Closed
+T00307,2024-02-16 12:39,Headphones,Medium,Chat,A03,,4.0,Open
+T00308,2024-02-16 15:42,Phone X,Low,Phone,A12,7.5,4.0,Closed
+T00309,2024-02-17 05:23,Laptop Pro,Low,Email,A05,32.2,4.0,Closed
+T00310,2024-02-17 05:40,Phone X,Medium,Chat,A12,,5.0,Open
+T00311,2024-02-17 19:34,Laptop Pro,Medium,Phone,A03,21.1,4.0,Closed
+T00312,2024-02-18 06:17,Phone Mini,Medium,Email,A06,8.0,,Closed
+T00313,2024-02-18 07:21,Laptop Air,Low,Chat,A08,25.9,4.0,Closed
+T00314,2024-02-18 07:52,Phone X,Low,Email,A02,20.4,4.0,Closed
+T00315,2024-02-18 12:55,Phone X,Low,Phone,A01,64.9,3.0,Closed
+T00316,2024-02-18 13:24,Phone X,Medium,Phone,A11,23.5,4.0,Closed
+T00317,2024-02-18 14:10,Headphones,Medium,Phone,A11,31.5,4.0,Closed
+T00318,2024-02-18 19:17,Headphones,Low,Chat,A07,114.2,1.0,Closed
+T00319,2024-02-19 07:21,Phone Mini,Urgent,Email,A09,6.4,5.0,Closed
+T00320,2024-02-19 08:13,Smartwatch,Medium,Email,A10,34.5,3.0,Closed
+T00321,2024-02-19 08:15,Headphones,Medium,Phone,A12,27.3,3.0,Closed
+T00322,2024-02-19 12:45,Laptop Pro,Medium,Chat,A04,,4.0,Open
+T00323,2024-02-19 22:42,Phone Mini,High,Chat,A07,24.5,4.0,Closed
+T00324,2024-02-20 02:55,Phone Mini,High,Phone,A10,6.0,5.0,Closed
+T00325,2024-02-20 04:44,Phone X,Low,Phone,A08,30.6,3.0,Closed
+T00326,2024-02-20 08:07,Phone Mini,medium,Chat,A12,14.4,,Closed
+T00327,2024-02-20 15:53,Phone Mini,High,Email,A10,12.6,,Closed
+T00328,2024-02-20 21:06,Headphones,High,Chat,A09,4.5,4.0,Closed
+T00329,2024-02-21 00:55,Headphones,Medium,Phone,A11,31.2,,Closed
+T00330,2024-02-21 02:57,Phone X,High,Email,A05,14.3,4.0,Closed
+T00331,2024-02-21 07:26,Laptop Air,Medium,Phone,A04,16.8,4.0,Closed
+T00332,2024-02-21 09:20,Laptop Pro,Low,Email,A10,39.7,3.0,Closed
+T00333,2024-02-21 09:24,Headphones,Medium,Email,A10,10.5,4.0,Closed
+T00334,2024-02-21 17:17,Laptop Pro,Low,Phone,A05,27.3,3.0,Closed
+T00335,2024-02-22 03:28,Phone Mini,Low,Email,A01,59.6,,Closed
+T00336,2024-02-22 05:43,Laptop Air,Low,Chat,A02,24.1,5.0,Closed
+T00337,2024-02-22 08:50,Laptop Pro,High,Email,A06,8.1,5.0,Closed
+T00338,2024-02-22 11:52,Phone Mini,Urgent,Phone,A02,3.2,,Closed
+T00339,2024-02-22 13:08,Laptop Air,Low,Chat,A09,60.9,4.0,Closed
+T00340,2024-02-22 16:44,Smartwatch,Low,Email,A02,54.3,3.0,Closed
+T00341,2024-02-22 17:09,Phone Mini,Low,Email,A11,45.0,2.0,Closed
+T00342,2024-02-22 17:19,Headphones,Medium,Chat,A07,31.0,,Closed
+T00343,2024-02-22 17:56,Phone Mini,High,Chat,A09,23.0,4.0,Closed
+T00344,2024-02-22 23:28,Laptop Air,Medium,Email,A09,20.2,4.0,Closed
+T00345,2024-02-23 02:40,Smartwatch,Low,Chat,A02,26.7,,Closed
+T00346,2024-02-23 02:51,Laptop Pro,Medium,Chat,A04,,4.0,Open
+T00347,2024-02-23 03:47,Headphones,Low,Phone,A01,23.4,4.0,Closed
+T00348,2024-02-23 04:58,Laptop Pro,Urgent,Chat,A07,8.2,5.0,Closed
+T00349,2024-02-23 11:58,Laptop Pro,High,Chat,A07,15.5,4.0,Closed
+T00350,2024-02-23 16:20,Headphones,Medium,Chat,A08,34.7,4.0,Closed
+T00351,2024-02-23 18:49,Smartwatch,Medium,Phone,A10,35.7,3.0,Closed
+T00352,2024-02-23 19:28,Laptop Air,High,Phone,A05,8.0,4.0,Closed
+T00353,2024-02-23 22:18,Laptop Air,Low,Chat,A03,23.0,4.0,Closed
+T00354,2024-02-24 01:45,Phone Mini,low,Chat,A07,147.6,,Closed
+T00355,2024-02-24 04:53,Laptop Air,Medium,Email,A09,19.0,4.0,Closed
+T00356,2024-02-24 05:32,Phone Mini,Low,Chat,A12,13.0,3.0,Closed
+T00357,2024-02-24 05:56,Phone Mini,Medium,Email,A05,23.7,,Closed
+T00358,2024-02-24 06:02,Headphones,Medium,Chat,A10,15.8,4.0,Closed
+T00359,2024-02-24 06:48,Phone Mini,Medium,Phone,A08,9.4,5.0,Closed
+T00360,2024-02-24 08:27,Smartwatch,High,Chat,A11,18.7,4.0,Closed
+T00361,2024-02-24 12:02,Smartwatch,Medium,Email,A04,21.1,4.0,Closed
+T00362,2024-02-24 13:00,Headphones,Medium,Chat,A04,8.4,4.0,Closed
+T00363,2024-02-24 16:28,Phone Mini,Medium,Email,A01,39.7,3.0,Closed
+T00364,2024-02-24 17:13,Laptop Air,Urgent,Email,A04,4.5,4.0,Closed
+T00365,2024-02-24 17:26,Headphones,Medium,Chat,A12,19.3,4.0,Closed
+T00366,2024-02-24 20:36,Smartwatch,Medium,Chat,A07,36.7,4.0,Closed
+T00367,2024-02-25 12:58,Laptop Pro,High,Email,A02,8.7,4.0,Closed
+T00368,2024-02-26 02:39,Laptop Pro,Medium,Email,A08,10.7,4.0,Closed
+T00369,2024-02-26 08:49,Smartwatch,Medium,Email,A12,20.2,4.0,Closed
+T00370,2024-02-26 22:26,Headphones,Urgent,Phone,A02,4.3,4.0,Closed
+T00371,2024-02-26 23:44,Smartwatch,Medium,Phone,A11,25.7,5.0,Closed
+T00372,2024-02-27 18:26,Laptop Pro,High,Phone,A05,10.4,4.0,Closed
+T00373,2024-02-27 18:45,Phone Mini,High,Phone,A04,25.0,4.0,Closed
+T00374,2024-02-27 19:30,Smartwatch,High,Phone,A07,12.8,3.0,Closed
+T00375,2024-02-28 00:32,Laptop Pro,Low,Email,A12,24.1,3.0,Closed
+T00376,2024-02-28 02:29,Headphones,Medium,Email,A06,18.5,,Closed
+T00377,2024-02-28 19:54,Phone Mini,Low,Phone,A04,19.7,,Closed
+T00378,2024-02-28 21:48,Laptop Pro,Medium,Chat,A08,24.0,4.0,Closed
+T00379,2024-02-28 22:43,Laptop Pro,Medium,Chat,A08,12.9,4.0,Closed
+T00380,2024-02-28 23:51,Phone X,Medium,Phone,A04,10.8,5.0,Closed
+T00381,2024-02-29 00:30,Smartwatch,High,Email,A08,18.4,5.0,Closed
+T00382,2024-02-29 03:01,Smartwatch,Medium,Email,A01,22.1,,Closed
+T00383,2024-02-29 09:52,Laptop Air,High,Phone,A05,13.9,5.0,Closed
+T00384,2024-02-29 11:11,Laptop Pro,High,Email,A12,18.4,4.0,Closed
+T00385,2024-02-29 14:43,Laptop Pro,Medium,Email,A11,9.9,,Closed
+T00386,2024-02-29 17:55,Phone X,High,Chat,A11,10.5,,Closed
+T00387,2024-02-29 21:59,Smartwatch,Medium,Chat,A11,11.3,5.0,Closed
+T00388,2024-02-29 22:08,Smartwatch,Low,Chat,A09,15.0,4.0,Closed
+T00389,2024-03-01 00:08,Laptop Pro,Medium,Email,A02,21.6,4.0,Closed
+T00390,2024-03-01 01:41,Laptop Air,Medium,Chat,A11,26.4,4.0,Closed
+T00391,2024-03-01 02:47,Phone Mini,Medium,Email,A10,10.0,,Closed
+T00392,2024-03-01 06:17,Phone Mini,Medium,Phone,A07,49.4,3.0,Closed
+T00393,2024-03-01 09:00,Phone X,Medium,Email,A12,6.3,4.0,Closed
+T00394,2024-03-01 09:56,Laptop Pro,High,Phone,A01,9.6,,Closed
+T00395,2024-03-01 13:14,Headphones,Medium,Email,A05,28.4,4.0,Closed
+T00396,2024-03-01 15:35,Headphones,Medium,Phone,A09,11.6,,Closed
+T00397,2024-03-01 19:12,Phone Mini,Low,Phone,A12,22.9,3.0,Closed
+T00398,2024-03-01 21:29,Smartwatch,Low,Phone,A11,36.6,3.0,Closed
+T00399,2024-03-01 22:08,Phone X,Urgent,Phone,A10,3.9,5.0,Closed
+T00400,2024-03-01 22:11,Laptop Air,Medium,Phone,A03,19.2,4.0,Closed
+T00401,2024-03-01 22:32,Headphones,Medium,Chat,A02,19.8,4.0,Closed
+T00402,2024-03-01 22:47,Smartwatch,Medium,Chat,A07,,2.0,Open
+T00403,2024-03-01 22:49,Laptop Pro,Low,Phone,A05,29.0,,Closed
+T00404,2024-03-02 01:16,Phone X,Low,Email,A03,48.9,4.0,Closed
+T00405,2024-03-02 06:24,Phone Mini,Medium,Email,A03,,4.0,Open
+T00406,2024-03-02 14:38,Laptop Air,Medium,Chat,A06,26.0,4.0,Closed
+T00407,2024-03-02 21:32,Headphones,High,Chat,A04,6.6,4.0,Closed
+T00408,2024-03-03 00:07,Smartwatch,Low,Chat,A05,18.5,5.0,Closed
+T00409,2024-03-03 00:53,Laptop Air,Medium,Email,A05,17.3,,Closed
+T00410,2024-03-03 01:43,Laptop Pro,Low,Phone,A12,19.1,4.0,Closed
+T00411,2024-03-03 03:32,Phone X,Medium,Email,A01,16.0,4.0,Closed
+T00412,2024-03-03 04:05,Smartwatch,Low,Chat,A03,24.1,,Closed
+T00413,2024-03-03 04:36,Smartwatch,High,Email,A10,33.3,3.0,Closed
+T00414,2024-03-03 06:38,Phone X,Low,Email,A09,42.2,3.0,Closed
+T00415,2024-03-03 10:28,Headphones,Medium,Chat,A11,,4.0,Open
+T00416,2024-03-03 16:32,Laptop Pro,Low,Email,A03,10.6,4.0,Closed
+T00417,2024-03-03 20:11,Headphones,Low,Chat,A11,21.6,4.0,Closed
+T00418,2024-03-04 04:57,Phone X,Medium,Phone,A12,10.1,4.0,Closed
+T00419,2024-03-04 05:39,Phone Mini,Low,Phone,A09,28.8,3.0,Closed
+T00420,2024-03-04 07:35,Phone X,Low,Email,A12,21.1,3.0,Closed
+T00421,2024-03-04 15:52,Laptop Pro,Medium,Chat,A02,43.3,4.0,Closed
+T00422,2024-03-05 01:11,Laptop Air,Medium,Email,A11,15.1,5.0,Closed
+T00423,2024-03-05 11:53,Smartwatch,Medium,Email,A01,16.6,,Closed
+T00424,2024-03-05 12:41,Headphones,MEDIUM,Email,A03,19.4,4.0,Closed
+T00425,2024-03-05 14:51,Phone X,Urgent,Email,A02,3.2,4.0,Closed
+T00426,2024-03-05 18:19,Phone Mini,Low,Email,A03,39.0,4.0,Closed
+T00427,2024-03-05 22:21,Laptop Air,High,Chat,A04,18.6,4.0,Closed
+T00428,2024-03-06 00:00,Headphones,Medium,Email,A05,17.7,5.0,Closed
+T00429,2024-03-06 01:16,Smartwatch,Medium,Phone,A12,22.3,4.0,Closed
+T00430,2024-03-06 06:37,Laptop Air,Medium,Chat,A08,41.7,4.0,Closed
+T00431,2024-03-06 11:11,Phone X, Low ,Email,A03,23.1,,Closed
+T00432,2024-03-06 12:36,Headphones,High,Email,A04,15.3,4.0,Closed
+T00433,2024-03-06 22:18,Phone Mini,Low,Chat,A07,46.5,3.0,Closed
+T00434,2024-03-06 22:35,Phone X,Urgent,Chat,A05,6.6,,Closed
+T00435,2024-03-07 00:43,Smartwatch,Urgent,Email,A07,6.8,5.0,Closed
+T00436,2024-03-07 00:43,Headphones,High,Email,A12,20.2,,Closed
+T00437,2024-03-07 02:54,Smartwatch,Low,Email,A04,22.4,4.0,Closed
+T00438,2024-03-07 03:57,Phone X,Medium,Email,A02,25.0,4.0,Closed
+T00439,2024-03-07 05:39,Smartwatch,High,Email,A12,,5.0,Open
+T00440,2024-03-07 08:27,Smartwatch,Low,Email,A02,46.4,3.0,Closed
+T00441,2024-03-07 12:50,Smartwatch,Medium,Email,A07,59.2,2.0,Closed
+T00442,2024-03-07 17:07,Smartwatch,MEDIUM,Phone,A03,18.4,4.0,Closed
+T00443,2024-03-07 18:11,Laptop Pro,Medium,Phone,A03,22.6,5.0,Closed
+T00444,2024-03-07 18:38,Phone Mini,Medium,Chat,A04,12.7,4.0,Closed
+T00445,2024-03-07 19:02,Laptop Pro,Low,Phone,A01,20.9,5.0,Closed
+T00446,2024-03-08 00:00,Laptop Air,Low,Chat,A08,31.2,4.0,Closed
+T00447,2024-03-08 01:35,Smartwatch,High,Chat,A01,6.9,,Closed
+T00448,2024-03-08 03:36,Laptop Air,HIGH,Email,A05,10.3,4.0,Closed
+T00449,2024-03-08 05:52,Phone X,Low,Phone,A02,75.6,3.0,Closed
+T00450,2024-03-08 06:47,Phone Mini,High,Chat,A03,10.9,4.0,Closed
+T00451,2024-03-08 14:51,Headphones,Low,Chat,A06,71.1,2.0,Closed
+T00452,2024-03-08 15:00,Smartwatch,Low,Email,A11,24.2,,Closed
+T00453,2024-03-08 17:55,Laptop Air,Medium,Chat,A03,22.2,,Closed
+T00454,2024-03-09 00:25,Laptop Pro,High,Email,A02,-10.1,4.0,Closed
+T00455,2024-03-09 04:11,Phone X,Medium,Email,A03,14.1,,Closed
+T00456,2024-03-09 04:25,Laptop Air,Low,Email,A12,41.3,4.0,Closed
+T00457,2024-03-09 09:11,Headphones,High,Email,A09,15.5,5.0,Closed
+T00458,2024-03-09 10:59,Phone X,Urgent,Email,A09,4.5,4.0,Closed
+T00459,2024-03-09 11:21,Laptop Air,Medium,Chat,A08,31.6,4.0,Closed
+T00460,2024-03-09 14:45,Laptop Air,Medium,Email,A10,24.0,3.0,Closed
+T00461,2024-03-09 17:17,Phone X,Medium,Chat,A04,58.8,,Closed
+T00462,2024-03-09 18:33,Laptop Air,Medium,Chat,A07,27.6,3.0,Closed
+T00463,2024-03-09 19:20,Phone Mini,High,Email,A07,67.1,2.0,Closed
+T00464,2024-03-09 21:01,Laptop Pro,Low,Email,A10,26.4,4.0,Closed
+T00465,2024-03-10 00:26,Phone Mini,Medium,Email,A11,24.4,4.0,Closed
+T00466,2024-03-10 00:45,Headphones,Urgent,Chat,A01,4.9,,Closed
+T00467,2024-03-10 05:30,Smartwatch,High,Email,A06,12.7,4.0,Closed
+T00468,2024-03-10 05:34,Laptop Air,Low,Chat,A06,23.9,4.0,Closed
+T00469,2024-03-10 08:43,Smartwatch,Low,Chat,A04,21.8,4.0,Closed
+T00470,2024-03-10 12:22,Phone Mini,High,Email,A01,9.2,4.0,Closed
+T00471,2024-03-10 12:36,Headphones,Low,Phone,A11,48.8,3.0,Closed
+T00472,2024-03-10 17:29,Headphones,Medium,Email,A05,44.1,,Closed
+T00473,2024-03-10 17:46,Phone X,Medium,Phone,A05,26.4,3.0,Closed
+T00474,2024-03-10 20:05,Smartwatch,High,Email,A05,9.9,4.0,Closed
+T00475,2024-03-11 01:57,Laptop Pro,Medium,Email,A03,14.1,3.0,Closed
+T00476,2024-03-11 07:35,Laptop Pro,Medium,Email,A02,15.6,,Closed
+T00477,2024-03-11 11:41,Headphones,High,Phone,A11,13.6,4.0,Closed
+T00478,2024-03-11 11:54,Laptop Pro,Medium,Chat,A01,25.7,4.0,Closed
+T00479,2024-03-11 13:18,Smartwatch,Low,Email,A04,9.5,5.0,Closed
+T00480,2024-03-11 16:18,Laptop Air,High,Email,A10,6.8,4.0,Closed
+T00481,2024-03-11 19:29,Laptop Pro,Medium,Email,A08,15.7,,Closed
+T00482,2024-03-12 00:09,Phone Mini,Medium,Chat,A05,20.0,5.0,Closed
+T00483,2024-03-12 03:33,Phone Mini,Low,Chat,A10,31.4,4.0,Closed
+T00484,2024-03-12 03:37,Smartwatch,Medium,Phone,A08,6.9,4.0,Closed
+T00485,2024-03-12 05:10,Phone X,Medium,Email,A03,23.3,4.0,Closed
+T00486,2024-03-12 12:17,Phone Mini,Medium,Email,A11,13.6,4.0,Closed
+T00487,2024-03-12 18:46,Phone X,Low,Email,A10,,3.0,Open
+T00488,2024-03-12 23:00,Laptop Pro,Medium,Phone,A04,22.4,4.0,Closed
+T00489,2024-03-13 03:40,Laptop Pro, Medium ,Chat,A01,24.1,4.0,Closed
+T00490,2024-03-13 03:59,Laptop Pro,Low,Email,A07,95.5,2.0,Closed
+T00491,2024-03-13 22:14,Laptop Air,Low,Chat,A05,43.0,4.0,Closed
+T00492,2024-03-14 05:41,Phone X,Low,Chat,A09,23.9,4.0,Closed
+T00493,2024-03-14 10:12,Laptop Air,Low,Chat,A07,47.8,4.0,Closed
+T00494,2024-03-14 11:22,Laptop Pro,High,Chat,A09,9.8,5.0,Closed
+T00495,2024-03-14 17:38,Smartwatch,Urgent,Chat,A10,3.4,5.0,Closed
+T00496,2024-03-15 01:31,Phone X,Low,Email,A04,57.1,3.0,Closed
+T00497,2024-03-15 13:16,Phone Mini,Low,Email,A08,49.7,3.0,Closed
+T00498,2024-03-15 13:23,Headphones,Medium,Email,A08,27.6,4.0,Closed
+T00499,2024-03-15 14:50,Laptop Pro,Low,Email,A08,36.0,3.0,Closed
+T00500,2024-03-15 17:45,Laptop Pro, High ,Email,A03,13.6,4.0,Closed
+T00501,2024-03-15 22:51,Laptop Pro,Medium,Phone,A06,44.0,4.0,Closed
+T00502,2024-03-15 23:40,Phone X,Low,Phone,A05,49.6,3.0,Closed
+T00503,2024-03-15 23:56,Laptop Air,Medium,Phone,A10,35.2,3.0,Closed
+T00504,2024-03-16 03:06,Laptop Pro,Low,Email,A01,12.1,4.0,Closed
+T00505,2024-03-16 06:11,Laptop Pro,Low,Email,A02,46.6,,Closed
+T00506,2024-03-16 07:09,Smartwatch,Medium,Email,A07,28.9,3.0,Closed
+T00507,2024-03-16 15:40,Headphones,LOW,Phone,A12,51.8,2.0,Closed
+T00508,2024-03-16 18:20,Phone Mini,Low,Phone,A08,21.9,4.0,Closed
+T00509,2024-03-16 20:36,Phone X,High,Chat,A10,8.5,5.0,Closed
+T00510,2024-03-17 02:02,Laptop Pro,Medium,Email,A02,16.5,4.0,Closed
+T00511,2024-03-17 02:12,Smartwatch,Urgent,Phone,A12,1.9,4.0,Closed
+T00512,2024-03-17 05:34,Phone X,Medium,Chat,A05,16.5,4.0,Closed
+T00513,2024-03-17 05:41,Headphones,Medium,Email,A02,20.5,4.0,Closed
+T00514,2024-03-17 07:12,Phone Mini,Urgent,Email,A12,2.6,,Closed
+T00515,2024-03-17 07:37,Phone X,High,Chat,A06,,5.0,Open
+T00516,2024-03-17 08:51,Laptop Air,Low,Email,A02,30.3,,Closed
+T00517,2024-03-17 20:10,Laptop Pro,High,Email,A03,18.6,4.0,Closed
+T00518,2024-03-17 21:15,Laptop Air,Medium,Email,A02,,4.0,Open
+T00519,2024-03-18 00:49,Smartwatch,Low,Phone,A09,17.9,,Closed
+T00520,2024-03-18 08:37,Laptop Air,Urgent,Email,A08,2.2,3.0,Closed
+T00521,2024-03-18 13:02,Phone X,Medium,Chat,A01,22.5,,Closed
+T00522,2024-03-18 14:23,Laptop Air,low,Email,A11,62.7,1.0,Closed
+T00523,2024-03-18 14:42,Phone X,Low,Email,A07,92.9,1.0,Closed
+T00524,2024-03-18 15:06,Laptop Air,Medium,Email,A07,47.7,3.0,Closed
+T00525,2024-03-18 16:13,Smartwatch,Low,Chat,A08,,4.0,Open
+T00526,2024-03-18 18:18,Phone X,low,Email,A09,39.2,3.0,Closed
+T00527,2024-03-18 18:53,Laptop Air,Low,Email,A03,16.8,3.0,Closed
+T00528,2024-03-19 03:29,Phone X,Urgent,Phone,A02,3.7,4.0,Closed
+T00529,2024-03-19 05:33,Laptop Air,Medium,Email,A09,16.7,4.0,Closed
+T00530,2024-03-19 09:06,Laptop Pro,Low,Phone,A05,58.0,3.0,Closed
+T00531,2024-03-19 17:22,Phone Mini,Medium,Phone,A12,21.2,,Closed
+T00532,2024-03-19 22:42,Laptop Pro,Medium,Email,A03,19.7,4.0,Closed
+T00533,2024-03-20 13:07,Smartwatch,Medium,Phone,A01,20.2,3.0,Closed
+T00534,2024-03-20 13:24,Laptop Pro,MEDIUM,Phone,A03,17.2,3.0,Closed
+T00535,2024-03-20 15:33,Phone X,Medium,Email,A03,13.9,4.0,Closed
+T00536,2024-03-20 21:17,Laptop Air,Medium,Email,A06,14.4,4.0,Closed
+T00537,2024-03-20 23:08,Headphones,Medium,Phone,A08,,3.0,Open
+T00538,2024-03-21 01:57,Laptop Pro,Medium,Email,A02,20.4,3.0,Closed
+T00539,2024-03-21 03:38,Laptop Pro,Medium,Phone,A04,22.5,4.0,Closed
+T00540,2024-03-21 08:47,Laptop Air,Medium,Phone,A12,30.3,4.0,Closed
+T00541,2024-03-21 10:56,Smartwatch,High,Phone,A12,17.5,4.0,Closed
+T00542,2024-03-21 11:16,Phone X,Medium,Chat,A11,15.6,5.0,Closed
+T00543,2024-03-21 14:13,Headphones,Low,Chat,A06,23.2,4.0,Closed
+T00544,2024-03-21 19:49,Smartwatch,Medium,Email,A11,10.5,4.0,Closed
+T00545,2024-03-21 20:19,Smartwatch,Low,Chat,A11,25.5,,Closed
+T00546,2024-03-21 21:25,Phone X,Low,Chat,A01,31.1,4.0,Closed
+T00547,2024-03-21 22:39,Laptop Air,Medium,Email,A10,22.0,4.0,Closed
+T00548,2024-03-21 23:40,Headphones,Medium,Chat,A12,14.6,4.0,Closed
+T00549,2024-03-22 08:07,Phone Mini,Medium,Email,A02,18.2,4.0,Closed
+T00550,2024-03-22 13:24,Laptop Pro,High,Chat,A01,12.4,4.0,Closed
+T00551,2024-03-22 17:15,Smartwatch,Medium,Phone,A07,48.7,3.0,Closed
+T00552,2024-03-22 21:21,Laptop Air,Low,Chat,A12,9.4,5.0,Closed
+T00553,2024-03-22 21:58,Headphones,Medium,Email,A08,23.7,4.0,Closed
+T00554,2024-03-22 23:29,Smartwatch,Urgent,Phone,A08,7.6,5.0,Closed
+T00555,2024-03-23 00:36,Smartwatch,Low,Chat,A04,29.5,,Closed
+T00556,2024-03-23 00:51,Laptop Pro,Medium,Email,A04,27.1,4.0,Closed
+T00557,2024-03-23 02:20,Phone Mini, Medium ,Email,A12,14.2,5.0,Closed
+T00558,2024-03-23 02:25,Headphones,High,Chat,A10,12.8,4.0,Closed
+T00559,2024-03-23 05:48,Laptop Pro,High,Phone,A11,5.8,5.0,Closed
+T00560,2024-03-23 05:51,Phone Mini,High,Chat,A08,10.1,4.0,Closed
+T00561,2024-03-23 18:11,Laptop Pro,Low,Phone,A01,17.7,4.0,Closed
+T00562,2024-03-24 00:09,Phone X,Low,Email,A09,31.2,4.0,Closed
+T00563,2024-03-24 01:23,Smartwatch,Low,Email,A12,26.8,3.0,Closed
+T00564,2024-03-24 04:56,Headphones,HIGH,Email,A02,11.3,,Closed
+T00565,2024-03-24 09:49,Smartwatch,Medium,Chat,A04,8.8,4.0,Closed
+T00566,2024-03-24 12:16,Phone Mini, Medium ,Email,A06,,,Open
+T00567,2024-03-24 13:52,Laptop Pro,Low,Email,A02,58.4,,Closed
+T00568,2024-03-24 19:05,Smartwatch,Low,Email,A07,116.9,1.0,Closed
+T00569,2024-03-24 20:24,Laptop Pro,Low,Email,A09,13.7,4.0,Closed
+T00570,2024-03-24 21:17,Laptop Air,High,Email,A04,9.5,,Closed
+T00571,2024-03-24 22:15,Phone Mini,Medium,Email,A02,16.5,,Closed
+T00572,2024-03-25 12:22,Laptop Air,Low,Email,A01,16.9,,Closed
+T00573,2024-03-25 17:01,Phone X,Medium,Phone,A01,10.7,5.0,Closed
+T00574,2024-03-25 17:26,Laptop Air,Low,Email,A07,58.6,,Closed
+T00575,2024-03-25 22:59,Laptop Air,Low,Chat,A04,60.9,3.0,Closed
+T00576,2024-03-25 23:50,Headphones,Low,Chat,A08,53.9,3.0,Closed
+T00577,2024-03-26 01:45,Smartwatch,Low,Phone,A05,15.9,4.0,Closed
+T00578,2024-03-26 05:05,Phone X,Medium,Chat,A09,26.0,4.0,Closed
+T00579,2024-03-26 07:03,Headphones,Low,Chat,A03,36.1,4.0,Closed
+T00580,2024-03-26 13:28,Headphones,Medium,Phone,A01,19.9,4.0,Closed
+T00581,2024-03-26 19:19,Laptop Pro,Low,Chat,A05,9.2,5.0,Closed
+T00582,2024-03-26 22:52,Laptop Pro,Medium,Email,A11,19.6,3.0,Closed
+T00583,2024-03-27 05:22,Smartwatch,low,Chat,A02,19.8,3.0,Closed
+T00584,2024-03-27 08:11,Laptop Pro,Low,Email,A06,11.3,4.0,Closed
+T00585,2024-03-27 19:21,Phone X,Medium,Chat,A01,20.4,,Closed
+T00586,2024-03-27 19:46,Laptop Air,Medium,Phone,A12,40.4,,Closed
+T00587,2024-03-27 20:16,Laptop Pro,Medium,Email,A01,43.4,4.0,Closed
+T00588,2024-03-27 21:42,Laptop Pro,Medium,Chat,A04,12.7,,Closed
+T00589,2024-03-28 00:19,Laptop Pro,Low,Email,A02,,,Open
+T00590,2024-03-28 00:37,Phone Mini,Urgent,Email,A02,3.0,5.0,Closed
+T00591,2024-03-28 02:08,Phone X,Low,Chat,A07,33.5,3.0,Closed
+T00592,2024-03-28 05:50,Laptop Pro,Urgent,Chat,A07,5.9,,Closed
+T00593,2024-03-28 09:29,Smartwatch,Low,Chat,A08,28.0,,Closed
+T00594,2024-03-28 10:23,Smartwatch,Medium,Chat,A12,17.8,4.0,Closed
+T00595,2024-03-28 11:13,Smartwatch,Low,Chat,A06,32.3,4.0,Closed
+T00596,2024-03-28 15:27,Laptop Air,Urgent,Chat,A04,2.2,5.0,Closed
+T00597,2024-03-28 18:12,Phone X,Medium,Chat,A06,24.2,3.0,Closed
+T00598,2024-03-28 21:32,Phone Mini,Medium,Email,A08,14.9,5.0,Closed
+T00599,2024-03-28 22:48,Smartwatch,Urgent,Email,A07,7.7,3.0,Closed
+T00600,2024-03-29 01:07,Phone X,Low,Email,A10,16.5,4.0,Closed
+T00601,2024-03-29 09:11,Headphones,High,Email,A07,22.4,4.0,Closed
+T00602,2024-03-29 19:02,Smartwatch,Medium,Email,A04,23.4,4.0,Closed
+T00603,2024-03-29 19:55,Laptop Pro,Medium,Chat,A07,44.8,3.0,Closed
+T00604,2024-03-30 02:55,Phone Mini,Medium,Chat,A07,51.3,,Closed
+T00605,2024-03-30 08:14,Smartwatch,Low,Email,A01,23.1,3.0,Closed
+T00606,2024-03-30 17:12,Smartwatch,Urgent,Email,A04,5.6,3.0,Closed
+T00607,2024-03-30 17:59,Headphones,High,Email,A03,14.4,4.0,Closed
+T00608,2024-03-30 19:11,Smartwatch,Low,Email,A10,26.8,3.0,Closed
+T00609,2024-03-31 00:14,Laptop Pro,Medium,Email,A10,,,Open
+T00610,2024-03-31 09:45,Smartwatch,Medium,Email,A08,27.8,,Closed
+T00611,2024-03-31 10:16,Phone X,High,Phone,A04,7.5,4.0,Closed
+T00612,2024-03-31 12:05,Laptop Pro,Low,Chat,A02,20.1,,Closed
+T00613,2024-03-31 19:24,Laptop Air,Medium,Email,A09,30.0,,Closed
+T00614,2024-03-31 20:59,Phone X,High,Chat,A12,12.6,,Closed
+T00615,2024-04-01 03:55,Laptop Air,Medium,Email,A08,22.8,,Closed
+T00616,2024-04-01 05:09,Phone Mini,Low,Chat,A05,34.1,,Closed
+T00617,2024-04-01 06:27,Phone X,Low,Chat,A12,56.7,4.0,Closed
+T00618,2024-04-01 09:01,Phone X,High,Email,A06,9.9,5.0,Closed
+T00619,2024-04-01 21:01,Laptop Pro,Low,Email,A09,10.8,4.0,Closed
+T00620,2024-04-01 22:46,Phone X,Medium,Email,A03,44.3,3.0,Closed
+T00621,2024-04-02 03:02,Phone Mini,Medium,Phone,A08,17.1,5.0,Closed
+T00622,2024-04-02 04:41,Phone Mini,Low,Phone,A12,,4.0,Open
+T00623,2024-04-02 06:21,Laptop Pro,Medium,Email,A08,22.1,4.0,Closed
+T00624,2024-04-02 06:54,Phone Mini,Low,Chat,A09,40.8,4.0,Closed
+T00625,2024-04-02 08:10,Phone Mini,Low,Chat,A02,36.9,4.0,Closed
+T00626,2024-04-02 09:02,Smartwatch,Medium,Chat,A09,21.1,5.0,Closed
+T00627,2024-04-02 09:34,Laptop Pro,High,Email,A12,14.9,,Closed
+T00628,2024-04-02 16:45,Smartwatch,Medium,Chat,A07,26.0,5.0,Closed
+T00629,2024-04-02 18:24,Smartwatch,High,Email,A09,6.4,4.0,Closed
+T00630,2024-04-02 21:32,Phone X,Medium,Email,A11,13.1,5.0,Closed
+T00631,2024-04-03 00:10,Smartwatch,Medium,Chat,A11,17.7,,Closed
+T00632,2024-04-03 04:12,Phone X,Medium,Phone,A12,34.6,,Closed
+T00633,2024-04-03 05:23,Phone X,Medium,Phone,A03,20.9,,Closed
+T00634,2024-04-03 13:33,Smartwatch,Medium,Email,A01,13.8,4.0,Closed
+T00635,2024-04-03 16:51,Laptop Pro,Urgent,Chat,A11,1.9,5.0,Closed
+T00636,2024-04-03 17:41,Phone X,High,Email,A06,18.0,3.0,Closed
+T00637,2024-04-03 21:06,Laptop Air,Medium,Email,A03,44.2,3.0,Closed
+T00638,2024-04-03 23:04,Smartwatch,Low,Email,A05,54.3,2.0,Closed
+T00639,2024-04-03 23:29,Smartwatch,Low,Phone,A05,73.8,,Closed
+T00640,2024-04-03 23:33,Smartwatch,Medium,Email,A11,24.1,3.0,Closed
+T00641,2024-04-04 00:49,Laptop Pro,Low,Email,A06,55.8,,Closed
+T00642,2024-04-04 04:41,Phone X,Medium,Chat,A11,12.5,4.0,Closed
+T00643,2024-04-04 07:22,Phone Mini,High,Email,A06,16.2,4.0,Closed
+T00644,2024-04-04 09:10,Phone Mini,High,Chat,A08,10.2,5.0,Closed
+T00645,2024-04-04 13:25,Phone X,Urgent,Email,A07,5.8,5.0,Closed
+T00646,2024-04-04 21:48,Phone Mini,Medium,Chat,A03,25.1,4.0,Closed
+T00647,2024-04-04 22:41,Laptop Air,High,Chat,A07,19.7,4.0,Closed
+T00648,2024-04-05 00:07,Phone X,Low,Email,A09,6.4,4.0,Closed
+T00649,2024-04-05 05:42,Headphones,Low,Email,A11,35.4,4.0,Closed
+T00650,2024-04-05 10:42,Headphones,Low,Email,A09,15.8,,Closed
+T00651,2024-04-05 11:01,Laptop Air,Medium,Email,A11,,,Open
+T00652,2024-04-05 12:09,Smartwatch,Medium,Phone,A02,11.5,3.0,Closed
+T00653,2024-04-05 14:51,Headphones,Low,Email,A01,67.5,2.0,Closed
+T00654,2024-04-05 14:56,Smartwatch,Urgent,Email,A09,2.6,4.0,Closed
+T00655,2024-04-06 00:08,Laptop Pro,Medium,Phone,A07,49.8,3.0,Closed
+T00656,2024-04-06 03:31,Phone X,Medium,Chat,A07,42.9,3.0,Closed
+T00657,2024-04-06 08:11,Phone Mini,Urgent,Phone,A03,4.1,4.0,Closed
+T00658,2024-04-06 09:55,Phone X,Medium,Chat,A08,23.8,4.0,Closed
+T00659,2024-04-06 10:40,Laptop Air,Urgent,Email,A02,3.2,4.0,Closed
+T00660,2024-04-06 15:18,Headphones,Low,Phone,A03,31.2,3.0,Closed
+T00661,2024-04-07 02:48,Laptop Air,Urgent,Email,A04,2.8,5.0,Closed
+T00662,2024-04-07 06:42,Laptop Pro,Medium,Chat,A10,45.4,3.0,Closed
+T00663,2024-04-07 06:54,Laptop Pro,Medium,Email,A10,47.8,3.0,Closed
+T00664,2024-04-07 17:54,Phone Mini,Low,Phone,A09,35.4,,Closed
+T00665,2024-04-07 18:52,Laptop Air,Medium,Chat,A09,15.0,4.0,Closed
+T00666,2024-04-07 19:10,Smartwatch,Low,Chat,A04,45.7,3.0,Closed
+T00667,2024-04-07 20:09,Smartwatch,HIGH,Email,A10,14.9,5.0,Closed
+T00668,2024-04-07 20:37,Phone Mini,Medium,Phone,A01,10.2,4.0,Closed
+T00669,2024-04-07 21:03,Headphones,Medium,Email,A06,28.1,3.0,Closed
+T00670,2024-04-07 22:04,Phone Mini,Low,Email,A11,52.1,,Closed
+T00671,2024-04-07 22:27,Phone X, Low ,Email,A05,32.2,4.0,Closed
+T00672,2024-04-08 01:37,Phone Mini,Medium,Chat,A04,10.5,5.0,Closed
+T00673,2024-04-08 07:00,Headphones,High,Phone,A03,3.3,,Closed
+T00674,2024-04-08 12:49,Phone Mini,Medium,Email,A04,71.3,3.0,Closed
+T00675,2024-04-08 14:53,Headphones,Medium,Phone,A09,26.3,4.0,Closed
+T00676,2024-04-08 15:28,Laptop Pro,High,Chat,A02,21.0,4.0,Closed
+T00677,2024-04-08 16:48,Headphones,medium,Chat,A11,14.6,,Closed
+T00678,2024-04-08 21:42,Laptop Pro,Medium,Email,A12,17.5,4.0,Closed
+T00679,2024-04-08 21:43,Phone X,HIGH,Email,A01,22.8,,Closed
+T00680,2024-04-09 02:35,Smartwatch,Low,Chat,A12,22.4,5.0,Closed
+T00681,2024-04-09 06:38,Phone Mini,Low,Email,A10,13.1,4.0,Closed
+T00682,2024-04-09 07:03,Smartwatch,Medium,Chat,A11,19.6,4.0,Closed
+T00683,2024-04-09 07:57,Phone X,High,Chat,A04,12.4,,Closed
+T00684,2024-04-09 09:54,Laptop Air,Low,Phone,A03,51.6,3.0,Closed
+T00685,2024-04-09 15:39,Laptop Pro,High,Email,A12,15.3,,Closed
+T00686,2024-04-10 00:06,Phone X,Low,Email,A12,24.2,4.0,Closed
+T00687,2024-04-10 07:44,Laptop Pro,Medium,Phone,A01,12.2,4.0,Closed
+T00688,2024-04-10 10:52,Phone X,Medium,Email,A01,22.6,3.0,Closed
+T00689,2024-04-10 11:18,Phone Mini,Low,Email,A12,22.0,4.0,Closed
+T00690,2024-04-10 12:55,Phone Mini,Low,Phone,A01,48.3,,Closed
+T00691,2024-04-10 16:30,Laptop Air,Low,Chat,A08,41.6,3.0,Closed
+T00692,2024-04-10 20:20,Laptop Pro,Medium,Chat,A07,38.6,4.0,Closed
+T00693,2024-04-11 02:23,Laptop Air,Low,Email,A01,21.2,,Closed
+T00694,2024-04-11 04:28,Laptop Air,Low,Phone,A08,39.2,2.0,Closed
+T00695,2024-04-11 06:28,Phone X,Medium,Email,A10,,5.0,Open
+T00696,2024-04-11 12:22,Smartwatch,Low,Email,A03,,3.0,Open
+T00697,2024-04-11 14:18,Laptop Pro,Medium,Phone,A12,37.9,4.0,Closed
+T00698,2024-04-12 02:32,Phone Mini,High,Chat,A01,6.8,5.0,Closed
+T00699,2024-04-12 04:30,Phone Mini,High,Chat,A02,13.0,4.0,Closed
+T00700,2024-04-12 08:29,Phone Mini,Urgent,Phone,A08,2.8,,Closed
+T00701,2024-04-12 09:23,Laptop Pro,Medium,Chat,A03,20.5,4.0,Closed
+T00702,2024-04-12 12:15,Phone Mini,Medium,Chat,A11,28.5,4.0,Closed
+T00703,2024-04-12 13:27,Phone X,Medium,Email,A10,26.0,4.0,Closed
+T00704,2024-04-12 15:24,Phone X,Medium,Chat,A07,25.2,5.0,Closed
+T00705,2024-04-12 16:32,Laptop Pro,Low,Phone,A10,21.1,4.0,Closed
+T00706,2024-04-12 17:05,Smartwatch,Medium,Email,A08,21.2,4.0,Closed
+T00707,2024-04-12 23:26,Headphones,High,Email,A03,6.8,4.0,Closed
+T00708,2024-04-13 06:34,Phone X,Urgent,Email,A05,2.1,4.0,Closed
+T00709,2024-04-13 21:01,Phone X,Medium,Email,A10,43.4,3.0,Closed
+T00710,2024-04-13 22:50,Smartwatch,Urgent,Chat,A08,3.9,5.0,Closed
+T00711,2024-04-14 09:45,Headphones,High,Phone,A10,9.9,4.0,Closed
+T00712,2024-04-14 10:54,Phone Mini,High,Email,A08,2.9,3.0,Closed
+T00713,2024-04-14 12:45,Laptop Air,Low,Phone,A04,32.0,3.0,Closed
+T00714,2024-04-14 17:49,Smartwatch,Low,Chat,A09,26.7,4.0,Closed
+T00715,2024-04-14 17:57,Phone Mini,Medium,Chat,A07,37.0,4.0,Closed
+T00716,2024-04-14 18:59,Phone X,Medium,Chat,A03,28.3,4.0,Closed
+T00717,2024-04-15 06:11,Laptop Pro,Urgent,Email,A10,4.9,4.0,Closed
+T00718,2024-04-15 07:31,Phone X,Urgent,Phone,A09,2.0,5.0,Closed
+T00719,2024-04-15 23:25,Phone X,Low,Phone,A02,23.5,3.0,Closed
+T00720,2024-04-16 07:18,Phone X,Low,Email,A06,21.4,4.0,Closed
+T00721,2024-04-16 08:46,Laptop Pro,Low,Chat,A10,25.0,5.0,Closed
+T00722,2024-04-16 14:48,Headphones,High,Phone,A03,6.8,5.0,Closed
+T00723,2024-04-16 15:32,Laptop Pro,Medium,Phone,A07,30.0,3.0,Closed
+T00724,2024-04-17 05:13,Phone Mini,High,Email,A04,11.5,4.0,Closed
+T00725,2024-04-17 07:32,Smartwatch,Medium,Email,A05,16.6,5.0,Closed
+T00726,2024-04-17 09:37,Laptop Air,High,Email,A08,9.2,5.0,Closed
+T00727,2024-04-17 10:08,Laptop Air,Low,Chat,A07,31.1,,Closed
+T00728,2024-04-17 15:53,Headphones,High,Chat,A10,7.7,5.0,Closed
+T00729,2024-04-17 16:17,Phone Mini,Low,Email,A12,20.6,3.0,Closed
+T00730,2024-04-17 16:55,Laptop Air,High,Email,A05,7.8,3.0,Closed
+T00731,2024-04-17 17:58,Headphones,Low,Email,A02,,4.0,Open
+T00732,2024-04-17 20:46,Laptop Air,Low,Phone,A11,36.2,3.0,Closed
+T00733,2024-04-17 22:15,Laptop Air,Urgent,Email,A06,3.0,5.0,Closed
+T00734,2024-04-17 23:04,Headphones,Medium,Chat,A07,62.6,3.0,Closed
+T00735,2024-04-18 02:30,Headphones,Low,Chat,A08,41.8,4.0,Closed
+T00736,2024-04-18 03:36,Laptop Pro,Low,Email,A01,23.9,2.0,Closed
+T00737,2024-04-18 04:23,Phone X,Medium,Phone,A03,25.2,3.0,Closed
+T00738,2024-04-18 04:36,Smartwatch,Low,Email,A01,16.9,,Closed
+T00739,2024-04-18 10:25,Laptop Pro,High,Phone,A06,11.6,4.0,Closed
+T00740,2024-04-18 16:13,Smartwatch,Medium,Email,A10,59.0,4.0,Closed
+T00741,2024-04-18 16:30,Laptop Pro,Medium,Chat,A12,13.4,4.0,Closed
+T00742,2024-04-18 16:48,Headphones,High,Phone,A05,5.4,,Closed
+T00743,2024-04-18 19:18,Laptop Air,Medium,Email,A06,12.1,4.0,Closed
+T00744,2024-04-18 22:56,Smartwatch,Urgent,Chat,A02,4.2,5.0,Closed
+T00745,2024-04-19 00:32,Headphones,High,Email,A10,3.8,4.0,Closed
+T00746,2024-04-19 02:26,Laptop Pro,Medium,Chat,A09,17.9,,Closed
+T00747,2024-04-19 02:30,Headphones,High,Chat,A08,6.3,,Closed
+T00748,2024-04-19 05:31,Phone X,Low,Phone,A11,52.3,2.0,Closed
+T00749,2024-04-19 10:17,Phone X,Low,Chat,A02,43.5,4.0,Closed
+T00750,2024-04-19 14:39,Phone X,Medium,Email,A12,23.3,3.0,Closed
+T00751,2024-04-19 15:57,Laptop Air,High,Phone,A08,22.9,4.0,Closed
+T00752,2024-04-20 01:29,Phone X,Medium,Email,A08,24.0,3.0,Closed
+T00753,2024-04-20 01:30,Phone Mini,Low,Chat,A01,22.2,4.0,Closed
+T00754,2024-04-20 07:16,Smartwatch,Low,Email,A11,81.1,2.0,Closed
+T00755,2024-04-20 11:34,Smartwatch,Medium,Email,A02,16.0,4.0,Closed
+T00756,2024-04-20 14:49,Phone X,Medium,Chat,A09,16.6,4.0,Closed
+T00757,2024-04-20 17:47,Headphones,Medium,Email,A04,17.2,,Closed
+T00758,2024-04-20 22:19,Headphones,Medium,Email,A06,18.6,4.0,Closed
+T00759,2024-04-21 03:38,Phone X,Low,Email,A11,30.1,3.0,Closed
+T00760,2024-04-21 04:47,Phone X,Low,Email,A09,39.5,3.0,Closed
+T00761,2024-04-21 06:43,Phone X,Medium,Chat,A08,18.9,3.0,Closed
+T00762,2024-04-21 08:23,Laptop Air,Medium,Email,A04,36.4,3.0,Closed
+T00763,2024-04-21 22:07,Laptop Air,High,Email,A07,,3.0,Open
+T00764,2024-04-21 22:44,Smartwatch,Low,Chat,A04,,,Open
+T00765,2024-04-22 06:54,Phone Mini,Medium,Email,A04,27.4,4.0,Closed
+T00766,2024-04-22 08:04,Laptop Pro, Medium ,Email,A12,12.6,4.0,Closed
+T00767,2024-04-22 08:30,Phone X,Medium,Email,A11,21.1,,Closed
+T00768,2024-04-22 10:06,Phone Mini,High,Chat,A06,10.8,5.0,Closed
+T00769,2024-04-22 13:48,Headphones,Medium,Phone,A01,13.5,4.0,Closed
+T00770,2024-04-22 16:05,Phone X,Medium,Email,A06,,4.0,Open
+T00771,2024-04-22 17:39,Phone X,Low,Phone,A12,40.5,2.0,Closed
+T00772,2024-04-22 21:22,Headphones,Medium,Phone,A10,9.0,5.0,Closed
+T00773,2024-04-23 03:11,Laptop Air,Low,Email,A04,42.6,3.0,Closed
+T00774,2024-04-23 03:14,Headphones,Low,Email,A12,16.3,,Closed
+T00775,2024-04-23 05:10,Laptop Air,Medium,Email,A02,20.7,4.0,Closed
+T00776,2024-04-23 09:46,Headphones,High,Email,A04,13.8,5.0,Closed
+T00777,2024-04-23 15:37,Laptop Air,Urgent,Chat,A01,4.8,4.0,Closed
+T00778,2024-04-23 19:19,Laptop Pro,Medium,Chat,A05,16.1,5.0,Closed
+T00779,2024-04-23 21:11,Smartwatch,High,Email,A01,9.0,4.0,Closed
+T00780,2024-04-23 22:56,Phone Mini,Medium,Chat,A04,29.2,4.0,Closed
+T00781,2024-04-23 23:27,Laptop Pro,Low,Chat,A06,17.1,4.0,Closed
+T00782,2024-04-24 07:10,Smartwatch,Low,Email,A10,18.2,,Closed
+T00783,2024-04-24 17:00,Laptop Pro,Medium,Email,A12,17.3,4.0,Closed
+T00784,2024-04-25 00:04,Laptop Air,Low,Chat,A06,25.0,4.0,Closed
+T00785,2024-04-25 01:10,Headphones,Medium,Email,A09,28.7,4.0,Closed
+T00786,2024-04-25 03:07,Headphones,Low,Chat,A06,29.2,,Closed
+T00787,2024-04-25 06:58,Phone Mini,Low,Email,A11,65.0,3.0,Closed
+T00788,2024-04-25 16:21,Phone X,High,Chat,A03,12.3,5.0,Closed
+T00789,2024-04-25 17:16,Smartwatch,Medium,Chat,A04,40.2,4.0,Closed
+T00790,2024-04-26 01:49,Laptop Air,Medium,Email,A01,38.0,4.0,Closed
+T00791,2024-04-26 08:18,Laptop Pro,Low,Phone,A03,61.2,,Closed
+T00792,2024-04-26 10:51,Phone Mini,Urgent,Email,A05,4.1,,Closed
+T00793,2024-04-26 15:13,Laptop Air,High,Email,A10,16.1,4.0,Closed
+T00794,2024-04-26 20:56,Phone X,Medium,Chat,A07,44.7,,Closed
+T00795,2024-04-26 21:23,Phone Mini,Medium,Chat,A04,20.0,,Closed
+T00796,2024-04-27 01:02,Phone X,High,Chat,A06,9.9,4.0,Closed
+T00797,2024-04-27 03:08,Smartwatch,HIGH,Email,A01,21.8,3.0,Closed
+T00798,2024-04-27 11:20,Smartwatch,Medium,Phone,A07,74.9,2.0,Closed
+T00799,2024-04-27 14:49,Smartwatch,Medium,Phone,A03,15.7,4.0,Closed
+T00800,2024-04-27 15:20,Laptop Pro,Low,Email,A03,14.5,4.0,Closed
+T00801,2024-04-28 01:23,Phone Mini,Medium,Chat,A03,11.5,4.0,Closed
+T00802,2024-04-28 08:52,Headphones,Low,Email,A08,,5.0,Open
+T00803,2024-04-28 12:08,Phone X,Urgent,Phone,A09,4.8,4.0,Closed
+T00804,2024-04-28 12:30,Phone X,Medium,Chat,A05,25.3,,Closed
+T00805,2024-04-28 16:46,Phone X,Low,Email,A10,22.6,4.0,Closed
+T00806,2024-04-28 18:48,Smartwatch,Low,Email,A03,29.2,3.0,Closed
+T00807,2024-04-29 00:32,Laptop Air,Medium,Chat,A10,28.1,,Closed
+T00808,2024-04-29 02:10,Laptop Pro,Low,Phone,A09,36.9,3.0,Closed
+T00809,2024-04-29 03:57,Phone X,high,Email,A05,11.4,,Closed
+T00810,2024-04-29 04:53,Phone X,Medium,Email,A01,17.0,,Closed
+T00811,2024-04-29 15:35,Phone X,Medium,Email,A05,23.0,3.0,Closed
+T00812,2024-04-29 16:12,Smartwatch,Low,Chat,A02,27.8,,Closed
+T00813,2024-04-29 18:52,Headphones,Low,Chat,A11,18.1,4.0,Closed
+T00814,2024-04-29 18:59,Smartwatch,Urgent,Chat,A12,3.4,4.0,Closed
+T00815,2024-04-29 20:16,Phone X,High,Chat,A10,8.1,4.0,Closed
+T00816,2024-04-29 22:00,Headphones,High,Phone,A09,9.1,4.0,Closed
+T00817,2024-04-29 22:01,Phone X,Medium,Chat,A05,17.1,4.0,Closed
+T00818,2024-04-29 22:49,Laptop Air,High,Email,A08,8.2,4.0,Closed
+T00819,2024-04-29 23:20,Laptop Pro,Urgent,Chat,A11,4.8,4.0,Closed
+T00820,2024-04-30 01:51,Smartwatch,Low,Email,A06,29.0,4.0,Closed
+T00821,2024-04-30 02:18,Headphones,Low,Chat,A10,12.2,4.0,Closed
+T00822,2024-04-30 06:12,Laptop Air,Medium,Email,A08,9.3,4.0,Closed
+T00823,2024-04-30 14:29,Headphones,Medium,Email,A06,41.1,3.0,Closed
+T00824,2024-04-30 15:01,Laptop Pro,Urgent,Email,A09,5.6,4.0,Closed
+T00825,2024-04-30 18:55,Headphones,Low,Chat,A09,32.8,3.0,Closed
+T00826,2024-04-30 22:08,Headphones,High,Phone,A06,6.2,4.0,Closed
+T00827,2024-05-01 06:49,Laptop Pro,Low,Email,A08,,,Open
+T00828,2024-05-01 07:16,Laptop Pro,Low,Email,A09,69.3,2.0,Closed
+T00829,2024-05-01 09:12,Phone X,Low,Chat,A04,44.9,3.0,Closed
+T00830,2024-05-01 10:57,Headphones,Low,Phone,A09,32.0,3.0,Closed
+T00831,2024-05-01 15:18,Phone X,Medium,Chat,A12,10.1,5.0,Closed
+T00832,2024-05-01 15:27,Phone X,Low,Phone,A09,43.8,3.0,Closed
+T00833,2024-05-01 19:41,Headphones,Medium,Email,A12,38.2,,Closed
+T00834,2024-05-02 03:32,Smartwatch,High,Phone,A02,14.8,5.0,Closed
+T00835,2024-05-02 06:49,Smartwatch,Medium,Chat,A01,19.9,4.0,Closed
+T00836,2024-05-02 08:23,Phone X,LOW,Phone,A08,40.3,,Closed
+T00837,2024-05-02 10:41,Phone Mini,Low,Email,A06,29.6,4.0,Closed
+T00838,2024-05-02 15:08,Phone Mini,Medium,Chat,A10,12.7,5.0,Closed
+T00839,2024-05-02 15:59,Phone Mini,Low,Email,A05,,3.0,Open
+T00840,2024-05-02 22:43,Smartwatch,Medium,Email,A02,10.6,4.0,Closed
+T00841,2024-05-03 02:02,Phone X,Medium,Email,A09,22.8,,Closed
+T00842,2024-05-03 02:30,Laptop Pro,High,Email,A04,5.0,4.0,Closed
+T00843,2024-05-03 03:45,Smartwatch,Low,Chat,A11,33.7,3.0,Closed
+T00844,2024-05-03 05:52,Laptop Pro,Low,Phone,A12,27.1,3.0,Closed
+T00845,2024-05-03 09:17,Laptop Air,Low,Email,A08,36.5,3.0,Closed
+T00846,2024-05-03 11:59,Laptop Pro,Low,Phone,A11,24.8,4.0,Closed
+T00847,2024-05-03 12:48,Laptop Pro,Urgent,Phone,A09,2.8,5.0,Closed
+T00848,2024-05-03 15:13,Phone X,Urgent,Chat,A03,5.3,5.0,Closed
+T00849,2024-05-03 16:48,Phone X,Low,Chat,A10,21.9,4.0,Closed
+T00850,2024-05-03 20:01,Phone X,High,Email,A09,5.9,4.0,Closed
+T00851,2024-05-03 20:35,Laptop Air,High,Email,A10,17.7,5.0,Closed
+T00852,2024-05-03 20:47,Phone Mini,High,Email,A09,3.9,5.0,Closed
+T00853,2024-05-03 21:04,Phone X,Medium,Chat,A04,15.1,4.0,Closed
+T00854,2024-05-04 03:26,Phone Mini,Medium,Email,A08,19.1,4.0,Closed
+T00855,2024-05-04 07:21,Headphones,Medium,Chat,A06,17.1,5.0,Closed
+T00856,2024-05-04 09:43,Phone X,Low,Chat,A11,27.7,,Closed
+T00857,2024-05-04 14:59,Laptop Pro,Medium,Email,A05,13.9,4.0,Closed
+T00858,2024-05-04 19:32,Laptop Air,Medium,Phone,A04,12.8,4.0,Closed
+T00859,2024-05-04 23:40,Phone Mini,Low,Email,A10,52.5,3.0,Closed
+T00860,2024-05-05 01:24,Laptop Air,Medium,Chat,A04,12.4,4.0,Closed
+T00861,2024-05-05 04:27,Laptop Air,High,Email,A09,7.4,,Closed
+T00862,2024-05-05 04:34,Headphones,Urgent,Phone,A06,8.2,4.0,Closed
+T00863,2024-05-05 07:34,Headphones,High,Phone,A08,2000.0,4.0,Closed
+T00864,2024-05-05 13:29,Smartwatch,Low,Chat,A04,22.7,5.0,Closed
+T00865,2024-05-05 15:12,Headphones,Low,Email,A04,142.4,1.0,Closed
+T00866,2024-05-05 15:32,Phone X,Urgent,Email,A07,23.1,4.0,Closed
+T00867,2024-05-05 19:31,Phone Mini,Low,Phone,A09,35.5,,Closed
+T00868,2024-05-06 04:47,Laptop Air,Low,Email,A10,20.9,,Closed
+T00869,2024-05-06 05:12,Laptop Air,Medium,Email,A12,29.5,2.0,Closed
+T00870,2024-05-06 11:16,Phone X,Medium,Phone,A12,14.5,4.0,Closed
+T00871,2024-05-06 11:20,Laptop Pro,Medium,Phone,A09,29.3,3.0,Closed
+T00872,2024-05-06 13:08,Smartwatch,Medium,Email,A11,13.6,5.0,Closed
+T00873,2024-05-06 14:48,Laptop Air,High,Phone,A06,6.8,4.0,Closed
+T00874,2024-05-06 19:36,Laptop Air,Low,Phone,A12,30.1,4.0,Closed
+T00875,2024-05-06 19:43,Phone Mini,High,Email,A09,16.8,3.0,Closed
+T00876,2024-05-06 20:40,Laptop Pro,Medium,Email,A02,,3.0,Open
+T00877,2024-05-06 21:14,Phone Mini,Low,Phone,A07,31.9,3.0,Closed
+T00878,2024-05-06 23:57,Laptop Pro,Low,Phone,A09,24.8,,Closed
+T00879,2024-05-07 00:45,Smartwatch,Medium,Email,A08,,2.0,Open
+T00880,2024-05-07 07:51,Phone X,Low,Phone,A08,16.3,4.0,Closed
+T00881,2024-05-07 09:45,Laptop Air,Medium,Chat,A10,17.8,4.0,Closed
+T00882,2024-05-07 11:27,Laptop Air,Low,Chat,A05,50.9,,Closed
+T00883,2024-05-07 12:09,Laptop Air,Urgent,Chat,A11,10.2,4.0,Closed
+T00884,2024-05-07 12:49,Smartwatch,Low,Email,A08,43.3,3.0,Closed
+T00885,2024-05-07 13:28,Phone Mini,Low,Email,A02,16.5,4.0,Closed
+T00886,2024-05-07 14:10,Headphones,High,Chat,A06,12.5,5.0,Closed
+T00887,2024-05-07 15:49,Laptop Air,Low,Email,A09,35.5,2.0,Closed
+T00888,2024-05-07 17:17,Headphones,Low,Email,A12,30.3,4.0,Closed
+T00889,2024-05-08 08:49,Phone X,Medium,Email,A09,19.4,4.0,Closed
+T00890,2024-05-08 09:24,Headphones,Medium,Phone,A01,13.8,5.0,Closed
+T00891,2024-05-08 10:06,Laptop Pro,Medium,Phone,A12,20.5,4.0,Closed
+T00892,2024-05-08 10:46,Laptop Pro,Medium,Phone,A03,14.0,4.0,Closed
+T00893,2024-05-08 14:20,Smartwatch,Low,Phone,A02,23.3,,Closed
+T00894,2024-05-08 14:43,Phone X,Low,Email,A06,27.1,,Closed
+T00895,2024-05-08 15:11,Headphones,Medium,Chat,A03,18.0,4.0,Closed
+T00896,2024-05-08 15:41,Phone Mini,Low,Email,A12,25.4,4.0,Closed
+T00897,2024-05-08 18:33,Smartwatch,Medium,Phone,A10,24.3,,Closed
+T00898,2024-05-08 21:15,Phone Mini,LOW,Email,A03,59.0,3.0,Closed
+T00899,2024-05-09 10:18,Smartwatch,Medium,Email,A06,18.2,,Closed
+T00900,2024-05-09 17:07,Phone Mini,Low,Email,A04,27.4,,Closed
+T00901,2024-05-09 20:36,Headphones,Medium,Phone,A03,23.1,4.0,Closed
+T00902,2024-05-10 08:52,Phone Mini,Low,Email,A12,35.4,,Closed
+T00903,2024-05-10 09:06,Headphones,Medium,Email,A02,11.9,,Closed
+T00904,2024-05-10 10:29,Headphones,Medium,Chat,A10,40.0,3.0,Closed
+T00905,2024-05-10 11:06,Phone Mini,Medium,Email,A01,39.7,3.0,Closed
+T00906,2024-05-10 12:37,Laptop Pro,Low,Phone,A09,30.6,,Closed
+T00907,2024-05-10 16:12,Laptop Air,Urgent,Email,A11,,4.0,Open
+T00908,2024-05-10 17:46,Smartwatch,Medium,Phone,A10,22.0,4.0,Closed
+T00909,2024-05-11 05:18,Phone X,Low,Chat,A05,39.5,3.0,Closed
+T00910,2024-05-11 05:51,Laptop Air,Low,Chat,A12,32.9,4.0,Closed
+T00911,2024-05-11 06:02,Phone Mini,High,Email,A04,16.3,4.0,Closed
+T00912,2024-05-11 18:30,Phone X,Medium,Chat,A10,26.2,5.0,Closed
+T00913,2024-05-12 03:19,Headphones,Medium,Email,A02,42.6,3.0,Closed
+T00914,2024-05-12 04:53,Laptop Pro,Low,Email,A12,,5.0,Open
+T00915,2024-05-12 06:47,Phone Mini,Urgent,Chat,A04,7.2,5.0,Closed
+T00916,2024-05-12 07:49,Headphones,Medium,Chat,A09,62.9,2.0,Closed
+T00917,2024-05-12 10:42,Smartwatch,Medium,Chat,A09,32.0,,Closed
+T00918,2024-05-12 17:41,Laptop Pro,High,Email,A03,39.4,3.0,Closed
+T00919,2024-05-13 02:02,Laptop Pro,Medium,Email,A02,22.2,3.0,Closed
+T00920,2024-05-13 03:13,Smartwatch,Low,Phone,A04,41.3,,Closed
+T00921,2024-05-13 10:44,Phone X,Medium,Chat,A11,18.9,4.0,Closed
+T00922,2024-05-13 11:07,Phone X,Medium,Email,A07,43.3,,Closed
+T00923,2024-05-13 12:49,Smartwatch,Low,Chat,A10,33.6,,Closed
+T00924,2024-05-13 17:51,Headphones,Low,Chat,A11,45.6,3.0,Closed
+T00925,2024-05-13 21:22,Headphones,High,Phone,A11,17.2,3.0,Closed
+T00926,2024-05-14 03:23,Phone Mini,Low,Email,A02,15.7,4.0,Closed
+T00927,2024-05-14 07:27,Phone Mini,Medium,Chat,A05,14.6,5.0,Closed
+T00928,2024-05-14 07:47,Laptop Air,Medium,Phone,A11,25.5,3.0,Closed
+T00929,2024-05-14 13:38,Phone Mini,Low,Phone,A03,-30.1,3.0,Closed
+T00930,2024-05-14 14:19,Smartwatch,High,Email,A06,23.1,4.0,Closed
+T00931,2024-05-14 16:21,Phone Mini,Medium,Email,A07,97.7,1.0,Closed
+T00932,2024-05-14 20:11,Smartwatch,Medium,Phone,A01,33.2,3.0,Closed
+T00933,2024-05-15 00:05,Laptop Air,Low,Chat,A12,38.3,4.0,Closed
+T00934,2024-05-15 00:13,Phone X,Medium,Phone,A03,15.1,4.0,Closed
+T00935,2024-05-15 03:24,Phone X,Low,Email,A10,22.4,4.0,Closed
+T00936,2024-05-15 06:19,Laptop Pro,Medium,Email,A06,25.5,4.0,Closed
+T00937,2024-05-15 08:55,Smartwatch,Low,Phone,A09,34.9,4.0,Closed
+T00938,2024-05-15 09:21,Headphones,Low,Chat,A02,20.8,4.0,Closed
+T00939,2024-05-15 11:28,Headphones,Low,Email,A09,25.0,4.0,Closed
+T00940,2024-05-15 15:06,Phone X,Low,Chat,A11,18.2,4.0,Closed
+T00941,2024-05-15 19:40,Smartwatch,Medium,Email,A02,13.2,4.0,Closed
+T00942,2024-05-16 00:58,Phone Mini,Medium,Email,A01,23.4,4.0,Closed
+T00943,2024-05-16 10:18,Phone Mini,High,Email,A07,24.9,4.0,Closed
+T00944,2024-05-16 16:54,Headphones,Low,Email,A10,42.4,4.0,Closed
+T00945,2024-05-16 23:11,Phone X,Medium,Email,A02,15.7,5.0,Closed
+T00946,2024-05-17 00:05,Laptop Air,Medium,Chat,A05,35.7,4.0,Closed
+T00947,2024-05-17 01:04,Headphones,High,Email,A06,7.5,5.0,Closed
+T00948,2024-05-17 01:15,Laptop Pro,Low,Phone,A07,65.3,3.0,Closed
+T00949,2024-05-17 05:58,Smartwatch,Medium,Chat,A04,78.7,2.0,Closed
+T00950,2024-05-17 07:36,Laptop Pro,Low,Chat,A05,18.6,5.0,Closed
+T00951,2024-05-17 08:38,Phone Mini,High,Phone,A06,,4.0,Open
+T00952,2024-05-17 14:41,Smartwatch,Low,Phone,A10,,4.0,Open
+T00953,2024-05-17 19:00,Laptop Pro,Low,Email,A02,52.3,3.0,Closed
+T00954,2024-05-18 01:16,Phone X,Low,Chat,A03,30.8,3.0,Closed
+T00955,2024-05-18 01:54,Phone Mini,Medium,Email,A03,16.5,,Closed
+T00956,2024-05-18 05:02,Headphones,Urgent,Phone,A11,,4.0,Open
+T00957,2024-05-18 07:43,Headphones,Medium,Email,A10,19.0,3.0,Closed
+T00958,2024-05-18 16:01,Headphones,Medium,Email,A07,72.2,,Closed
+T00959,2024-05-18 18:12,Phone Mini,High,Chat,A06,7.0,,Closed
+T00960,2024-05-18 21:47,Laptop Air,Medium,Phone,A03,9.9,5.0,Closed
+T00961,2024-05-18 23:18,Smartwatch,Low,Chat,A12,37.8,4.0,Closed
+T00962,2024-05-19 02:17,Laptop Pro,Medium,Email,A03,18.2,4.0,Closed
+T00963,2024-05-19 02:58,Smartwatch,Low,Email,A12,32.5,5.0,Closed
+T00964,2024-05-19 04:42,Smartwatch,MEDIUM,Chat,A03,13.5,5.0,Closed
+T00965,2024-05-19 05:35,Phone X,Low,Email,A05,81.9,1.0,Closed
+T00966,2024-05-19 06:55,Phone X,Medium,Phone,A06,13.2,4.0,Closed
+T00967,2024-05-19 08:36,Headphones, Low ,Email,A01,22.8,4.0,Closed
+T00968,2024-05-19 10:55,Headphones,Low,Email,A09,70.4,2.0,Closed
+T00969,2024-05-19 11:00,Smartwatch,Medium,Email,A09,43.2,3.0,Closed
+T00970,2024-05-19 13:37,Headphones,High,Email,A02,11.8,4.0,Closed
+T00971,2024-05-19 14:23,Laptop Air,Medium,Chat,A11,31.3,,Closed
+T00972,2024-05-19 16:31,Phone X,Medium,Chat,A05,39.4,3.0,Closed
+T00973,2024-05-19 17:14,Smartwatch,URGENT,Email,A04,4.0,4.0,Closed
+T00974,2024-05-19 22:58,Phone Mini,Medium,Email,A11,25.1,4.0,Closed
+T00975,2024-05-20 00:58,Phone Mini,Low,Chat,A11,28.9,3.0,Closed
+T00976,2024-05-20 03:14,Smartwatch,Low,Phone,A07,,,Open
+T00977,2024-05-20 05:36,Headphones,High,Email,A01,10.5,4.0,Closed
+T00978,2024-05-20 08:31,Smartwatch,Medium,Chat,A09,12.6,4.0,Closed
+T00979,2024-05-20 09:02,Phone Mini,Low,Email,A04,40.1,3.0,Closed
+T00980,2024-05-20 13:42,Phone Mini,Medium,Phone,A11,10.7,5.0,Closed
+T00981,2024-05-20 19:25,Headphones,High,Email,A02,,4.0,Open
+T00982,2024-05-20 21:19,Phone X,Low,Chat,A11,18.1,5.0,Closed
+T00983,2024-05-21 01:23,Phone Mini,Low,Phone,A05,27.7,,Closed
+T00984,2024-05-21 02:50,Headphones,Low,Email,A01,20.6,3.0,Closed
+T00985,2024-05-21 14:58,Headphones,MEDIUM,Chat,A02,16.8,5.0,Closed
+T00986,2024-05-21 15:20,Smartwatch,High,Phone,A12,3.1,5.0,Closed
+T00987,2024-05-21 16:35,Headphones,Medium,Email,A09,21.0,4.0,Closed
+T00988,2024-05-21 23:22,Laptop Air,Medium,Email,A08,17.7,4.0,Closed
+T00989,2024-05-22 01:47,Laptop Pro,Medium,Chat,A07,27.8,4.0,Closed
+T00990,2024-05-22 02:03,Smartwatch,HIGH,Email,A02,20.2,4.0,Closed
+T00991,2024-05-22 04:23,Phone X,High,Chat,A07,52.4,3.0,Closed
+T00992,2024-05-22 08:31,Headphones,Low,Email,A05,41.2,,Closed
+T00993,2024-05-22 12:58,Laptop Pro,Medium,Email,A09,15.6,4.0,Closed
+T00994,2024-05-22 14:22,Laptop Pro,Medium,Phone,A05,15.4,4.0,Closed
+T00995,2024-05-22 14:46,Headphones,Medium,Phone,A03,,3.0,Open
+T00996,2024-05-22 14:57,Phone X,Medium,Email,A03,17.5,4.0,Closed
+T00997,2024-05-22 17:45,Phone X,Low,Email,A07,32.2,3.0,Closed
+T00998,2024-05-22 22:51,Laptop Pro,Urgent,Chat,A05,3.0,4.0,Closed
+T00999,2024-05-22 23:19,Smartwatch,Medium,Phone,A08,12.2,4.0,Closed
+T01000,2024-05-23 03:29,Smartwatch,Low,Chat,A10,,4.0,Open
+T01001,2024-05-23 08:21,Laptop Air,High,Chat,A01,10.2,5.0,Closed
+T01002,2024-05-23 11:11,Laptop Air,Low,Email,A11,29.4,4.0,Closed
+T01003,2024-05-23 13:38,Phone Mini,Low,Phone,A05,40.0,3.0,Closed
+T01004,2024-05-23 15:10,Laptop Pro,Medium,Email,A01,,3.0,Open
+T01005,2024-05-24 00:14,Phone Mini,Medium,Chat,A09,,5.0,Open
+T01006,2024-05-24 02:44,Smartwatch,Low,Phone,A12,23.7,4.0,Closed
+T01007,2024-05-24 03:17,Laptop Air,Low,Email,A06,45.9,3.0,Closed
+T01008,2024-05-24 08:40,Smartwatch,Low,Email,A02,17.8,4.0,Closed
+T01009,2024-05-24 15:22,Phone X,Medium,Chat,A07,18.9,4.0,Closed
+T01010,2024-05-24 19:20,Smartwatch,High,Email,A12,6.6,4.0,Closed
+T01011,2024-05-24 19:48,Laptop Air,Medium,Email,A07,28.4,3.0,Closed
+T01012,2024-05-24 20:34,Smartwatch,Low,Chat,A07,68.3,2.0,Closed
+T01013,2024-05-25 02:15,Smartwatch,high,Chat,A02,9.4,5.0,Closed
+T01014,2024-05-25 05:49,Laptop Pro,Low,Chat,A08,13.6,5.0,Closed
+T01015,2024-05-25 06:23,Phone X,Low,Email,A11,48.9,,Closed
+T01016,2024-05-25 07:38,Laptop Pro,Medium,Email,A12,40.5,2.0,Closed
+T01017,2024-05-25 09:26,Phone Mini,Low,Email,A11,44.2,4.0,Closed
+T01018,2024-05-25 09:44,Headphones,Low,Chat,A06,46.1,3.0,Closed
+T01019,2024-05-25 15:21,Phone X,Medium,Chat,A03,31.5,,Closed
+T01020,2024-05-25 17:11,Laptop Air,High,Email,A04,12.3,4.0,Closed
+T01021,2024-05-25 18:11,Smartwatch,Low,Email,A10,90.1,2.0,Closed
+T01022,2024-05-25 20:26,Phone X,Low,Email,A08,50.1,2.0,Closed
+T01023,2024-05-25 23:58,Laptop Pro,Urgent,Phone,A10,8.0,,Closed
+T01024,2024-05-26 01:15,Phone X,High,Chat,A01,2.9,4.0,Closed
+T01025,2024-05-26 01:20,Laptop Air,High,Email,A11,10.7,,Closed
+T01026,2024-05-26 01:58,Laptop Pro,High,Phone,A02,,5.0,Open
+T01027,2024-05-26 03:48,Phone Mini,Medium,Chat,A09,13.8,5.0,Closed
+T01028,2024-05-26 05:20,Laptop Air,Low,Email,A08,20.2,,Closed
+T01029,2024-05-26 05:31,Smartwatch,Medium,Chat,A11,20.8,4.0,Closed
+T01030,2024-05-26 06:14,Laptop Pro,Low,Phone,A06,34.2,3.0,Closed
+T01031,2024-05-26 10:54,Laptop Pro,Medium,Chat,A04,15.6,4.0,Closed
+T01032,2024-05-26 13:15,Laptop Air,Urgent,Chat,A10,6.9,,Closed
+T01033,2024-05-26 18:54,Laptop Pro,Medium,Email,A03,12.5,,Closed
+T01034,2024-05-26 19:37,Phone Mini,Medium,Email,A07,31.2,3.0,Closed
+T01035,2024-05-27 00:03,Phone Mini,Medium,Chat,A05,29.5,5.0,Closed
+T01036,2024-05-27 00:09,Laptop Air,Medium,Chat,A08,7.2,,Closed
+T01037,2024-05-27 01:06,Smartwatch,Medium,Chat,A07,64.6,2.0,Closed
+T01038,2024-05-27 04:42,Smartwatch,Medium,Email,A02,24.2,5.0,Closed
+T01039,2024-05-27 06:06,Smartwatch,Low,Chat,A01,9.2,5.0,Closed
+T01040,2024-05-27 06:09,Laptop Pro,Low,Phone,A06,50.5,3.0,Closed
+T01041,2024-05-27 07:01,Laptop Pro,Low,Chat,A10,32.5,,Closed
+T01042,2024-05-27 17:29,Laptop Air,Medium,Email,A09,14.8,4.0,Closed
+T01043,2024-05-27 19:29,Phone Mini,Medium,Email,A12,17.0,,Closed
+T01044,2024-05-27 21:59,Phone X,High,Email,A03,21.5,4.0,Closed
+T01045,2024-05-28 01:26,Phone X,Low,Email,A08,17.6,4.0,Closed
+T01046,2024-05-28 07:21,Phone X,Medium,Chat,A04,10.7,5.0,Closed
+T01047,2024-05-28 18:41,Laptop Air,Medium,Email,A02,34.0,3.0,Closed
+T01048,2024-05-29 04:32,Phone Mini,Medium,Phone,A09,19.5,3.0,Closed
+T01049,2024-05-29 04:50,Smartwatch,Medium,Email,A12,15.8,,Closed
+T01050,2024-05-29 04:51,Headphones,Urgent,Chat,A06,4.5,5.0,Closed
+T01051,2024-05-29 13:12,Phone X,High,Chat,A06,,,Open
+T01052,2024-05-29 14:59,Headphones,Medium,Email,A01,28.6,,Closed
+T01053,2024-05-29 17:41,Laptop Pro,Medium,Email,A11,25.7,5.0,Closed
+T01054,2024-05-29 19:01,Headphones,Medium,Phone,A11,12.5,3.0,Closed
+T01055,2024-05-29 21:35,Smartwatch,Medium,Phone,A06,37.6,,Closed
+T01056,2024-05-29 22:07,Laptop Pro,Medium,Chat,A06,22.0,,Closed
+T01057,2024-05-29 23:57,Laptop Air,High,Phone,A06,10.9,4.0,Closed
+T01058,2024-05-30 02:37,Phone Mini,High,Email,A04,8.0,,Closed
+T01059,2024-05-30 06:25,Smartwatch,Medium,Chat,A11,16.7,5.0,Closed
+T01060,2024-05-30 07:10,Headphones,Medium,Email,A02,35.2,4.0,Closed
+T01061,2024-05-30 10:32,Laptop Pro,Medium,Email,A01,11.6,3.0,Closed
+T01062,2024-05-30 13:59,Phone X,MEDIUM,Email,A10,23.3,5.0,Closed
+T01063,2024-05-30 15:16,Smartwatch,High,Phone,A06,12.7,5.0,Closed
+T01064,2024-05-30 21:48,Laptop Air,Medium,Chat,A05,42.3,4.0,Closed
+T01065,2024-05-31 05:56,Headphones,Low,Email,A03,42.5,,Closed
+T01066,2024-05-31 11:04,Phone X,High,Phone,A02,7.6,,Closed
+T01067,2024-05-31 11:29,Phone Mini,Urgent,Email,A02,2.7,,Closed
+T01068,2024-05-31 14:11,Laptop Air,Low,Email,A09,17.9,3.0,Closed
+T01069,2024-05-31 16:04,Phone X,High,Chat,A03,17.7,5.0,Closed
+T01070,2024-05-31 16:40,Laptop Pro,Low,Chat,A12,36.2,,Closed
+T01071,2024-05-31 18:13,Headphones,Low,Email,A05,20.6,3.0,Closed
+T01072,2024-05-31 22:13,Laptop Pro, Urgent ,Chat,A11,4.7,,Closed
+T01073,2024-05-31 23:23,Phone X,Low,Chat,A08,197.3,1.0,Closed
+T01074,2024-06-01 00:12,Headphones,High,Chat,A07,21.2,4.0,Closed
+T01075,2024-06-01 00:25,Phone Mini,Low,Chat,A05,33.0,4.0,Closed
+T01076,2024-06-01 02:02,Phone Mini,Medium,Phone,A05,9.3,5.0,Closed
+T01077,2024-06-01 05:14,Laptop Pro,High,Email,A06,13.8,4.0,Closed
+T01078,2024-06-01 09:18,Phone X,Low,Chat,A10,39.8,4.0,Closed
+T01079,2024-06-01 15:11,Phone X,High,Email,A04,5.4,4.0,Closed
+T01080,2024-06-01 16:08,Laptop Pro,Medium,Email,A01,,,Open
+T01081,2024-06-01 18:33,Phone Mini,Medium,Email,A09,15.3,4.0,Closed
+T01082,2024-06-01 18:39,Phone X,Medium,Email,A09,11.7,,Closed
+T01083,2024-06-02 00:39,Phone Mini,High,Chat,A02,6.2,5.0,Closed
+T01084,2024-06-02 02:55,Phone Mini,Low,Email,A10,25.6,3.0,Closed
+T01085,2024-06-02 04:29,Phone X,Medium,Chat,A12,40.8,3.0,Closed
+T01086,2024-06-02 08:35,Phone X,Medium,Phone,A01,11.0,4.0,Closed
+T01087,2024-06-02 13:05,Phone Mini,Medium,Email,A12,13.9,5.0,Closed
+T01088,2024-06-02 14:53,Laptop Air,Low,Chat,A06,29.7,4.0,Closed
+T01089,2024-06-02 15:34,Headphones,Medium,Chat,A04,34.2,3.0,Closed
+T01090,2024-06-03 04:25,Smartwatch,Low,Phone,A02,47.5,3.0,Closed
+T01091,2024-06-03 06:43,Laptop Air,Urgent,Email,A03,3.0,4.0,Closed
+T01092,2024-06-03 09:15,Phone Mini,Low,Chat,A01,34.2,4.0,Closed
+T01093,2024-06-03 09:17,Phone X,High,Chat,A05,5.6,5.0,Closed
+T01094,2024-06-03 12:14,Phone X,Low,Chat,A10,23.3,,Closed
+T01095,2024-06-03 12:39,Laptop Pro,Low,Email,A03,23.7,,Closed
+T01096,2024-06-03 13:58,Laptop Pro,High,Chat,A08,-10.2,5.0,Closed
+T01097,2024-06-03 21:11,Phone Mini,Medium,Email,A05,26.6,4.0,Closed
+T01098,2024-06-04 04:15,Headphones,Medium,Chat,A01,24.1,4.0,Closed
+T01099,2024-06-04 11:38,Headphones,Medium,Chat,A02,32.6,,Closed
+T01100,2024-06-04 14:05,Phone Mini,Low,Email,A12,17.3,,Closed
+T01101,2024-06-04 16:05,Smartwatch,Low,Email,A03,,3.0,Open
+T01102,2024-06-04 17:14,Phone Mini,LOW,Chat,A07,42.4,4.0,Closed
+T01103,2024-06-04 18:42,Laptop Air,Medium,Chat,A09,26.6,,Closed
+T01104,2024-06-04 22:32,Laptop Pro,High,Email,A11,9.3,4.0,Closed
+T01105,2024-06-05 01:07,Laptop Pro,Medium,Email,A07,31.0,4.0,Closed
+T01106,2024-06-05 05:59,Laptop Air,Medium,Email,A11,15.4,4.0,Closed
+T01107,2024-06-05 09:00,Laptop Pro,Medium,Email,A01,14.9,,Closed
+T01108,2024-06-05 14:12,Phone X,Low,Email,A12,61.7,3.0,Closed
+T01109,2024-06-06 00:32,Laptop Pro,Medium,Chat,A01,17.4,5.0,Closed
+T01110,2024-06-06 04:35,Laptop Pro,Medium,Chat,A12,11.5,,Closed
+T01111,2024-06-06 07:36,Headphones,HIGH,Chat,A05,17.8,4.0,Closed
+T01112,2024-06-06 07:37,Phone X,Low,Chat,A04,37.2,4.0,Closed
+T01113,2024-06-06 10:01,Phone X,Low,Email,A09,42.7,4.0,Closed
+T01114,2024-06-06 11:07,Smartwatch,Medium,Email,A02,35.5,4.0,Closed
+T01115,2024-06-06 11:12,Laptop Pro,Low,Email,A01,16.3,3.0,Closed
+T01116,2024-06-06 17:49,Laptop Air,Low,Phone,A03,14.1,,Closed
+T01117,2024-06-06 20:04,Laptop Pro,Medium,Email,A05,18.0,4.0,Closed
+T01118,2024-06-06 22:37,Headphones,High,Chat,A06,11.0,4.0,Closed
+T01119,2024-06-06 23:06,Laptop Air,High,Email,A12,7.0,,Closed
+T01120,2024-06-07 02:13,Laptop Air,Medium,Phone,A04,14.5,,Closed
+T01121,2024-06-07 10:39,Smartwatch,Medium,Phone,A07,49.5,3.0,Closed
+T01122,2024-06-07 22:13,Smartwatch,Medium,Email,A04,46.6,,Closed
+T01123,2024-06-08 08:28,Headphones,Medium,Chat,A05,,4.0,Open
+T01124,2024-06-08 13:29,Phone Mini,Low,Email,A12,12.6,4.0,Closed
+T01125,2024-06-08 14:29,Smartwatch,Low,Chat,A04,31.7,4.0,Closed
+T01126,2024-06-09 00:05,Phone Mini,Urgent,Phone,A04,2.5,4.0,Closed
+T01127,2024-06-09 01:33,Laptop Pro,Low,Email,A08,26.4,4.0,Closed
+T01128,2024-06-09 02:36,Headphones,Medium,Email,A07,36.2,,Closed
+T01129,2024-06-09 05:15,Smartwatch,Medium,Chat,A09,25.3,4.0,Closed
+T01130,2024-06-09 08:04,Phone Mini,Medium,Email,A02,9.9,4.0,Closed
+T01131,2024-06-09 16:34,Headphones,High,Phone,A07,119.4,1.0,Closed
+T01132,2024-06-09 16:39,Headphones,Low,Phone,A03,31.1,3.0,Closed
+T01133,2024-06-09 19:27,Phone X,low,Email,A10,18.7,4.0,Closed
+T01134,2024-06-09 19:56,Laptop Pro,Low,Phone,A02,38.7,3.0,Closed
+T01135,2024-06-09 19:56,Headphones,Medium,Email,A03,30.1,4.0,Closed
+T01136,2024-06-09 21:11,Laptop Air,Medium,Chat,A12,23.0,4.0,Closed
+T01137,2024-06-10 02:40,Laptop Air,High,Chat,A11,21.8,4.0,Closed
+T01138,2024-06-10 10:32,Phone X,Medium,Chat,A04,12.3,5.0,Closed
+T01139,2024-06-10 16:34,Headphones,Medium,Email,A08,23.6,3.0,Closed
+T01140,2024-06-10 17:57,Phone X,Low,Chat,A02,65.5,2.0,Closed
+T01141,2024-06-10 19:03,Smartwatch,Low,Phone,A07,36.5,3.0,Closed
+T01142,2024-06-10 19:40,Laptop Pro,Medium,Chat,A12,19.9,4.0,Closed
+T01143,2024-06-10 20:54,Headphones,MEDIUM,Chat,A05,27.2,,Closed
+T01144,2024-06-11 03:40,Headphones,High,Chat,A03,4.9,5.0,Closed
+T01145,2024-06-11 09:44,Laptop Pro,Medium,Email,A08,21.2,4.0,Closed
+T01146,2024-06-11 13:22,Phone Mini,Low,Email,A01,14.6,5.0,Closed
+T01147,2024-06-11 16:09,Smartwatch,Urgent,Email,A12,2.7,4.0,Closed
+T01148,2024-06-11 19:27,Phone Mini,Medium,Phone,A07,33.7,3.0,Closed
+T01149,2024-06-11 20:35,Headphones,Urgent,Phone,A10,4.0,5.0,Closed
+T01150,2024-06-12 22:33,Phone Mini,High,Chat,A11,8.0,4.0,Closed
+T01151,2024-06-13 03:09,Laptop Pro,Medium,Chat,A11,21.2,4.0,Closed
+T01152,2024-06-13 06:21,Laptop Air,High,Phone,A03,7.8,,Closed
+T01153,2024-06-13 09:28,Laptop Pro,High,Phone,A06,22.4,5.0,Closed
+T01154,2024-06-13 11:04,Phone Mini,Low,Phone,A10,18.6,3.0,Closed
+T01155,2024-06-13 12:53,Phone X, Low ,Chat,A04,44.5,,Closed
+T01156,2024-06-13 17:03,Phone Mini,medium,Email,A07,70.0,1.0,Closed
+T01157,2024-06-13 18:21,Headphones,High,Phone,A02,7.0,4.0,Closed
+T01158,2024-06-13 21:27,Phone Mini,Medium,Email,A12,40.5,3.0,Closed
+T01159,2024-06-13 21:52,Laptop Pro,high,Chat,A04,16.5,4.0,Closed
+T01160,2024-06-14 04:23,Smartwatch,Medium,Email,A09,8.9,4.0,Closed
+T01161,2024-06-14 04:38,Laptop Air,Medium,Chat,A11,23.7,4.0,Closed
+T01162,2024-06-14 06:10,Laptop Air,Medium,Chat,A11,22.4,4.0,Closed
+T01163,2024-06-14 11:12,Phone Mini,High,Phone,A09,9.9,4.0,Closed
+T01164,2024-06-14 13:38,Laptop Pro,Low,Chat,A10,27.8,4.0,Closed
+T01165,2024-06-14 21:33,Smartwatch,Medium,Phone,A05,,3.0,Open
+T01166,2024-06-15 00:57,Laptop Pro,Low,Email,A05,28.6,4.0,Closed
+T01167,2024-06-15 04:33,Headphones,Low,Email,A10,14.0,3.0,Closed
+T01168,2024-06-15 14:31,Phone Mini,Medium,Email,A05,29.7,3.0,Closed
+T01169,2024-06-15 19:25,Smartwatch,Medium,Email,A06,13.6,3.0,Closed
+T01170,2024-06-15 20:47,Laptop Air,Low,Phone,A06,29.3,3.0,Closed
+T01171,2024-06-15 23:23,Phone X,Low,Chat,A06,44.4,5.0,Closed
+T01172,2024-06-16 00:43,Headphones,High,Email,A12,13.7,4.0,Closed
+T01173,2024-06-16 02:19,Phone X,High,Chat,A09,34.4,4.0,Closed
+T01174,2024-06-16 07:56,Phone Mini,Low,Chat,A08,24.9,4.0,Closed
+T01175,2024-06-16 12:24,Phone X,Medium,Chat,A09,25.3,4.0,Closed
+T01176,2024-06-16 12:59,Laptop Pro,Medium,Chat,A05,57.0,3.0,Closed
+T01177,2024-06-16 17:49,Laptop Pro,High,Chat,A10,11.5,4.0,Closed
+T01178,2024-06-16 18:02,Phone X,Medium,Email,A07,41.4,,Closed
+T01179,2024-06-17 03:35,Headphones,Medium,Email,A11,12.9,4.0,Closed
+T01180,2024-06-17 07:21,Phone X,High,Phone,A10,,5.0,Open
+T01181,2024-06-17 11:55,Headphones,Low,Chat,A01,10.2,5.0,Closed
+T01182,2024-06-17 20:01,Phone X,Medium,Email,A06,11.0,4.0,Closed
+T01183,2024-06-18 05:10,Laptop Pro,Medium,Chat,A03,,4.0,Open
+T01184,2024-06-18 12:42,Laptop Pro,Medium,Email,A06,48.5,3.0,Closed
+T01185,2024-06-18 13:23,Headphones,Urgent,Email,A08,3.9,,Closed
+T01186,2024-06-19 04:03,Phone Mini,High,Email,A04,11.1,4.0,Closed
+T01187,2024-06-19 04:59,Phone Mini,High,Chat,A09,26.6,4.0,Closed
+T01188,2024-06-19 07:15,Smartwatch,Medium,Email,A02,16.7,4.0,Closed
+T01189,2024-06-19 16:31,Phone Mini,Low,Chat,A06,22.3,4.0,Closed
+T01190,2024-06-19 16:52,Headphones,Medium,Email,A12,18.4,4.0,Closed
+T01191,2024-06-19 17:55,Phone Mini,High,Chat,A04,9.9,5.0,Closed
+T01192,2024-06-20 00:40,Laptop Pro,Medium,Email,A06,,4.0,Open
+T01193,2024-06-20 05:48,Headphones,Medium,Email,A06,22.5,,Closed
+T01194,2024-06-20 09:48,Phone Mini,High,Phone,A11,6.5,4.0,Closed
+T01195,2024-06-20 10:48,Phone X,Medium,Chat,A11,14.4,4.0,Closed
+T01196,2024-06-20 13:41,Headphones,Medium,Email,A11,25.6,3.0,Closed
+T01197,2024-06-20 13:43,Laptop Air,High,Chat,A10,13.6,4.0,Closed
+T01198,2024-06-20 14:18,Phone Mini,Medium,Phone,A09,16.6,,Closed
+T01199,2024-06-20 14:37,Laptop Pro,Medium,Chat,A10,13.5,4.0,Closed
+T01200,2024-06-20 18:24,Phone X,High,Phone,A03,7.1,4.0,Closed
+T01201,2024-06-20 22:52,Phone X,Low,Email,A10,59.9,3.0,Closed
+T01202,2024-06-21 04:12,Smartwatch,Medium,Email,A07,,4.0,Open
+T01203,2024-06-21 04:53,Laptop Pro,Urgent,Chat,A02,2.2,5.0,Closed
+T01204,2024-06-21 06:16,Smartwatch,High,Email,A06,5.7,4.0,Closed
+T01205,2024-06-21 12:54,Smartwatch,High,Email,A06,9.5,4.0,Closed
+T01206,2024-06-21 13:09,Laptop Air,Low,Chat,A09,21.2,4.0,Closed
+T01207,2024-06-21 19:03,Laptop Air,Medium,Email,A04,24.7,,Closed
+T01208,2024-06-21 22:44,Headphones,High,Phone,A11,8.1,,Closed
+T01209,2024-06-22 02:54,Headphones,Medium,Chat,A11,34.5,4.0,Closed
+T01210,2024-06-22 13:54,Smartwatch,Low,Email,A04,35.0,,Closed
+T01211,2024-06-23 01:53,Phone X,Medium,Email,A06,11.5,4.0,Closed
+T01212,2024-06-23 02:12,Phone Mini,Low,Email,A12,10.3,,Closed
+T01213,2024-06-23 05:41,Headphones,Urgent,Chat,A10,5.3,5.0,Closed
+T01214,2024-06-23 14:37,Smartwatch,Low,Phone,A03,26.9,,Closed
+T01215,2024-06-23 15:03,Phone Mini,Medium,Chat,A12,,5.0,Open
+T01216,2024-06-23 15:51,Laptop Air,Low,Email,A12,10.5,4.0,Closed
+T01217,2024-06-23 16:16,Phone Mini,High,Chat,A05,10.4,,Closed
+T01218,2024-06-23 17:43,Phone Mini,Low,Chat,A12,40.6,2.0,Closed
+T01219,2024-06-23 23:02,Laptop Air,High,Email,A02,,5.0,Open
+T01220,2024-06-24 09:21,Laptop Pro,High,Chat,A01,7.9,,Closed
+T01221,2024-06-24 17:33,Phone Mini,High,Email,A12,12.3,4.0,Closed
+T01222,2024-06-24 19:23,Phone X,Low,Phone,A09,47.3,2.0,Closed
+T01223,2024-06-25 04:39,Smartwatch,Medium,Email,A05,18.9,,Closed
+T01224,2024-06-25 12:55,Laptop Air,Low,Email,A12,41.0,4.0,Closed
+T01225,2024-06-25 13:24,Laptop Pro,High,Phone,A08,11.4,3.0,Closed
+T01226,2024-06-25 13:29,Laptop Pro,Medium,Chat,A10,22.3,,Closed
+T01227,2024-06-25 15:58,Smartwatch,Low,Chat,A09,69.0,2.0,Closed
+T01228,2024-06-25 23:52,Phone X,Low,Email,A05,19.9,3.0,Closed
+T01229,2024-06-26 14:30,Phone Mini,Low,Email,A07,31.0,3.0,Closed
+T01230,2024-06-26 20:17,Laptop Air,Medium,Email,A01,29.2,4.0,Closed
+T01231,2024-06-26 21:23,Headphones,Low,Chat,A03,43.0,,Closed
+T01232,2024-06-27 00:16,Phone Mini,Medium,Chat,A07,27.0,4.0,Closed
+T01233,2024-06-27 00:44,Headphones,Medium,Chat,A02,18.5,5.0,Closed
+T01234,2024-06-27 10:36,Phone Mini,Medium,Chat,A12,12.5,4.0,Closed
+T01235,2024-06-27 11:31,Smartwatch,Low,Email,A05,28.7,,Closed
+T01236,2024-06-27 11:35,Laptop Pro,Low,Phone,A11,42.3,2.0,Closed
+T01237,2024-06-27 19:31,Laptop Pro,Urgent,Chat,A06,6.6,5.0,Closed
+T01238,2024-06-27 20:33,Phone X,Medium,Email,A07,56.4,3.0,Closed
+T01239,2024-06-28 04:01,Phone Mini,Urgent,Phone,A05,11.0,,Closed
+T01240,2024-06-28 15:28,Laptop Air,Medium,Email,A01,16.2,,Closed
+T01241,2024-06-28 20:22,Phone Mini,Low,Email,A07,31.5,3.0,Closed
+T01242,2024-06-28 22:16,Phone X,Low,Phone,A09,53.8,2.0,Closed
+T01243,2024-06-29 09:30,Laptop Air,Low,Phone,A09,66.8,2.0,Closed
+T01244,2024-06-29 11:31,Phone Mini,High,Chat,A06,10.1,5.0,Closed
+T01245,2024-06-29 12:20,Phone Mini,Low,Email,A12,27.4,3.0,Closed
+T01246,2024-06-29 14:32,Smartwatch,Low,Chat,A11,39.6,3.0,Closed
+T01247,2024-06-29 15:13,Laptop Pro,high,Chat,A10,7.9,4.0,Closed
+T01248,2024-06-29 19:28,Laptop Pro,Low,Chat,A11,99.9,2.0,Closed
+T01249,2024-06-29 21:33,Smartwatch,High,Phone,A12,11.8,4.0,Closed
+T01250,2024-06-30 04:42,Laptop Pro,Medium,Phone,A07,44.1,3.0,Closed
+T01251,2024-06-30 13:16,Phone X,High,Email,A12,10.9,,Closed
+T01252,2024-06-30 14:39,Headphones,Low,Chat,A01,44.2,3.0,Closed
+T01253,2024-06-30 22:01,Smartwatch,Medium,Email,A09,35.2,2.0,Closed
+T01254,2024-06-30 23:23,Laptop Air,High,Email,A09,15.0,4.0,Closed
+T01255,2024-07-01 02:20,Laptop Air,Low,Email,A02,27.1,3.0,Closed
+T01256,2024-07-01 03:07,Laptop Air,Urgent,Email,A12,6.6,,Closed
+T01257,2024-07-01 03:32,Laptop Pro,Low,Chat,A12,34.9,4.0,Closed
+T01258,2024-07-01 05:05,Smartwatch,Medium,Email,A05,42.2,4.0,Closed
+T01259,2024-07-01 06:31,Smartwatch,Low,Email,A01,19.9,4.0,Closed
+T01260,2024-07-01 07:25,Phone Mini,Low,Email,A03,23.2,5.0,Closed
+T01261,2024-07-01 20:00,Phone X,Medium,Email,A03,9.6,5.0,Closed
+T01262,2024-07-02 02:58,Phone Mini,Low,Chat,A01,18.8,,Closed
+T01263,2024-07-02 05:23,Smartwatch,Medium,Phone,A07,75.8,2.0,Closed
+T01264,2024-07-02 07:09,Headphones,Low,Phone,A12,,4.0,Open
+T01265,2024-07-02 11:09,Laptop Pro,low,Phone,A05,25.8,,Closed
+T01266,2024-07-02 14:37,Headphones,Low,Phone,A09,28.8,,Closed
+T01267,2024-07-02 15:39,Headphones,Low,Phone,A07,64.9,2.0,Closed
+T01268,2024-07-02 16:45,Smartwatch,High,Email,A10,14.6,,Closed
+T01269,2024-07-02 20:12,Laptop Air,Low,Email,A10,13.9,4.0,Closed
+T01270,2024-07-03 05:29,Phone X,Medium,Email,A05,29.4,,Closed
+T01271,2024-07-03 06:42,Phone X,Low,Phone,A09,16.6,4.0,Closed
+T01272,2024-07-03 18:56,Phone Mini,Medium,Phone,A08,28.7,4.0,Closed
+T01273,2024-07-03 22:14,Laptop Air,Low,Email,A10,50.4,,Closed
+T01274,2024-07-03 23:21,Smartwatch,Low,Chat,A03,27.0,4.0,Closed
+T01275,2024-07-04 05:48,Laptop Air,Low,Email,A03,30.9,3.0,Closed
+T01276,2024-07-04 21:17,Smartwatch,Low,Phone,A10,17.2,4.0,Closed
+T01277,2024-07-05 02:46,Phone X,Low,Chat,A05,26.3,5.0,Closed
+T01278,2024-07-05 08:44,Phone X,Low,Email,A03,50.0,3.0,Closed
+T01279,2024-07-05 10:27,Phone X,high,Email,A02,15.5,3.0,Closed
+T01280,2024-07-05 11:38,Phone X,Medium,Chat,A06,20.1,4.0,Closed
+T01281,2024-07-05 21:48,Phone X,Low,Email,A05,46.1,3.0,Closed
+T01282,2024-07-06 09:35,Phone X,High,Phone,A11,7.4,4.0,Closed
+T01283,2024-07-06 11:09,Phone X,Medium,Email,A11,23.5,3.0,Closed
+T01284,2024-07-06 11:51,Headphones,Low,Chat,A04,58.8,3.0,Closed
+T01285,2024-07-06 15:37,Headphones,Low,Email,A04,34.1,4.0,Closed
+T01286,2024-07-06 17:52,Phone Mini,Urgent,Email,A04,3.3,4.0,Closed
+T01287,2024-07-06 21:23,Laptop Pro,Medium,Email,A09,8.1,4.0,Closed
+T01288,2024-07-07 07:10,Phone X,High,Email,A06,8.2,4.0,Closed
+T01289,2024-07-07 07:27,Phone Mini,Medium,Chat,A05,11.7,5.0,Closed
+T01290,2024-07-07 10:55,Phone X,Urgent,Chat,A06,3.5,5.0,Closed
+T01291,2024-07-07 14:46,Smartwatch,Low,Email,A01,47.2,2.0,Closed
+T01292,2024-07-07 19:29,Headphones,Medium,Chat,A05,-22.2,,Closed
+T01293,2024-07-07 21:50,Laptop Air,Low,Chat,A01,15.9,,Closed
+T01294,2024-07-08 00:00,Phone Mini,Low,Email,A04,,4.0,Open
+T01295,2024-07-08 01:05,Headphones,Medium,Email,A08,13.3,4.0,Closed
+T01296,2024-07-08 04:12,Phone X,Medium,Email,A04,23.9,3.0,Closed
+T01297,2024-07-08 05:38,Phone X,Medium,Email,A04,47.2,2.0,Closed
+T01298,2024-07-08 09:50,Phone X,Low,Chat,A04,79.5,2.0,Closed
+T01299,2024-07-08 19:46,Laptop Air,Medium,Email,A07,38.1,4.0,Closed
+T01300,2024-07-08 20:33,Headphones,Low,Email,A01,37.4,3.0,Closed
+T01301,2024-07-08 20:43,Phone Mini,Medium,Email,A01,45.3,2.0,Closed
+T01302,2024-07-08 23:32,Laptop Pro,low,Email,A09,72.7,2.0,Closed
+T01303,2024-07-09 03:34,Smartwatch,High,Phone,A05,5.0,4.0,Closed
+T01304,2024-07-09 19:10,Phone X,Low,Chat,A11,41.9,,Closed
+T01305,2024-07-09 19:35,Phone Mini,Medium,Chat,A07,42.3,4.0,Closed
+T01306,2024-07-09 20:12,Laptop Air,Low,Email,A07,80.7,1.0,Closed
+T01307,2024-07-10 02:57,Smartwatch,Medium,Chat,A07,27.9,4.0,Closed
+T01308,2024-07-10 03:09,Smartwatch,Urgent,Chat,A06,2.9,5.0,Closed
+T01309,2024-07-10 06:19,Laptop Air,Medium,Chat,A10,15.5,,Closed
+T01310,2024-07-10 07:02,Smartwatch,Low,Email,A02,12.6,4.0,Closed
+T01311,2024-07-10 11:47,Phone Mini,Low,Email,A07,36.9,3.0,Closed
+T01312,2024-07-10 11:55,Laptop Air,Low,Email,A06,33.8,3.0,Closed
+T01313,2024-07-10 19:21,Phone Mini,Medium,Phone,A10,31.1,4.0,Closed
+T01314,2024-07-10 19:53,Smartwatch,Medium,Phone,A03,20.4,3.0,Closed
+T01315,2024-07-10 22:35,Phone Mini,Low,Chat,A11,40.1,4.0,Closed
+T01316,2024-07-11 00:01,Laptop Pro,Urgent,Email,A06,4.4,,Closed
+T01317,2024-07-11 00:43,Laptop Pro,Medium,Phone,A04,8.2,5.0,Closed
+T01318,2024-07-11 04:15,Smartwatch,Medium,Email,A12,9.0,4.0,Closed
+T01319,2024-07-11 09:33,Phone X,Medium,Chat,A07,20.4,5.0,Closed
+T01320,2024-07-11 12:14,Smartwatch,Low,Chat,A06,64.0,2.0,Closed
+T01321,2024-07-11 13:15,Phone X,Low,Chat,A12,13.2,4.0,Closed
+T01322,2024-07-11 13:53,Smartwatch,Low,Chat,A09,44.4,3.0,Closed
+T01323,2024-07-11 16:39,Laptop Air, Medium ,Chat,A11,23.3,4.0,Closed
+T01324,2024-07-11 19:03,Phone Mini,medium,Email,A04,11.0,4.0,Closed
+T01325,2024-07-11 22:34,Laptop Pro,Medium,Email,A11,16.3,4.0,Closed
+T01326,2024-07-12 04:48,Phone Mini,Medium,Chat,A04,28.1,,Closed
+T01327,2024-07-12 08:19,Laptop Air,Low,Chat,A11,16.3,4.0,Closed
+T01328,2024-07-12 12:16,Phone X,Medium,Chat,A12,28.9,3.0,Closed
+T01329,2024-07-12 14:22,Headphones,Medium,Phone,A03,23.7,3.0,Closed
+T01330,2024-07-12 16:31,Laptop Air,Medium,Email,A03,13.8,4.0,Closed
+T01331,2024-07-12 17:08,Laptop Air,High,Phone,A05,8.9,4.0,Closed
+T01332,2024-07-12 19:47,Smartwatch,Medium,Phone,A09,37.8,3.0,Closed
+T01333,2024-07-13 04:37,Phone X,High,Email,A03,9.8,4.0,Closed
+T01334,2024-07-13 10:54,Phone X,High,Chat,A09,10.6,5.0,Closed
+T01335,2024-07-13 11:38,Smartwatch,Medium,Phone,A12,8.6,4.0,Closed
+T01336,2024-07-13 12:28,Phone Mini,Medium,Phone,A01,,,Open
+T01337,2024-07-13 20:04,Smartwatch,Medium,Email,A08,24.5,,Closed
+T01338,2024-07-13 20:31,Laptop Pro,Medium,Chat,A06,19.3,4.0,Closed
+T01339,2024-07-13 20:54,Phone Mini,Medium,Chat,A02,37.5,3.0,Closed
+T01340,2024-07-14 01:25,Phone X,Low,Phone,A07,65.4,3.0,Closed
+T01341,2024-07-14 02:08,Phone X, Low ,Email,A04,,3.0,Open
+T01342,2024-07-14 04:27,Phone X,Medium,Chat,A12,18.1,,Closed
+T01343,2024-07-14 05:38,Phone Mini,Medium,Email,A03,36.7,,Closed
+T01344,2024-07-14 09:44,Laptop Air,High,Phone,A10,21.3,,Closed
+T01345,2024-07-14 16:13,Smartwatch,Low,Email,A08,38.7,,Closed
+T01346,2024-07-14 19:00,Smartwatch,Low,Chat,A06,55.1,,Closed
+T01347,2024-07-15 01:01,Laptop Pro,Medium,Chat,A02,33.9,4.0,Closed
+T01348,2024-07-15 04:07,Smartwatch,Medium,Chat,A06,18.4,4.0,Closed
+T01349,2024-07-15 07:15,Phone Mini,High,Email,A04,15.5,4.0,Closed
+T01350,2024-07-15 09:07,Laptop Pro,Medium,Email,A09,14.8,,Closed
+T01351,2024-07-15 18:43,Laptop Air, Low ,Email,A12,28.2,4.0,Closed
+T01352,2024-07-16 01:08,Phone Mini,Medium,Chat,A03,20.0,4.0,Closed
+T01353,2024-07-16 02:24,Smartwatch,Low,Email,A12,16.7,5.0,Closed
+T01354,2024-07-16 09:54,Smartwatch,Medium,Chat,A03,21.5,,Closed
+T01355,2024-07-16 11:25,Smartwatch,Low,Email,A07,107.7,1.0,Closed
+T01356,2024-07-16 13:27,Smartwatch,Medium,Email,A06,21.2,4.0,Closed
+T01357,2024-07-17 00:47,Smartwatch,High,Email,A02,6.0,4.0,Closed
+T01358,2024-07-17 01:06,Phone X,Low,Email,A06,38.8,2.0,Closed
+T01359,2024-07-17 02:33,Phone Mini,Low,Phone,A05,34.0,,Closed
+T01360,2024-07-17 08:05,Phone X,Medium,Chat,A01,25.4,5.0,Closed
+T01361,2024-07-17 08:09,Laptop Pro,High,Email,A12,8.6,4.0,Closed
+T01362,2024-07-17 08:16,Phone X,High,Email,A08,8.4,4.0,Closed
+T01363,2024-07-17 08:23,Phone X,Medium,Phone,A08,20.0,,Closed
+T01364,2024-07-17 08:36,Smartwatch,Urgent,Email,A05,8.7,4.0,Closed
+T01365,2024-07-17 16:18,Phone Mini,High,Email,A04,4.0,,Closed
+T01366,2024-07-17 19:21,Headphones,High,Email,A01,4.7,4.0,Closed
+T01367,2024-07-17 19:59,Laptop Pro,Low,Chat,A06,34.1,4.0,Closed
+T01368,2024-07-18 03:35,Headphones,Medium,Email,A04,14.5,4.0,Closed
+T01369,2024-07-18 04:08,Laptop Pro,High,Phone,A08,11.3,5.0,Closed
+T01370,2024-07-18 06:08,Headphones,Medium,Email,A08,19.8,3.0,Closed
+T01371,2024-07-18 10:23,Phone X,Medium,Chat,A05,11.0,5.0,Closed
+T01372,2024-07-18 11:08,Laptop Pro,Low,Email,A02,12.3,4.0,Closed
+T01373,2024-07-18 11:35,Phone X,Low,Email,A11,23.2,3.0,Closed
+T01374,2024-07-18 16:25,Laptop Pro,Low,Email,A03,38.9,3.0,Closed
+T01375,2024-07-18 17:08,Smartwatch,High,Email,A09,18.5,4.0,Closed
+T01376,2024-07-18 19:48,Phone Mini,High,Email,A09,20.3,,Closed
+T01377,2024-07-18 22:55,Phone X,Medium,Phone,A11,27.3,,Closed
+T01378,2024-07-19 00:09,Laptop Air,Low,Email,A09,45.2,3.0,Closed
+T01379,2024-07-19 03:13,Phone X,Medium,Email,A04,43.7,,Closed
+T01380,2024-07-19 09:23,Laptop Air,Medium,Chat,A07,24.7,4.0,Closed
+T01381,2024-07-19 10:19,Laptop Air,Low,Email,A02,,,Open
+T01382,2024-07-19 12:58,Smartwatch,High,Email,A01,9.3,4.0,Closed
+T01383,2024-07-19 14:58,Laptop Pro,Low,Chat,A10,13.7,5.0,Closed
+T01384,2024-07-19 18:15,Headphones,Medium,Chat,A05,16.9,4.0,Closed
+T01385,2024-07-19 18:53,Phone Mini,Urgent,Phone,A05,3.3,4.0,Closed
+T01386,2024-07-19 23:18,Laptop Air,Low,Phone,A05,18.1,,Closed
+T01387,2024-07-19 23:58,Headphones,Medium,Email,A02,22.6,4.0,Closed
+T01388,2024-07-20 02:27,Phone X,Low,Email,A05,34.7,3.0,Closed
+T01389,2024-07-20 04:11,Phone X,Low,Chat,A06,33.1,4.0,Closed
+T01390,2024-07-20 04:44,Headphones,Low,Email,A09,11.9,3.0,Closed
+T01391,2024-07-20 04:55,Phone Mini,Medium,Phone,A04,51.8,,Closed
+T01392,2024-07-20 12:23,Laptop Air,High,Phone,A03,24.2,3.0,Closed
+T01393,2024-07-20 12:34,Headphones,Low,Email,A11,32.9,,Closed
+T01394,2024-07-20 19:31,Phone X,Medium,Email,A12,26.6,3.0,Closed
+T01395,2024-07-20 21:42,Smartwatch,Medium,Email,A05,22.6,4.0,Closed
+T01396,2024-07-21 00:39,Headphones,Low,Email,A09,51.9,3.0,Closed
+T01397,2024-07-21 01:57,Phone Mini, Medium ,Email,A05,26.1,4.0,Closed
+T01398,2024-07-21 16:13,Headphones,High,Email,A06,14.9,4.0,Closed
+T01399,2024-07-22 01:52,Laptop Air,High,Phone,A01,6.3,,Closed
+T01400,2024-07-22 11:30,Laptop Air,Low,Chat,A06,40.2,,Closed
+T01401,2024-07-22 13:54,Phone Mini,Low,Email,A04,20.3,,Closed
+T01402,2024-07-22 22:10,Smartwatch,High,Email,A01,7.3,,Closed
+T01403,2024-07-23 04:13,Laptop Air,high,Chat,A11,10.4,3.0,Closed
+T01404,2024-07-23 05:51,Laptop Pro,Urgent,Email,A12,5.3,5.0,Closed
+T01405,2024-07-23 06:40,Headphones,Medium,Email,A06,42.2,,Closed
+T01406,2024-07-23 08:37,Phone Mini,High,Chat,A02,6.6,,Closed
+T01407,2024-07-23 09:23,Phone X,Medium,Email,A08,21.7,4.0,Closed
+T01408,2024-07-23 13:11,Headphones,High,Email,A06,,4.0,Open
+T01409,2024-07-23 14:44,Headphones,Medium,Email,A09,13.8,5.0,Closed
+T01410,2024-07-23 16:53,Headphones,High,Email,A05,,4.0,Open
+T01411,2024-07-23 17:31,Headphones,Medium,Email,A04,13.8,4.0,Closed
+T01412,2024-07-23 19:54,Headphones,High,Email,A06,13.8,4.0,Closed
+T01413,2024-07-24 16:18,Smartwatch,High,Chat,A06,9.4,5.0,Closed
+T01414,2024-07-24 16:50,Phone Mini,Medium,Chat,A03,23.1,4.0,Closed
+T01415,2024-07-24 21:28,Headphones,Medium,Email,A05,20.8,3.0,Closed
+T01416,2024-07-24 23:43,Phone Mini,Low,Phone,A10,13.0,4.0,Closed
+T01417,2024-07-25 00:56,Phone X,high,Chat,A04,9.4,5.0,Closed
+T01418,2024-07-25 01:26,Phone Mini,Urgent,Email,A05,4.8,5.0,Closed
+T01419,2024-07-25 03:10,Smartwatch,Medium,Phone,A05,23.4,4.0,Closed
+T01420,2024-07-25 08:14,Headphones,Low,Phone,A07,,,Open
+T01421,2024-07-25 09:21,Laptop Air,Low,Chat,A10,24.5,4.0,Closed
+T01422,2024-07-25 14:31,Phone Mini,Low,Email,A12,,4.0,Open
+T01423,2024-07-25 17:11,Phone Mini,Medium,Chat,A04,37.9,4.0,Closed
+T01424,2024-07-25 17:30,Phone X,High,Email,A02,12.2,5.0,Closed
+T01425,2024-07-25 22:18,Phone X,Low,Chat,A02,68.0,,Closed
+T01426,2024-07-25 23:55,Headphones,High,Email,A05,6.8,4.0,Closed
+T01427,2024-07-26 01:21,Phone X,HIGH,Email,A09,4.5,5.0,Closed
+T01428,2024-07-26 04:47,Headphones,Medium,Chat,A01,20.0,,Closed
+T01429,2024-07-26 09:09,Smartwatch,Medium,Phone,A04,25.7,4.0,Closed
+T01430,2024-07-26 09:42,Phone Mini,Medium,Chat,A09,41.5,,Closed
+T01431,2024-07-26 13:11,Laptop Air,High,Chat,A09,9.5,,Closed
+T01432,2024-07-26 16:57,Smartwatch,Medium,Email,A05,30.7,2.0,Closed
+T01433,2024-07-26 17:34,Laptop Air,Low,Chat,A02,21.7,5.0,Closed
+T01434,2024-07-26 20:04,Phone Mini,Medium,Phone,A02,17.6,4.0,Closed
+T01435,2024-07-26 21:30,Smartwatch,Medium,Chat,A11,16.3,5.0,Closed
+T01436,2024-07-27 00:10,Laptop Pro,Medium,Chat,A08,15.9,4.0,Closed
+T01437,2024-07-27 04:26,Smartwatch,Low,Email,A07,36.8,2.0,Closed
+T01438,2024-07-27 09:57,Laptop Air,Low,Phone,A10,24.6,4.0,Closed
+T01439,2024-07-27 12:05,Phone Mini,High,Email,A09,19.5,3.0,Closed
+T01440,2024-07-27 17:12,Laptop Pro,Low,Phone,A11,30.5,4.0,Closed
+T01441,2024-07-27 17:23,Smartwatch,Medium,Email,A10,35.0,3.0,Closed
+T01442,2024-07-27 19:38,Laptop Air,Medium,Email,A11,8.3,4.0,Closed
+T01443,2024-07-28 00:25,Headphones,High,Email,A06,6.9,4.0,Closed
+T01444,2024-07-28 08:38,Headphones,Low,Email,A03,43.4,3.0,Closed
+T01445,2024-07-28 14:54,Phone Mini,Urgent,Email,A01,5.3,4.0,Closed
+T01446,2024-07-28 18:41,Laptop Pro,Low,Chat,A03,48.8,,Closed
+T01447,2024-07-28 20:36,Phone Mini,Medium,Email,A06,52.7,3.0,Closed
+T01448,2024-07-29 01:56,Phone X,Medium,Email,A02,30.4,4.0,Closed
+T01449,2024-07-29 07:50,Headphones,Medium,Chat,A03,25.9,4.0,Closed
+T01450,2024-07-29 15:44,Headphones,High,Email,A02,9.4,,Closed
+T01451,2024-07-29 17:09,Laptop Air,Low,Email,A02,19.9,3.0,Closed
+T01452,2024-07-29 18:32,Smartwatch,Medium,Chat,A11,33.6,4.0,Closed
+T01453,2024-07-29 20:59,Laptop Pro,High,Email,A11,11.6,4.0,Closed
+T01454,2024-07-29 22:15,Phone Mini,Low,Email,A10,42.7,4.0,Closed
+T01455,2024-07-29 23:30,Phone X,Medium,Email,A01,29.5,4.0,Closed
+T01456,2024-07-29 23:32,Laptop Air,Medium,Chat,A01,71.9,3.0,Closed
+T01457,2024-07-30 02:33,Laptop Air,Medium,Chat,A01,21.3,4.0,Closed
+T01458,2024-07-30 05:10,Headphones,Low,Email,A12,26.8,4.0,Closed
+T01459,2024-07-30 08:52,Phone X,Medium,Chat,A06,36.5,3.0,Closed
+T01460,2024-07-30 12:50,Phone X,High,Email,A11,6.5,,Closed
+T01461,2024-07-30 16:29,Headphones,Low,Chat,A04,26.8,3.0,Closed
+T01462,2024-07-30 19:47,Smartwatch,Low,Chat,A09,28.0,4.0,Closed
+T01463,2024-07-30 23:21,Headphones,Medium,Chat,A06,21.4,,Closed
+T01464,2024-07-31 04:32,Phone X,High,Email,A07,17.1,4.0,Closed
+T01465,2024-07-31 04:49,Phone Mini,Low,Email,A09,42.4,3.0,Closed
+T01466,2024-07-31 07:01,Phone Mini,Medium,Chat,A09,19.4,,Closed
+T01467,2024-07-31 10:40,Headphones,Medium,Chat,A09,19.3,5.0,Closed
+T01468,2024-07-31 15:49,Phone X,High,Chat,A04,5.5,5.0,Closed
+T01469,2024-07-31 16:10,Headphones,Low,Email,A05,23.5,,Closed
+T01470,2024-07-31 19:34,Laptop Pro,Low,Chat,A08,23.5,4.0,Closed
+T01471,2024-07-31 20:49,Smartwatch,Medium,Email,A08,8.8,4.0,Closed
+T01472,2024-07-31 22:00,Headphones,Medium,Chat,A01,13.9,5.0,Closed
+T01473,2024-08-01 00:45,Headphones,Low,Chat,A08,27.8,4.0,Closed
+T01474,2024-08-01 06:59,Phone X, Medium ,Chat,A06,19.6,5.0,Closed
+T01475,2024-08-01 09:29,Laptop Air,High,Phone,A03,13.3,4.0,Closed
+T01476,2024-08-01 13:26,Smartwatch,Medium,Phone,A04,34.8,4.0,Closed
+T01477,2024-08-01 16:35,Phone X,Low,Email,A01,38.2,4.0,Closed
+T01478,2024-08-01 16:45,Laptop Air,Medium,Chat,A03,23.8,4.0,Closed
+T01479,2024-08-01 22:09,Laptop Pro,Urgent,Email,A01,4.2,3.0,Closed
+T01480,2024-08-02 02:52,Smartwatch,Urgent,Chat,A06,5.3,5.0,Closed
+T01481,2024-08-02 08:22,Smartwatch,Medium,Email,A04,22.4,3.0,Closed
+T01482,2024-08-02 09:14,Phone X,Low,Email,A08,56.8,2.0,Closed
+T01483,2024-08-02 11:27,Laptop Pro,Medium,Chat,A06,22.5,4.0,Closed
+T01484,2024-08-02 11:57,Laptop Pro,Low,Email,A09,27.1,,Closed
+T01485,2024-08-02 12:00,Phone Mini,Low,Email,A09,55.5,,Closed
+T01486,2024-08-02 14:08,Phone Mini,Medium,Chat,A09,7.9,5.0,Closed
+T01487,2024-08-02 14:12,Phone Mini,High,Chat,A10,4.2,4.0,Closed
+T01488,2024-08-02 20:54,Smartwatch,Medium,Email,A09,20.3,4.0,Closed
+T01489,2024-08-02 21:33,Laptop Pro,Urgent,Chat,A04,2.6,5.0,Closed
+T01490,2024-08-03 00:06,Smartwatch,Medium,Email,A07,29.1,3.0,Closed
+T01491,2024-08-03 00:58,Smartwatch,Medium,Email,A09,8.0,,Closed
+T01492,2024-08-03 03:02,Smartwatch,Medium,Email,A12,12.9,4.0,Closed
+T01493,2024-08-03 04:06,Phone Mini,Medium,Phone,A02,16.9,5.0,Closed
+T01494,2024-08-03 14:59,Laptop Air,Medium,Email,A02,33.9,3.0,Closed
+T01495,2024-08-03 20:45,Laptop Air,High,Email,A07,23.0,4.0,Closed
+T01496,2024-08-04 02:45,Smartwatch,Medium,Chat,A05,15.4,5.0,Closed
+T01497,2024-08-04 07:24,Laptop Pro,low,Email,A12,6.4,5.0,Closed
+T01498,2024-08-04 10:42,Phone Mini,Low,Email,A03,50.8,3.0,Closed
+T01499,2024-08-04 18:09,Headphones,Low,Phone,A06,45.0,3.0,Closed
+T01500,2024-08-05 01:29,Headphones,Low,Email,A10,71.4,2.0,Closed
+T01501,2024-08-05 05:21,Laptop Pro,Medium,Email,A06,102.7,,Closed
+T01502,2024-08-05 06:23,Laptop Air,Low,Email,A09,51.2,3.0,Closed
+T01503,2024-08-05 13:27,Headphones,URGENT,Email,A11,4.5,4.0,Closed
+T01504,2024-08-05 13:56,Phone Mini,Low,Email,A12,100.1,,Closed
+T01505,2024-08-05 21:26,Headphones,Medium,Email,A05,21.7,4.0,Closed
+T01506,2024-08-06 03:57,Laptop Air,Medium,Email,A07,115.7,1.0,Closed
+T01507,2024-08-06 04:49,Laptop Air,High,Email,A08,17.6,4.0,Closed
+T01508,2024-08-06 09:37,Laptop Pro,Medium,Chat,A08,39.7,3.0,Closed
+T01509,2024-08-06 13:25,Phone Mini,Low,Chat,A04,114.2,,Closed
+T01510,2024-08-06 18:30,Smartwatch,High,Email,A09,35.0,3.0,Closed
+T01511,2024-08-06 19:57,Phone X,Low,Chat,A05,60.3,3.0,Closed
+T01512,2024-08-06 22:26,Laptop Pro,Medium,Chat,A12,66.6,3.0,Closed
+T01513,2024-08-07 00:18,Laptop Air,Medium,Chat,A11,74.2,2.0,Closed
+T01514,2024-08-07 01:38,Phone Mini,High,Chat,A03,56.3,2.0,Closed
+T01515,2024-08-07 02:07,Phone X,Low,Email,A10,96.0,,Closed
+T01516,2024-08-07 02:08,Laptop Air,Medium,Phone,A11,82.3,2.0,Closed
+T01517,2024-08-07 03:03,Headphones,Low,Email,A04,54.7,2.0,Closed
+T01518,2024-08-07 03:41,Laptop Pro,Low,Chat,A04,74.8,2.0,Closed
+T01519,2024-08-07 05:45,Laptop Air,urgent,Phone,A04,4.5,4.0,Closed
+T01520,2024-08-07 07:10,Smartwatch,Low,Chat,A01,67.0,3.0,Closed
+T01521,2024-08-07 14:12,Headphones,Low,Phone,A03,,1.0,Open
+T01522,2024-08-07 15:43,Smartwatch,Medium,Chat,A06,78.5,2.0,Closed
+T01523,2024-08-07 16:53,Laptop Pro,Urgent,Chat,A08,20.9,,Closed
+T01524,2024-08-07 21:39,Smartwatch,Medium,Phone,A07,101.9,1.0,Closed
+T01525,2024-08-08 03:12,Smartwatch,High,Chat,A09,17.5,4.0,Closed
+T01526,2024-08-08 14:09,Phone X,Medium,Chat,A06,81.4,2.0,Closed
+T01527,2024-08-08 17:29,Headphones,High,Phone,A11,19.4,4.0,Closed
+T01528,2024-08-08 17:58,Laptop Pro,Low,Email,A01,97.0,,Closed
+T01529,2024-08-08 19:58,Phone X,High,Chat,A09,13.1,5.0,Closed
+T01530,2024-08-08 20:35,Headphones,High,Chat,A05,13.9,5.0,Closed
+T01531,2024-08-08 23:41,Headphones,Medium,Email,A01,50.5,,Closed
+T01532,2024-08-09 00:52,Phone X,Urgent,Email,A12,6.0,5.0,Closed
+T01533,2024-08-09 09:58,Laptop Pro,Medium,Email,A09,62.1,2.0,Closed
+T01534,2024-08-09 13:55,Laptop Pro,High,Chat,A02,30.5,4.0,Closed
+T01535,2024-08-09 18:22,Phone X,Low,Email,A06,95.3,1.0,Closed
+T01536,2024-08-10 06:52,Headphones,Low,Chat,A07,223.6,1.0,Closed
+T01537,2024-08-10 09:03,Laptop Air,Low,Email,A11,75.7,2.0,Closed
+T01538,2024-08-10 09:26,Phone Mini,Low,Chat,A02,104.9,1.0,Closed
+T01539,2024-08-10 12:51,Phone Mini,Low,Email,A09,92.5,,Closed
+T01540,2024-08-10 12:54,Laptop Pro,Medium,Chat,A02,99.4,3.0,Closed
+T01541,2024-08-10 17:34,Phone Mini,MEDIUM,Email,A04,52.5,3.0,Closed
+T01542,2024-08-10 19:11,Laptop Pro,Low,Email,A12,88.4,2.0,Closed
+T01543,2024-08-10 20:08,Laptop Pro,Medium,Email,A01,93.8,2.0,Closed
+T01544,2024-08-11 14:41,Laptop Air,Low,Email,A08,118.1,,Closed
+T01545,2024-08-11 16:37,Phone Mini,Low,Phone,A04,72.1,2.0,Closed
+T01546,2024-08-11 23:48,Headphones,Medium,Chat,A06,70.4,,Closed
+T01547,2024-08-12 02:57,Laptop Pro,Medium,Email,A01,15.7,3.0,Closed
+T01548,2024-08-12 03:15,Headphones,Medium,Chat,A09,22.3,,Closed
+T01549,2024-08-12 06:20,Headphones,Medium,Chat,A09,39.5,4.0,Closed
+T01550,2024-08-12 06:22,Smartwatch,Medium,Phone,A02,20.8,,Closed
+T01551,2024-08-12 08:31,Headphones,Low,Chat,A05,44.5,,Closed
+T01552,2024-08-12 13:10,Phone X,Medium,Email,A12,16.4,,Closed
+T01553,2024-08-12 13:58,Phone X,High,Chat,A06,5.5,4.0,Closed
+T01554,2024-08-12 19:29,Laptop Pro,Low,Email,A05,44.7,3.0,Closed
+T01555,2024-08-12 19:49,Smartwatch,Low,Chat,A01,14.0,5.0,Closed
+T01556,2024-08-13 01:38,Headphones,High,Chat,A11,7.3,5.0,Closed
+T01557,2024-08-13 11:20,Smartwatch,Medium,Email,A01,32.6,3.0,Closed
+T01558,2024-08-13 15:42,Laptop Pro,Medium,Phone,A07,37.2,3.0,Closed
+T01559,2024-08-13 15:52,Phone Mini,Medium,Email,A05,15.9,4.0,Closed
+T01560,2024-08-13 17:07,Phone Mini,Medium,Email,A11,12.6,5.0,Closed
+T01561,2024-08-13 22:13,Phone X,Low,Chat,A10,15.3,,Closed
+T01562,2024-08-14 02:34,Laptop Air,Medium,Email,A09,30.4,4.0,Closed
+T01563,2024-08-14 04:27,Smartwatch,Low,Phone,A05,23.7,4.0,Closed
+T01564,2024-08-14 10:20,Phone Mini,Urgent,Phone,A09,2.6,,Closed
+T01565,2024-08-14 23:55,Smartwatch,High,Phone,A07,47.9,3.0,Closed
+T01566,2024-08-14 23:59,Phone X,High,Phone,A05,6.8,5.0,Closed
+T01567,2024-08-15 03:59,Phone X,Medium,Email,A07,24.8,4.0,Closed
+T01568,2024-08-15 04:45,Smartwatch,Medium,Email,A04,30.6,,Closed
+T01569,2024-08-15 06:59,Smartwatch,Low,Phone,A06,44.2,3.0,Closed
+T01570,2024-08-15 11:19,Headphones,Low,Email,A04,28.2,,Closed
+T01571,2024-08-15 12:06,Smartwatch,Medium,Chat,A09,11.5,4.0,Closed
+T01572,2024-08-15 12:37,Phone X,low,Email,A03,72.5,2.0,Closed
+T01573,2024-08-15 15:46,Laptop Air,Low,Email,A10,,2.0,Open
+T01574,2024-08-15 19:16,Headphones,Medium,Chat,A05,62.3,3.0,Closed
+T01575,2024-08-15 23:14,Laptop Air,Urgent,Email,A06,4.1,4.0,Closed
+T01576,2024-08-16 02:15,Laptop Air,high,Phone,A07,25.8,4.0,Closed
+T01577,2024-08-16 03:05,Laptop Air,High,Phone,A12,8.8,4.0,Closed
+T01578,2024-08-16 04:36,Laptop Pro,Urgent,Email,A01,3.4,4.0,Closed
+T01579,2024-08-16 06:12,Laptop Air,High,Email,A10,4.7,5.0,Closed
+T01580,2024-08-16 09:03,Phone X,Medium,Phone,A09,21.1,,Closed
+T01581,2024-08-16 09:43,Phone X,High,Phone,A10,11.1,5.0,Closed
+T01582,2024-08-16 14:13,Phone X,High,Chat,A01,26.1,5.0,Closed
+T01583,2024-08-16 19:11,Phone X,Low,Chat,A04,35.4,4.0,Closed
+T01584,2024-08-17 00:43,Headphones,MEDIUM,Email,A06,16.5,,Closed
+T01585,2024-08-17 15:32,Smartwatch,Medium,Email,A06,15.0,4.0,Closed
+T01586,2024-08-17 17:23,Headphones,Medium,Email,A11,,,Open
+T01587,2024-08-17 19:02,Phone X,High,Email,A01,,5.0,Open
+T01588,2024-08-17 19:35,Laptop Air,Urgent,Email,A04,3.1,,Closed
+T01589,2024-08-17 19:52,Phone X,Low,Chat,A04,35.6,,Closed
+T01590,2024-08-17 21:20,Smartwatch,Low,Chat,A07,66.1,3.0,Closed
+T01591,2024-08-18 15:04,Phone Mini,Medium,Email,A04,12.0,4.0,Closed
+T01592,2024-08-18 16:22,Laptop Air,Medium,Email,A06,16.4,5.0,Closed
+T01593,2024-08-18 21:21,Smartwatch,Medium,Phone,A01,32.9,4.0,Closed
+T01594,2024-08-19 13:41,Laptop Air,Medium,Email,A07,72.2,2.0,Closed
+T01595,2024-08-19 19:13,Laptop Air,Medium,Email,A01,,4.0,Open
+T01596,2024-08-20 03:39,Phone X,Low,Email,A08,37.6,,Closed
+T01597,2024-08-20 07:12,Smartwatch,Low,Email,A04,37.0,3.0,Closed
+T01598,2024-08-20 15:46,Laptop Air,Medium,Email,A07,76.1,2.0,Closed
+T01599,2024-08-20 19:48,Laptop Pro,Low,Chat,A11,23.5,4.0,Closed
+T01600,2024-08-20 22:19,Phone X,Low,Email,A05,19.4,4.0,Closed
+T01601,2024-08-21 01:25,Smartwatch,Low,Email,A12,27.5,3.0,Closed
+T01602,2024-08-21 02:19,Phone X,Medium,Chat,A01,,4.0,Open
+T01603,2024-08-21 03:38,Phone X,Medium,Phone,A12,16.4,4.0,Closed
+T01604,2024-08-21 06:57,Headphones,LOW,Email,A12,16.1,4.0,Closed
+T01605,2024-08-21 07:43,Phone X,Medium,Phone,A09,26.3,4.0,Closed
+T01606,2024-08-21 12:21,Headphones,Medium,Email,A04,9.1,4.0,Closed
+T01607,2024-08-21 12:42,Smartwatch,Low,Email,A06,14.1,3.0,Closed
+T01608,2024-08-21 15:06,Phone X,Urgent,Email,A09,5.0,5.0,Closed
+T01609,2024-08-21 16:37,Smartwatch,Low,Email,A06,38.4,3.0,Closed
+T01610,2024-08-21 20:00,Phone X,Medium,Email,A08,20.3,3.0,Closed
+T01611,2024-08-21 22:07,Headphones,Low,Email,A07,78.9,1.0,Closed
+T01612,2024-08-22 04:15,Smartwatch,Medium,Chat,A12,40.8,4.0,Closed
+T01613,2024-08-22 05:49,Phone X,Medium,Email,A06,67.3,,Closed
+T01614,2024-08-22 11:57,Laptop Pro,Medium,Chat,A04,16.1,5.0,Closed
+T01615,2024-08-22 14:21,Headphones,High,Chat,A01,22.6,5.0,Closed
+T01616,2024-08-22 17:24,Phone X,Low,Chat,A12,28.0,4.0,Closed
+T01617,2024-08-23 04:03,Laptop Air,Medium,Chat,A04,39.6,4.0,Closed
+T01618,2024-08-23 15:27,Phone Mini, Low ,Email,A09,-24.9,4.0,Closed
+T01619,2024-08-24 04:42,Phone Mini,Low,Email,A12,30.3,3.0,Closed
+T01620,2024-08-24 09:21,Headphones,Medium,Phone,A03,19.3,,Closed
+T01621,2024-08-24 14:06,Headphones,Medium,Email,A07,19.4,5.0,Closed
+T01622,2024-08-24 22:05,Laptop Air,Medium,Chat,A01,29.7,,Closed
+T01623,2024-08-24 22:31,Laptop Pro,Low,Email,A02,84.0,1.0,Closed
+T01624,2024-08-24 23:02,Phone X,Medium,Email,A12,15.0,,Closed
+T01625,2024-08-24 23:17,Phone X,Low,Email,A07,57.0,4.0,Closed
+T01626,2024-08-25 05:29,Laptop Pro,Low,Chat,A02,,4.0,Open
+T01627,2024-08-25 09:59,Laptop Air,Low,Phone,A08,24.8,3.0,Closed
+T01628,2024-08-25 14:15,Phone X,Low,Chat,A09,7.8,5.0,Closed
+T01629,2024-08-25 19:40,Smartwatch,Medium,Email,A10,18.2,,Closed
+T01630,2024-08-26 00:27,Laptop Pro,Medium,Chat,A05,13.8,5.0,Closed
+T01631,2024-08-26 07:40,Phone X,Urgent,Chat,A11,5.8,4.0,Closed
+T01632,2024-08-26 08:12,Phone X,Medium,Phone,A07,23.7,3.0,Closed
+T01633,2024-08-26 14:06,Laptop Air,Medium,Email,A10,44.9,3.0,Closed
+T01634,2024-08-26 19:28,Laptop Pro,Medium,Chat,A05,40.9,3.0,Closed
+T01635,2024-08-26 19:37,Headphones,Medium,Email,A08,22.3,,Closed
+T01636,2024-08-26 22:35,Headphones,Low,Email,A05,,3.0,Open
+T01637,2024-08-26 22:36,Phone Mini,High,Chat,A01,10.4,4.0,Closed
+T01638,2024-08-27 00:06,Laptop Air,Medium,Chat,A06,,4.0,Open
+T01639,2024-08-27 02:40,Phone X,Medium,Chat,A04,22.4,4.0,Closed
+T01640,2024-08-27 06:20,Phone Mini,High,Chat,A05,11.4,4.0,Closed
+T01641,2024-08-27 07:09,Laptop Pro,Low,Email,A02,23.5,4.0,Closed
+T01642,2024-08-27 19:02,Phone X,High,Phone,A02,5.0,5.0,Closed
+T01643,2024-08-27 22:31,Smartwatch,Medium,Chat,A02,2000.0,4.0,Closed
+T01644,2024-08-28 00:54,Phone X,High,Chat,A08,7.1,5.0,Closed
+T01645,2024-08-28 08:06,Laptop Air,Medium,Chat,A11,21.2,4.0,Closed
+T01646,2024-08-28 09:43,Laptop Air,Medium,Chat,A06,20.5,4.0,Closed
+T01647,2024-08-28 15:12,Laptop Air,Medium,Email,A02,62.5,,Closed
+T01648,2024-08-28 22:47,Smartwatch,High,Chat,A12,13.9,5.0,Closed
+T01649,2024-08-29 01:42,Phone X,Medium,Email,A02,9.2,4.0,Closed
+T01650,2024-08-29 01:45,Laptop Air,Low,Phone,A02,18.8,,Closed
+T01651,2024-08-29 03:09,Headphones,Medium,Chat,A08,36.9,4.0,Closed
+T01652,2024-08-29 04:47,Laptop Air,Medium,Email,A07,48.6,3.0,Closed
+T01653,2024-08-29 05:27,Phone X,Medium,Email,A08,18.2,,Closed
+T01654,2024-08-29 07:33,Phone Mini,Low,Chat,A10,21.2,5.0,Closed
+T01655,2024-08-29 10:47,Phone X,Low,Phone,A09,39.5,,Closed
+T01656,2024-08-29 10:49,Laptop Pro,Medium,Email,A04,27.9,,Closed
+T01657,2024-08-29 11:25,Smartwatch,Medium,Email,A02,28.6,4.0,Closed
+T01658,2024-08-29 14:08,Laptop Air,Medium,Chat,A01,19.3,4.0,Closed
+T01659,2024-08-29 22:54,Phone X,High,Phone,A01,9.7,4.0,Closed
+T01660,2024-08-29 23:42,Phone Mini,High,Chat,A01,14.6,5.0,Closed
+T01661,2024-08-30 07:10,Laptop Air,Medium,Email,A06,33.5,4.0,Closed
+T01662,2024-08-30 09:54,Laptop Air,Medium,Email,A04,36.9,3.0,Closed
+T01663,2024-08-30 11:22,Smartwatch,Low,Email,A12,21.8,4.0,Closed
+T01664,2024-08-30 14:14,Phone X,LOW,Email,A07,79.8,1.0,Closed
+T01665,2024-08-30 14:47,Laptop Pro,Low,Chat,A11,40.8,3.0,Closed
+T01666,2024-08-30 15:22,Phone X,Low,Email,A09,22.5,4.0,Closed
+T01667,2024-08-30 15:40,Phone Mini,Medium,Email,A03,13.0,5.0,Closed
+T01668,2024-08-30 16:02,Phone X,Urgent,Email,A03,3.8,5.0,Closed
+T01669,2024-08-30 19:53,Phone X,Low,Chat,A12,51.3,4.0,Closed
+T01670,2024-08-30 21:02,Phone Mini,Medium,Phone,A03,9.7,5.0,Closed
+T01671,2024-08-30 22:50,Phone X,LOW,Email,A03,25.5,,Closed
+T01672,2024-08-31 03:03,Phone Mini,Medium,Chat,A07,34.0,3.0,Closed
+T01673,2024-08-31 08:29,Phone X,High,Email,A10,9.6,5.0,Closed
+T01674,2024-08-31 21:33,Phone X,Medium,Phone,A05,29.1,4.0,Closed
+T01675,2024-09-01 01:19,Smartwatch,Medium,Chat,A03,16.9,,Closed
+T01676,2024-09-01 02:14,Laptop Air,Medium,Email,A10,20.6,,Closed
+T01677,2024-09-01 03:04,Headphones,High,Phone,A04,15.7,,Closed
+T01678,2024-09-01 15:32,Smartwatch,Medium,Chat,A10,16.5,4.0,Closed
+T01679,2024-09-01 17:21,Smartwatch,Urgent,Chat,A06,2.0,5.0,Closed
+T01680,2024-09-01 19:13,Laptop Pro,Low,Email,A09,27.9,4.0,Closed
+T01681,2024-09-01 20:35,Phone X,Low,Phone,A01,35.5,4.0,Closed
+T01682,2024-09-01 22:57,Phone X,Medium,Chat,A04,21.4,,Closed
+T01683,2024-09-02 01:51,Smartwatch,Medium,Phone,A11,28.0,3.0,Closed
+T01684,2024-09-02 02:13,Phone X,Low,Email,A12,28.2,3.0,Closed
+T01685,2024-09-02 02:33,Laptop Pro,Medium,Email,A07,,3.0,Open
+T01686,2024-09-02 02:48,Smartwatch,Medium,Email,A03,25.1,4.0,Closed
+T01687,2024-09-02 04:08,Laptop Pro,Medium,Chat,A11,23.6,5.0,Closed
+T01688,2024-09-02 04:58,Smartwatch,Low,Email,A08,18.3,4.0,Closed
+T01689,2024-09-02 05:35,Laptop Pro,Medium,Email,A02,16.9,,Closed
+T01690,2024-09-02 06:36,Smartwatch,Urgent,Email,A12,4.1,4.0,Closed
+T01691,2024-09-02 09:32,Smartwatch,Low,Email,A10,,,Open
+T01692,2024-09-02 09:42,Smartwatch,Low,Phone,A03,22.8,,Closed
+T01693,2024-09-02 11:05,Smartwatch,Low,Phone,A04,35.4,4.0,Closed
+T01694,2024-09-02 12:14,Smartwatch,Low,Chat,A06,18.8,,Closed
+T01695,2024-09-02 13:48,Laptop Air,Urgent,Email,A05,5.5,5.0,Closed
+T01696,2024-09-02 13:59,Phone X,High,Email,A04,20.7,4.0,Closed
+T01697,2024-09-02 15:54,Headphones,Urgent,Phone,A01,4.6,5.0,Closed
+T01698,2024-09-02 17:54,Smartwatch,Low,Phone,A05,20.6,4.0,Closed
+T01699,2024-09-02 18:04,Laptop Air,Medium,Chat,A02,26.3,4.0,Closed
+T01700,2024-09-02 20:02,Phone X,Low,Phone,A12,16.8,,Closed
+T01701,2024-09-02 20:50,Headphones,Low,Email,A02,34.2,,Closed
+T01702,2024-09-03 01:28,Laptop Pro,High,Email,A07,23.6,,Closed
+T01703,2024-09-03 03:12,Smartwatch,Low,Phone,A11,44.9,2.0,Closed
+T01704,2024-09-03 04:19,Laptop Air,Low,Chat,A12,29.4,5.0,Closed
+T01705,2024-09-03 05:19,Smartwatch,Medium,Email,A03,14.1,4.0,Closed
+T01706,2024-09-03 09:25,Laptop Pro,High,Email,A10,8.2,4.0,Closed
+T01707,2024-09-03 10:53,Smartwatch,Medium,Email,A04,18.7,,Closed
+T01708,2024-09-03 11:15,Headphones,Medium,Phone,A02,13.2,4.0,Closed
+T01709,2024-09-03 13:48,Phone Mini,Low,Chat,A02,26.6,5.0,Closed
+T01710,2024-09-03 14:29,Phone X,Low,Email,A11,21.7,4.0,Closed
+T01711,2024-09-03 17:59,Laptop Air,Low,Email,A11,27.8,3.0,Closed
+T01712,2024-09-03 20:25,Smartwatch,Low,Chat,A08,36.0,4.0,Closed
+T01713,2024-09-03 20:37,Smartwatch,Medium,Email,A10,24.4,3.0,Closed
+T01714,2024-09-03 22:21,Phone X,Urgent,Chat,A12,2.1,,Closed
+T01715,2024-09-03 22:28,Smartwatch,Medium,Phone,A10,48.0,3.0,Closed
+T01716,2024-09-03 22:33,Smartwatch,Urgent,Phone,A09,2.3,4.0,Closed
+T01717,2024-09-04 00:13,Smartwatch,Medium,Chat,A09,19.4,5.0,Closed
+T01718,2024-09-04 02:38,Laptop Pro,Urgent,Chat,A01,4.3,4.0,Closed
+T01719,2024-09-04 03:04,Smartwatch,High,Chat,A11,20.1,5.0,Closed
+T01720,2024-09-04 04:39,Headphones,High,Chat,A02,7.3,4.0,Closed
+T01721,2024-09-04 04:52,Phone Mini,Low,Email,A07,32.9,4.0,Closed
+T01722,2024-09-04 06:24,Smartwatch,Medium,Chat,A12,19.7,5.0,Closed
+T01723,2024-09-04 07:02,Smartwatch,Medium,Chat,A04,9.4,,Closed
+T01724,2024-09-04 08:21,Laptop Air,Low,Phone,A10,,,Open
+T01725,2024-09-04 08:38,Laptop Pro,Low,Email,A10,9.1,5.0,Closed
+T01726,2024-09-04 08:54,Headphones,Low,Email,A12,18.7,4.0,Closed
+T01727,2024-09-04 12:14,Smartwatch,High,Email,A12,10.0,4.0,Closed
+T01728,2024-09-04 13:55,Smartwatch,Low,Email,A04,40.4,,Closed
+T01729,2024-09-04 14:43,Phone X,Low,Phone,A09,25.6,3.0,Closed
+T01730,2024-09-04 15:36,Headphones,Low,Email,A09,48.6,3.0,Closed
+T01731,2024-09-04 15:37,Phone Mini,Low,Chat,A04,32.8,,Closed
+T01732,2024-09-04 16:16,Phone X,Medium,Chat,A08,32.6,4.0,Closed
+T01733,2024-09-04 21:49,Headphones,Medium,Chat,A07,33.9,4.0,Closed
+T01734,2024-09-05 00:20,Smartwatch,High,Email,A06,10.1,4.0,Closed
+T01735,2024-09-05 00:22,Smartwatch,Low,Phone,A04,16.0,3.0,Closed
+T01736,2024-09-05 00:47,Smartwatch,Low,Chat,A01,17.4,4.0,Closed
+T01737,2024-09-05 01:42,Smartwatch,Low,Email,A03,24.3,,Closed
+T01738,2024-09-05 05:44,Smartwatch,High,Email,A04,8.9,4.0,Closed
+T01739,2024-09-05 06:44,Phone X,Medium,Chat,A09,,,Open
+T01740,2024-09-05 10:19,Smartwatch,Low,Email,A06,30.4,,Closed
+T01741,2024-09-05 12:32,Phone Mini,Medium,Email,A12,39.6,,Closed
+T01742,2024-09-05 15:49,Laptop Pro,MEDIUM,Chat,A06,8.5,5.0,Closed
+T01743,2024-09-05 16:19,Smartwatch,Medium,Phone,A09,21.8,3.0,Closed
+T01744,2024-09-05 18:27,Smartwatch,Low,Email,A02,31.8,4.0,Closed
+T01745,2024-09-05 20:10,Smartwatch,Medium,Email,A03,46.4,3.0,Closed
+T01746,2024-09-05 20:31,Smartwatch,Low,Chat,A07,30.1,4.0,Closed
+T01747,2024-09-05 21:49,Smartwatch,Low,Chat,A08,13.4,,Closed
+T01748,2024-09-05 22:49,Smartwatch,Low,Phone,A04,65.2,,Closed
+T01749,2024-09-06 02:04,Laptop Air,Medium,Email,A04,8.5,4.0,Closed
+T01750,2024-09-06 04:41,Smartwatch,High,Phone,A10,28.6,,Closed
+T01751,2024-09-06 04:42,Phone X,Medium,Email,A06,13.5,4.0,Closed
+T01752,2024-09-06 06:05,Smartwatch,Low,Phone,A12,32.8,4.0,Closed
+T01753,2024-09-06 06:28,Smartwatch,Medium,Email,A04,27.2,4.0,Closed
+T01754,2024-09-06 07:28,Smartwatch,Low,Chat,A05,16.2,,Closed
+T01755,2024-09-06 07:45,Phone X,Low,Email,A05,25.3,,Closed
+T01756,2024-09-06 10:13,Laptop Air,Medium,Email,A10,13.8,4.0,Closed
+T01757,2024-09-06 10:55,Smartwatch,Low,Chat,A02,54.4,3.0,Closed
+T01758,2024-09-06 11:39,Laptop Pro,Medium,Email,A02,11.5,,Closed
+T01759,2024-09-06 19:20,Phone X,Low,Chat,A11,53.7,3.0,Closed
+T01760,2024-09-06 20:08,Smartwatch,Low,Chat,A07,54.8,,Closed
+T01761,2024-09-06 21:57,Smartwatch,Medium,Phone,A06,12.2,5.0,Closed
+T01762,2024-09-07 01:45,Smartwatch,Medium,Chat,A08,7.2,5.0,Closed
+T01763,2024-09-07 02:05,Smartwatch,Medium,Phone,A05,18.9,4.0,Closed
+T01764,2024-09-07 06:53,Smartwatch,Urgent,Chat,A05,5.6,,Closed
+T01765,2024-09-07 13:27,Phone X,High,Email,A04,11.7,3.0,Closed
+T01766,2024-09-07 16:19,Smartwatch,Low,Chat,A09,54.3,2.0,Closed
+T01767,2024-09-07 20:06,Smartwatch,Low,Chat,A09,17.9,3.0,Closed
+T01768,2024-09-07 20:39,Headphones,High,Email,A08,8.9,5.0,Closed
+T01769,2024-09-08 01:23,Phone X,High,Chat,A08,7.5,4.0,Closed
+T01770,2024-09-08 02:02,Smartwatch,Low,Chat,A03,11.8,5.0,Closed
+T01771,2024-09-08 02:35,Smartwatch,High,Chat,A07,14.1,5.0,Closed
+T01772,2024-09-08 03:43,Laptop Pro,High,Phone,A06,6.7,4.0,Closed
+T01773,2024-09-08 05:14,Smartwatch,Low,Chat,A02,39.0,4.0,Closed
+T01774,2024-09-08 05:26,Smartwatch,Low,Email,A10,22.3,3.0,Closed
+T01775,2024-09-08 05:39,Laptop Air,High,Phone,A09,11.2,5.0,Closed
+T01776,2024-09-08 08:53,Laptop Pro,Low,Chat,A01,25.5,4.0,Closed
+T01777,2024-09-08 08:57,Smartwatch,Medium,Chat,A02,16.9,4.0,Closed
+T01778,2024-09-08 12:11,Smartwatch,Urgent,Phone,A01,8.9,5.0,Closed
+T01779,2024-09-08 20:09,Headphones,High,Phone,A01,19.6,4.0,Closed
+T01780,2024-09-08 20:18,Smartwatch,Medium,Chat,A09,10.0,5.0,Closed
+T01781,2024-09-08 23:16,Smartwatch,Low,Email,A11,53.4,,Closed
+T01782,2024-09-08 23:50,Laptop Pro,MEDIUM,Chat,A07,42.0,3.0,Closed
+T01783,2024-09-08 23:59,Smartwatch,High,Email,A07,52.4,2.0,Closed
+T01784,2024-09-09 03:07,Headphones,Medium,Chat,A10,27.2,4.0,Closed
+T01785,2024-09-09 04:47,Headphones,Medium,Chat,A02,,5.0,Open
+T01786,2024-09-09 06:54,Phone X,High,Email,A10,16.3,4.0,Closed
+T01787,2024-09-09 11:48,Laptop Air,High,Email,A12,,,Open
+T01788,2024-09-09 17:09,Smartwatch,Medium,Phone,A06,32.6,5.0,Closed
+T01789,2024-09-09 19:16,Phone X,Urgent,Chat,A01,6.8,5.0,Closed
+T01790,2024-09-09 19:36,Laptop Pro,Medium,Email,A08,10.3,,Closed
+T01791,2024-09-09 22:16,Smartwatch,LOW,Email,A05,28.2,3.0,Closed
+T01792,2024-09-09 23:03,Headphones,Low,Email,A01,20.2,4.0,Closed
+T01793,2024-09-09 23:07,Headphones,Medium,Phone,A01,12.1,,Closed
+T01794,2024-09-09 23:54,Phone X, Low ,Chat,A09,24.2,4.0,Closed
+T01795,2024-09-10 01:56,Smartwatch,Urgent,Email,A05,4.0,4.0,Closed
+T01796,2024-09-10 04:07,Phone X,Low,Email,A02,49.5,,Closed
+T01797,2024-09-10 12:29,Headphones,Low,Phone,A02,10.2,5.0,Closed
+T01798,2024-09-10 12:42,Phone Mini,Medium,Chat,A03,14.9,,Closed
+T01799,2024-09-10 13:26,Phone X,High,Phone,A04,14.0,,Closed
+T01800,2024-09-10 13:44,Laptop Air,Low,Email,A11,31.9,,Closed
+T01801,2024-09-10 15:11,Phone X,Low,Email,A12,26.8,3.0,Closed
+T01802,2024-09-10 16:56,Laptop Pro,Medium,Email,A08,21.0,3.0,Closed
+T01803,2024-09-10 19:12,Phone X,High,Email,A05,7.1,,Closed
+T01804,2024-09-10 22:16,Phone X,Medium,Chat,A05,9.3,4.0,Closed
+T01805,2024-09-10 22:48,Smartwatch,Low,Chat,A01,18.6,,Closed
+T01806,2024-09-10 23:50,Smartwatch,Low,Email,A08,27.7,3.0,Closed
+T01807,2024-09-11 00:19,Smartwatch,High,Chat,A06,10.0,,Closed
+T01808,2024-09-11 03:19,Smartwatch,Low,Phone,A12,23.5,4.0,Closed
+T01809,2024-09-11 06:05,Smartwatch,Low,Phone,A01,31.0,4.0,Closed
+T01810,2024-09-11 06:24,Smartwatch,Low,Chat,A07,183.0,1.0,Closed
+T01811,2024-09-11 07:28,Headphones,Medium,Phone,A11,33.4,4.0,Closed
+T01812,2024-09-11 08:35,Phone X,Urgent,Phone,A01,5.0,5.0,Closed
+T01813,2024-09-11 10:28,Laptop Air,Medium,Email,A06,18.1,4.0,Closed
+T01814,2024-09-11 16:29,Smartwatch,High,Chat,A01,7.2,,Closed
+T01815,2024-09-11 19:09,Laptop Air,Urgent,Email,A05,3.3,5.0,Closed
+T01816,2024-09-12 02:19,Phone X,Urgent,Phone,A02,6.7,,Closed
+T01817,2024-09-12 07:31,Smartwatch,Medium,Phone,A08,15.4,3.0,Closed
+T01818,2024-09-12 11:52,Headphones,Low,Email,A06,24.7,3.0,Closed
+T01819,2024-09-12 17:48,Phone Mini,Medium,Email,A08,16.1,4.0,Closed
+T01820,2024-09-12 22:26,Smartwatch,Low,Email,A11,34.7,4.0,Closed
+T01821,2024-09-12 22:44,Laptop Air,Low,Email,A11,33.4,4.0,Closed
+T01822,2024-09-13 00:18,Headphones,Medium,Email,A10,17.6,4.0,Closed
+T01823,2024-09-13 03:24,Laptop Air,Medium,Phone,A10,22.9,4.0,Closed
+T01824,2024-09-13 05:04,Laptop Air,Medium,Email,A10,29.5,,Closed
+T01825,2024-09-13 05:28,Laptop Air,Low,Chat,A03,25.5,5.0,Closed
+T01826,2024-09-13 08:03,Smartwatch,Low,Phone,A04,32.4,,Closed
+T01827,2024-09-13 12:33,Smartwatch,Low,Chat,A08,15.9,5.0,Closed
+T01828,2024-09-13 12:40,Smartwatch,High,Email,A01,10.8,4.0,Closed
+T01829,2024-09-13 15:25,Smartwatch,Medium,Chat,A01,38.2,3.0,Closed
+T01830,2024-09-13 16:32,Phone Mini,Medium,Email,A10,15.2,4.0,Closed
+T01831,2024-09-13 20:33,Phone Mini,Medium,Phone,A06,12.3,5.0,Closed
+T01832,2024-09-13 22:53,Smartwatch,LOW,Email,A03,,3.0,Open
+T01833,2024-09-13 23:35,Smartwatch,Medium,Email,A12,34.2,4.0,Closed
+T01834,2024-09-14 05:17,Smartwatch,High,Chat,A05,13.4,5.0,Closed
+T01835,2024-09-14 05:46,Smartwatch,Low,Email,A12,18.8,4.0,Closed
+T01836,2024-09-14 08:14,Phone X,Low,Phone,A01,26.0,4.0,Closed
+T01837,2024-09-14 12:04,Phone Mini,High,Chat,A12,,5.0,Open
+T01838,2024-09-14 15:13,Headphones,Low,Chat,A01,21.8,5.0,Closed
+T01839,2024-09-14 19:53,Laptop Air,Medium,Email,A04,37.8,3.0,Closed
+T01840,2024-09-14 20:44,Smartwatch,Low,Chat,A04,52.6,2.0,Closed
+T01841,2024-09-15 00:00,Phone X,Low,Phone,A12,50.2,2.0,Closed
+T01842,2024-09-15 02:45,Headphones,High,Chat,A05,6.4,5.0,Closed
+T01843,2024-09-15 05:27,Phone Mini,Medium,Chat,A09,32.6,4.0,Closed
+T01844,2024-09-15 06:27,Smartwatch,Low,Email,A03,53.8,3.0,Closed
+T01845,2024-09-15 09:57,Smartwatch,Urgent,Email,A05,6.1,4.0,Closed
+T01846,2024-09-15 11:43,Laptop Pro,High,Email,A10,14.9,,Closed
+T01847,2024-09-15 15:07,Headphones,Low,Email,A12,150.9,1.0,Closed
+T01848,2024-09-15 15:09,Smartwatch,Urgent,Email,A06,3.9,5.0,Closed
+T01849,2024-09-15 18:21,Smartwatch,Low,Email,A02,27.8,3.0,Closed
+T01850,2024-09-15 19:46,Smartwatch,Low,Email,A02,45.9,3.0,Closed
+T01851,2024-09-15 21:14,Laptop Pro,Medium,Phone,A01,10.7,4.0,Closed
+T01852,2024-09-15 22:37,Phone X,Low,Chat,A10,22.4,5.0,Closed
+T01853,2024-09-16 00:38,Phone X,Urgent,Email,A03,11.0,4.0,Closed
+T01854,2024-09-16 03:08,Smartwatch,Medium,Chat,A02,50.5,3.0,Closed
+T01855,2024-09-16 05:19,Smartwatch,High,Chat,A08,6.9,,Closed
+T01856,2024-09-16 09:46,Laptop Pro,Low,Chat,A08,47.0,,Closed
+T01857,2024-09-16 13:14,Smartwatch,Medium,Email,A10,18.0,3.0,Closed
+T01858,2024-09-16 18:40,Phone X,Medium,Phone,A08,16.3,4.0,Closed
+T01859,2024-09-16 22:28,Phone Mini,Medium,Phone,A06,18.6,4.0,Closed
+T01860,2024-09-16 23:27,Smartwatch,Low,Email,A05,36.5,4.0,Closed
+T01861,2024-09-17 00:08,Smartwatch,Low,Chat,A10,65.2,3.0,Closed
+T01862,2024-09-17 00:31,Smartwatch,Low,Email,A12,19.4,4.0,Closed
+T01863,2024-09-17 05:07,Smartwatch,Urgent,Chat,A02,1.7,4.0,Closed
+T01864,2024-09-17 05:17,Laptop Pro,Medium,Phone,A06,,3.0,Open
+T01865,2024-09-17 05:28,Headphones,Medium,Phone,A12,30.1,3.0,Closed
+T01866,2024-09-17 07:05,Smartwatch,Low,Phone,A04,25.5,4.0,Closed
+T01867,2024-09-17 09:05,Laptop Pro,Medium,Chat,A06,15.1,,Closed
+T01868,2024-09-17 10:22,Smartwatch,Low,Phone,A07,128.5,,Closed
+T01869,2024-09-17 14:47,Smartwatch,Medium,Phone,A02,20.8,3.0,Closed
+T01870,2024-09-17 21:30,Headphones,Low,Chat,A09,,3.0,Open
+T01871,2024-09-17 23:14,Smartwatch,Low,Chat,A02,34.2,4.0,Closed
+T01872,2024-09-17 23:28,Smartwatch,Medium,Chat,A12,20.2,4.0,Closed
+T01873,2024-09-18 08:51,Laptop Air,MEDIUM,Chat,A10,12.0,4.0,Closed
+T01874,2024-09-18 09:58,Phone Mini,Low,Chat,A04,50.0,3.0,Closed
+T01875,2024-09-18 09:59,Phone Mini,Medium,Chat,A10,42.4,,Closed
+T01876,2024-09-18 12:47,Smartwatch,Medium,Email,A10,9.2,4.0,Closed
+T01877,2024-09-18 13:05,Laptop Air,Medium,Chat,A01,,,Open
+T01878,2024-09-18 15:08,Phone Mini,Medium,Chat,A12,21.6,4.0,Closed
+T01879,2024-09-18 19:10,Phone X,Urgent,Email,A12,2.3,5.0,Closed
+T01880,2024-09-19 00:23,Smartwatch,Low,Email,A01,30.4,3.0,Closed
+T01881,2024-09-19 02:20,Smartwatch,Low,Email,A08,24.6,3.0,Closed
+T01882,2024-09-19 03:28,Laptop Air,Low,Chat,A08,55.8,,Closed
+T01883,2024-09-19 03:50,Laptop Air,Low,Chat,A07,68.0,3.0,Closed
+T01884,2024-09-19 10:38,Phone X,High,Email,A09,10.6,4.0,Closed
+T01885,2024-09-19 12:45,Smartwatch,Medium,Phone,A06,21.2,4.0,Closed
+T01886,2024-09-19 12:54,Headphones,Medium,Email,A01,17.5,4.0,Closed
+T01887,2024-09-19 18:10,Headphones,Low,Phone,A02,43.4,,Closed
+T01888,2024-09-19 18:47,Smartwatch,Low,Chat,A11,49.7,3.0,Closed
+T01889,2024-09-19 21:24,Laptop Pro,Low,Phone,A10,55.2,3.0,Closed
+T01890,2024-09-19 21:49,Laptop Air,Medium,Chat,A09,20.5,4.0,Closed
+T01891,2024-09-19 21:54,Smartwatch,Low,Email,A06,22.4,3.0,Closed
+T01892,2024-09-20 00:41,Phone Mini,Medium,Chat,A02,20.2,5.0,Closed
+T01893,2024-09-20 00:46,Laptop Pro,Medium,Chat,A08,27.4,,Closed
+T01894,2024-09-20 01:46,Smartwatch,Urgent,Email,A09,2.5,4.0,Closed
+T01895,2024-09-20 07:53,Phone X,High,Chat,A08,9.2,5.0,Closed
+T01896,2024-09-20 10:07,Smartwatch,Low,Email,A02,51.2,,Closed
+T01897,2024-09-20 12:46,Laptop Air,Medium,Email,A04,33.8,3.0,Closed
+T01898,2024-09-20 18:52,Phone X,Medium,Phone,A11,10.6,,Closed
+T01899,2024-09-20 19:56,Smartwatch,Low,Chat,A03,48.8,3.0,Closed
+T01900,2024-09-20 23:28,Smartwatch,High,Email,A09,2000.0,4.0,Closed
+T01901,2024-09-21 00:14,Headphones,Low,Phone,A01,36.9,3.0,Closed
+T01902,2024-09-21 03:24,Phone Mini,Urgent,Email,A03,3.0,4.0,Closed
+T01903,2024-09-21 08:02,Smartwatch,Medium,Email,A04,19.6,4.0,Closed
+T01904,2024-09-21 09:24,Smartwatch,Medium,Phone,A08,21.5,4.0,Closed
+T01905,2024-09-21 15:23,Smartwatch,Low,Chat,A03,55.3,3.0,Closed
+T01906,2024-09-21 17:49,Phone X,Low,Email,A10,31.6,,Closed
+T01907,2024-09-21 18:50,Phone X,Medium,Email,A10,13.6,3.0,Closed
+T01908,2024-09-22 01:37,Smartwatch,High,Email,A05,11.0,4.0,Closed
+T01909,2024-09-22 03:39,Phone Mini,Low,Chat,A07,56.2,3.0,Closed
+T01910,2024-09-22 05:27,Smartwatch,Low,Email,A04,13.5,4.0,Closed
+T01911,2024-09-22 09:12,Smartwatch,Medium,Chat,A02,13.8,4.0,Closed
+T01912,2024-09-22 15:41,Smartwatch,Urgent,Email,A06,10.1,5.0,Closed
+T01913,2024-09-22 16:25,Headphones,Low,Chat,A05,60.1,,Closed
+T01914,2024-09-22 17:45,Laptop Pro,Medium,Email,A07,60.8,2.0,Closed
+T01915,2024-09-22 18:28,Phone Mini,Medium,Email,A05,26.4,4.0,Closed
+T01916,2024-09-22 21:50,Phone X,Low,Chat,A11,22.2,,Closed
+T01917,2024-09-22 21:59,Smartwatch,Urgent,Chat,A09,7.0,,Closed
+T01918,2024-09-22 23:27,Smartwatch,Medium,Email,A08,,4.0,Open
+T01919,2024-09-23 01:06,Laptop Pro,Low,Email,A01,43.5,2.0,Closed
+T01920,2024-09-23 01:09,Smartwatch,Low,Email,A01,,4.0,Open
+T01921,2024-09-23 04:20,Smartwatch,Medium,Phone,A10,13.0,4.0,Closed
+T01922,2024-09-23 08:00,Phone Mini,Medium,Chat,A02,32.4,3.0,Closed
+T01923,2024-09-23 09:46,Headphones,Medium,Email,A10,22.0,4.0,Closed
+T01924,2024-09-23 11:05,Headphones,Urgent,Email,A07,11.9,4.0,Closed
+T01925,2024-09-23 12:00,Phone X,Low,Chat,A04,52.9,3.0,Closed
+T01926,2024-09-23 15:22,Smartwatch,High,Email,A01,5.6,,Closed
+T01927,2024-09-23 15:22,Headphones,Medium,Email,A04,6.7,4.0,Closed
+T01928,2024-09-23 15:30,Smartwatch,Medium,Chat,A10,17.7,4.0,Closed
+T01929,2024-09-23 15:31,Phone Mini,Low,Email,A03,33.9,3.0,Closed
+T01930,2024-09-23 15:32,Smartwatch,Medium,Chat,A04,14.8,5.0,Closed
+T01931,2024-09-23 21:03,Phone X,High,Email,A09,10.7,4.0,Closed
+T01932,2024-09-23 23:02,Laptop Pro,Medium,Chat,A08,11.4,4.0,Closed
+T01933,2024-09-24 01:36,Laptop Air,High,Email,A07,24.0,4.0,Closed
+T01934,2024-09-24 01:39,Smartwatch,Medium,Phone,A01,6.7,5.0,Closed
+T01935,2024-09-24 01:45,Smartwatch,High,Chat,A11,,3.0,Open
+T01936,2024-09-24 03:54,Smartwatch,Low,Chat,A10,40.7,4.0,Closed
+T01937,2024-09-24 06:56,Phone X,Low,Phone,A09,30.7,3.0,Closed
+T01938,2024-09-24 09:48,Phone X,Low,Email,A06,37.9,,Closed
+T01939,2024-09-24 11:05,Headphones,Medium,Email,A06,26.1,4.0,Closed
+T01940,2024-09-24 12:39,Smartwatch,Medium,Email,A05,24.8,4.0,Closed
+T01941,2024-09-24 20:20,Phone X,Medium,Email,A09,21.6,4.0,Closed
+T01942,2024-09-24 21:52,Smartwatch,High,Email,A12,12.6,5.0,Closed
+T01943,2024-09-24 23:11,Smartwatch,Low,Email,A08,,,Open
+T01944,2024-09-24 23:50,Smartwatch,Medium,Phone,A08,15.6,4.0,Closed
+T01945,2024-09-25 00:57,Phone X,High,Email,A12,7.1,4.0,Closed
+T01946,2024-09-25 00:58,Smartwatch,Low,Chat,A01,42.4,,Closed
+T01947,2024-09-25 02:06,Phone X,Medium,Email,A04,12.0,4.0,Closed
+T01948,2024-09-25 02:56,Laptop Air,Low,Email,A03,22.8,4.0,Closed
+T01949,2024-09-25 08:48,Laptop Air,Low,Chat,A04,10.4,,Closed
+T01950,2024-09-25 10:05,Smartwatch,Low,Chat,A06,13.5,4.0,Closed
+T01951,2024-09-25 14:04,Headphones,Medium,Email,A04,17.5,,Closed
+T01952,2024-09-25 14:49,Phone X,Low,Chat,A11,44.0,,Closed
+T01953,2024-09-25 15:13,Phone Mini,Low,Phone,A12,15.5,4.0,Closed
+T01954,2024-09-25 20:05,Smartwatch,Medium,Email,A09,21.5,4.0,Closed
+T01955,2024-09-25 22:19,Headphones,Medium,Email,A05,14.4,4.0,Closed
+T01956,2024-09-25 22:33,Smartwatch,Low,Email,A02,30.2,3.0,Closed
+T01957,2024-09-25 23:17,Smartwatch,Medium,Chat,A11,,5.0,Open
+T01958,2024-09-26 02:35,Smartwatch,Medium,Phone,A07,43.0,3.0,Closed
+T01959,2024-09-26 03:15,Smartwatch,Medium,Phone,A09,,4.0,Open
+T01960,2024-09-26 04:24,Phone Mini,Medium,Chat,A08,35.1,4.0,Closed
+T01961,2024-09-26 06:43,Smartwatch,Low,Email,A11,18.4,5.0,Closed
+T01962,2024-09-26 07:47,Laptop Air,Urgent,Chat,A12,3.9,5.0,Closed
+T01963,2024-09-26 08:49,Laptop Air, Medium ,Chat,A07,30.4,4.0,Closed
+T01964,2024-09-26 13:45,Smartwatch,Urgent,Email,A10,4.2,4.0,Closed
+T01965,2024-09-26 15:56,Smartwatch,Medium,Email,A06,24.4,3.0,Closed
+T01966,2024-09-26 21:21,Smartwatch,High,Chat,A02,9.2,5.0,Closed
+T01967,2024-09-27 01:01,Smartwatch,Medium,Email,A07,38.3,4.0,Closed
+T01968,2024-09-27 05:49,Smartwatch,Low,Email,A02,48.6,2.0,Closed
+T01969,2024-09-27 06:13,Smartwatch,Low,Phone,A11,21.1,4.0,Closed
+T01970,2024-09-27 09:23,Phone X,Medium,Email,A05,16.9,3.0,Closed
+T01971,2024-09-27 14:47,Smartwatch,Medium,Email,A04,16.9,4.0,Closed
+T01972,2024-09-27 21:48,Smartwatch,Medium,Email,A09,,3.0,Open
+T01973,2024-09-28 01:49,Smartwatch,Urgent,Email,A05,4.4,4.0,Closed
+T01974,2024-09-28 04:19,Laptop Air,High,Email,A05,9.0,,Closed
+T01975,2024-09-28 04:45,Smartwatch,Low,Email,A08,32.9,2.0,Closed
+T01976,2024-09-28 11:03,Smartwatch,Low,Chat,A02,25.9,4.0,Closed
+T01977,2024-09-28 12:08,Smartwatch,Medium,Chat,A06,15.7,4.0,Closed
+T01978,2024-09-28 15:13,Phone X,Medium,Phone,A07,40.6,3.0,Closed
+T01979,2024-09-28 17:01,Headphones,Medium,Chat,A01,13.7,4.0,Closed
+T01980,2024-09-28 17:06,Phone X,Medium,Phone,A05,10.3,5.0,Closed
+T01981,2024-09-28 17:11,Phone Mini,Medium,Email,A06,18.6,,Closed
+T01982,2024-09-28 17:42,Smartwatch,Medium,Chat,A06,16.5,4.0,Closed
+T01983,2024-09-28 18:23,Phone Mini,Low,Email,A12,22.7,4.0,Closed
+T01984,2024-09-28 20:52,Smartwatch,Low,Email,A02,47.5,2.0,Closed
+T01985,2024-09-28 21:18,Smartwatch,High,Email,A04,10.4,4.0,Closed
+T01986,2024-09-29 00:05,Laptop Air,Low,Email,A10,31.2,3.0,Closed
+T01987,2024-09-29 00:45,Smartwatch,Low,Phone,A05,58.6,,Closed
+T01988,2024-09-29 01:51,Phone X,Low,Email,A02,87.2,2.0,Closed
+T01989,2024-09-29 02:10,Phone X,Medium,Email,A11,14.6,5.0,Closed
+T01990,2024-09-29 06:10,Smartwatch,Low,Chat,A05,26.5,4.0,Closed
+T01991,2024-09-29 06:42,Phone X,Medium,Email,A12,5.6,,Closed
+T01992,2024-09-29 09:00,Smartwatch,Medium,Email,A04,13.4,,Closed
+T01993,2024-09-29 09:21,Phone Mini,High,Chat,A02,21.3,,Closed
+T01994,2024-09-29 16:17,Smartwatch,Low,Chat,A05,22.6,4.0,Closed
+T01995,2024-09-29 18:25,Phone X,Urgent,Phone,A01,3.6,4.0,Closed
+T01996,2024-09-29 20:05,Laptop Pro,High,Email,A04,10.3,4.0,Closed
+T01997,2024-09-30 00:03,Laptop Air,Medium,Chat,A02,33.0,3.0,Closed
+T01998,2024-09-30 00:11,Phone X,Medium,Email,A09,16.0,4.0,Closed
+T01999,2024-09-30 03:28,Smartwatch,Medium,Email,A02,13.6,,Closed
+T02000,2024-09-30 03:33,Phone X,Low,Email,A01,21.9,,Closed
+T02001,2024-09-30 07:59,Phone X,Low,Chat,A05,,4.0,Open
+T02002,2024-09-30 09:34,Phone X,High,Email,A12,10.4,5.0,Closed
+T02003,2024-09-30 15:11,Smartwatch,Medium,Chat,A05,23.9,4.0,Closed
+T02004,2024-09-30 15:39,Phone X,High,Email,A02,7.5,4.0,Closed
+T02005,2024-09-30 17:58,Headphones,Low,Chat,A12,16.5,4.0,Closed
+T02006,2024-09-30 19:22,Smartwatch,Medium,Chat,A11,68.2,,Closed
+T02007,2024-09-30 19:51,Smartwatch,Medium,Chat,A07,52.4,3.0,Closed
+T02008,2024-09-30 19:51,Phone Mini,High,Chat,A01,18.0,5.0,Closed
+T02009,2024-09-30 20:07,Smartwatch,Medium,Email,A08,23.5,3.0,Closed
+T02010,2024-09-30 21:48,Smartwatch,Low,Chat,A04,37.2,4.0,Closed
+T02011,2024-10-01 00:16,Smartwatch,Medium,Email,A12,15.9,4.0,Closed
+T02012,2024-10-01 05:42,Phone X,Low,Chat,A06,19.1,4.0,Closed
+T02013,2024-10-01 05:54,Laptop Pro,Low,Email,A01,32.8,3.0,Closed
+T02014,2024-10-01 10:04,Laptop Pro,High,Chat,A04,5.8,5.0,Closed
+T02015,2024-10-01 10:29,Phone X,Medium,Chat,A09,27.5,,Closed
+T02016,2024-10-01 17:38,Headphones,Low,Email,A05,26.7,4.0,Closed
+T02017,2024-10-01 19:13,Phone Mini,Low,Email,A10,31.9,4.0,Closed
+T02018,2024-10-01 19:37,Laptop Air,Low,Chat,A09,71.2,2.0,Closed
+T02019,2024-10-01 21:21,Phone Mini,High,Chat,A02,13.1,4.0,Closed
+T02020,2024-10-02 01:32,Phone Mini,High,Email,A02,18.2,,Closed
+T02021,2024-10-02 05:41,Laptop Pro,Medium,Email,A03,10.9,4.0,Closed
+T02022,2024-10-02 06:26,Laptop Air,Medium,Email,A05,27.1,3.0,Closed
+T02023,2024-10-02 10:32,Headphones,Urgent,Chat,A01,2.9,5.0,Closed
+T02024,2024-10-02 19:25,Phone X,Low,Chat,A02,,3.0,Open
+T02025,2024-10-02 20:03,Smartwatch,Low,Phone,A02,25.7,,Closed
+T02026,2024-10-03 03:20,Laptop Air,High,Chat,A04,18.7,4.0,Closed
+T02027,2024-10-03 08:34,Laptop Pro,Medium,Chat,A05,46.9,,Closed
+T02028,2024-10-03 10:59,Phone X,High,Phone,A02,10.0,5.0,Closed
+T02029,2024-10-03 17:02,Headphones,Medium,Chat,A12,10.3,5.0,Closed
+T02030,2024-10-03 17:04,Smartwatch,High,Phone,A03,21.4,,Closed
+T02031,2024-10-03 19:58,Laptop Pro,Medium,Email,A02,20.6,4.0,Closed
+T02032,2024-10-03 23:32,Phone X,Low,Chat,A09,28.9,4.0,Closed
+T02033,2024-10-04 06:17,Laptop Air,Medium,Chat,A11,15.8,5.0,Closed
+T02034,2024-10-04 08:38,Laptop Pro,High,Phone,A02,9.2,4.0,Closed
+T02035,2024-10-04 15:31,Phone X,Low,Email,A04,17.2,4.0,Closed
+T02036,2024-10-04 16:01,Smartwatch,High,Phone,A11,,5.0,Open
+T02037,2024-10-04 21:31,Headphones,Medium,Chat,A12,19.6,4.0,Closed
+T02038,2024-10-04 22:26,Phone X,High,Chat,A01,27.0,,Closed
+T02039,2024-10-05 04:25,Laptop Pro,Low,Email,A07,88.3,1.0,Closed
+T02040,2024-10-05 04:26,Laptop Pro,Low,Email,A10,25.0,4.0,Closed
+T02041,2024-10-05 06:44,Laptop Air,Medium,Email,A01,21.0,4.0,Closed
+T02042,2024-10-05 14:04,Phone X,Medium,Phone,A03,,,Open
+T02043,2024-10-05 17:30,Phone X,High,Phone,A12,9.1,4.0,Closed
+T02044,2024-10-05 19:09,Phone X,Medium,Chat,A02,16.5,,Closed
+T02045,2024-10-05 19:26,Laptop Pro,Medium,Phone,A01,12.2,3.0,Closed
+T02046,2024-10-05 21:41,Laptop Pro,High,Email,A02,14.6,4.0,Closed
+T02047,2024-10-05 23:25,Smartwatch,Urgent,Phone,A02,5.7,5.0,Closed
+T02048,2024-10-06 02:19,Headphones,Low,Email,A09,33.8,3.0,Closed
+T02049,2024-10-06 03:27,Phone X,Low,Chat,A04,20.6,5.0,Closed
+T02050,2024-10-06 23:35,Headphones,Medium,Email,A03,25.0,3.0,Closed
+T02051,2024-10-07 01:16,Smartwatch,Urgent,Phone,A04,4.4,4.0,Closed
+T02052,2024-10-07 08:32,Phone Mini,Low,Chat,A06,16.4,,Closed
+T02053,2024-10-07 08:33,Phone X,High,Email,A02,7.4,5.0,Closed
+T02054,2024-10-07 12:21,Phone X,Medium,Email,A09,26.6,3.0,Closed
+T02055,2024-10-07 13:42,Phone X,Medium,Email,A04,,4.0,Open
+T02056,2024-10-07 15:02,Headphones,High,Email,A03,11.6,4.0,Closed
+T02057,2024-10-08 02:08,Laptop Air,High,Phone,A07,33.9,4.0,Closed
+T02058,2024-10-08 02:53,Phone Mini,Medium,Phone,A10,12.9,,Closed
+T02059,2024-10-08 03:59,Laptop Air,Low,Email,A01,31.6,3.0,Closed
+T02060,2024-10-08 07:24,Phone Mini,Medium,Email,A09,13.3,,Closed
+T02061,2024-10-08 08:46,Laptop Air,Low,Chat,A08,35.5,4.0,Closed
+T02062,2024-10-08 23:05,Phone X,Low,Email,A07,150.5,,Closed
+T02063,2024-10-09 02:53,Headphones,Urgent,Email,A10,3.2,4.0,Closed
+T02064,2024-10-09 05:15,Laptop Air,Low,Phone,A07,171.8,,Closed
+T02065,2024-10-09 10:07,Phone X,Low,Chat,A09,76.2,3.0,Closed
+T02066,2024-10-09 11:43,Smartwatch,Medium,Chat,A11,18.0,4.0,Closed
+T02067,2024-10-09 14:03,Laptop Air,Low,Email,A11,30.0,,Closed
+T02068,2024-10-09 17:09,Phone X,High,Phone,A09,17.6,5.0,Closed
+T02069,2024-10-09 20:15,Headphones,Low,Phone,A04,31.0,3.0,Closed
+T02070,2024-10-10 09:01,Laptop Pro,Low,Chat,A05,22.3,,Closed
+T02071,2024-10-10 12:04,Laptop Pro,Medium,Phone,A03,18.3,,Closed
+T02072,2024-10-10 14:00,Laptop Pro,Low,Chat,A08,48.5,3.0,Closed
+T02073,2024-10-10 15:02,Headphones,Medium,Email,A05,36.8,3.0,Closed
+T02074,2024-10-10 15:47,Smartwatch,MEDIUM,Email,A10,36.1,3.0,Closed
+T02075,2024-10-10 15:58,Laptop Pro,High,Email,A01,20.4,3.0,Closed
+T02076,2024-10-10 19:16,Smartwatch,Low,Chat,A09,44.7,4.0,Closed
+T02077,2024-10-11 02:12,Laptop Pro,Medium,Chat,A05,15.4,5.0,Closed
+T02078,2024-10-11 02:34,Laptop Pro,High,Email,A11,10.6,,Closed
+T02079,2024-10-11 02:34,Laptop Air,Low,Email,A01,15.7,4.0,Closed
+T02080,2024-10-11 03:50,Laptop Pro,Low,Chat,A08,46.5,3.0,Closed
+T02081,2024-10-11 05:00,Smartwatch,Low,Email,A02,21.1,4.0,Closed
+T02082,2024-10-11 07:05,Laptop Air,Medium,Email,A03,43.2,2.0,Closed
+T02083,2024-10-11 11:08,Phone X,Medium,Chat,A07,53.6,4.0,Closed
+T02084,2024-10-11 18:36,Laptop Pro,High,Email,A06,8.4,4.0,Closed
+T02085,2024-10-11 20:25,Headphones,Medium,Phone,A10,16.4,3.0,Closed
+T02086,2024-10-11 22:29,Phone Mini,Medium,Phone,A03,26.1,4.0,Closed
+T02087,2024-10-12 00:49,Headphones,Medium,Chat,A04,7.7,4.0,Closed
+T02088,2024-10-12 04:04,Smartwatch,Medium,Chat,A07,49.5,4.0,Closed
+T02089,2024-10-12 07:35,Phone X,Medium,Email,A06,14.5,4.0,Closed
+T02090,2024-10-12 10:55,Laptop Pro,Low,Chat,A04,12.8,5.0,Closed
+T02091,2024-10-12 14:49,Headphones,Low,Chat,A11,63.3,3.0,Closed
+T02092,2024-10-12 22:01,Laptop Air,Medium,Email,A12,21.2,,Closed
+T02093,2024-10-12 22:58,Laptop Pro,High,Chat,A03,7.3,4.0,Closed
+T02094,2024-10-13 05:37,Phone Mini,Medium,Chat,A02,10.9,5.0,Closed
+T02095,2024-10-13 09:56,Phone Mini,Medium,Email,A11,9.3,4.0,Closed
+T02096,2024-10-13 12:00,Laptop Pro, Medium ,Chat,A07,31.8,4.0,Closed
+T02097,2024-10-13 16:46,Headphones,Low,Phone,A12,41.7,3.0,Closed
+T02098,2024-10-13 16:55,Laptop Pro,High,Phone,A05,8.7,5.0,Closed
+T02099,2024-10-13 18:38,Phone Mini,Low,Chat,A01,19.2,,Closed
+T02100,2024-10-13 19:21,Laptop Air,Medium,Chat,A04,47.1,3.0,Closed
+T02101,2024-10-13 19:54,Laptop Pro,Low,Email,A03,45.6,4.0,Closed
+T02102,2024-10-14 00:31,Laptop Air,Low,Chat,A11,31.3,3.0,Closed
+T02103,2024-10-14 02:27,Laptop Pro,Medium,Email,A09,46.3,3.0,Closed
+T02104,2024-10-14 03:25,Smartwatch,Low,Email,A10,14.4,4.0,Closed
+T02105,2024-10-14 03:35,Smartwatch,Low,Phone,A04,37.4,3.0,Closed
+T02106,2024-10-14 04:41,Smartwatch,LOW,Email,A09,27.9,3.0,Closed
+T02107,2024-10-14 05:38,Laptop Air,Low,Email,A09,21.9,,Closed
+T02108,2024-10-14 11:16,Phone Mini,Medium,Email,A02,19.0,4.0,Closed
+T02109,2024-10-14 17:01,Laptop Pro,Low,Email,A08,27.4,3.0,Closed
+T02110,2024-10-14 21:53,Phone Mini,Urgent,Chat,A08,6.7,5.0,Closed
+T02111,2024-10-15 01:35,Smartwatch,High,Chat,A07,31.2,4.0,Closed
+T02112,2024-10-15 03:23,Headphones,Low,Email,A07,80.3,,Closed
+T02113,2024-10-15 04:00,Phone Mini,Medium,Email,A03,13.4,,Closed
+T02114,2024-10-15 05:14,Headphones,Urgent,Chat,A12,3.6,5.0,Closed
+T02115,2024-10-15 13:59,Laptop Pro,Medium,Chat,A12,23.4,,Closed
+T02116,2024-10-15 16:13,Laptop Pro,Medium,Chat,A05,12.4,4.0,Closed
+T02117,2024-10-15 18:19,Laptop Pro,Low,Email,A03,23.5,3.0,Closed
+T02118,2024-10-15 21:05,Phone X,High,Email,A02,,,Open
+T02119,2024-10-16 01:23,Headphones,Low,Phone,A03,34.9,3.0,Closed
+T02120,2024-10-16 04:19,Phone X,Medium,Email,A09,49.3,,Closed
+T02121,2024-10-16 07:13,Laptop Pro,Low,Phone,A06,17.6,5.0,Closed
+T02122,2024-10-16 07:56,Laptop Pro,Medium,Email,A09,9.7,4.0,Closed
+T02123,2024-10-16 11:38,Smartwatch,Medium,Chat,A04,29.1,4.0,Closed
+T02124,2024-10-16 12:49,Headphones,HIGH,Chat,A06,16.0,,Closed
+T02125,2024-10-17 06:00,Laptop Pro,Medium,Chat,A05,,4.0,Open
+T02126,2024-10-17 07:15,Laptop Air,High,Email,A11,12.8,4.0,Closed
+T02127,2024-10-17 07:17,Phone Mini,Medium,Email,A08,25.4,3.0,Closed
+T02128,2024-10-17 13:31,Phone Mini,Medium,Email,A07,57.9,3.0,Closed
+T02129,2024-10-17 19:47,Headphones,Low,Phone,A01,16.5,4.0,Closed
+T02130,2024-10-17 20:52,Laptop Pro,High,Chat,A10,10.1,5.0,Closed
+T02131,2024-10-17 21:19,Smartwatch,MEDIUM,Phone,A10,12.4,4.0,Closed
+T02132,2024-10-17 21:22,Phone X,Medium,Email,A12,18.7,4.0,Closed
+T02133,2024-10-17 22:21,Laptop Air,High,Chat,A03,6.4,5.0,Closed
+T02134,2024-10-18 02:47,Laptop Pro,High,Email,A09,4.5,4.0,Closed
+T02135,2024-10-18 03:58,Phone Mini,High,Email,A03,15.5,,Closed
+T02136,2024-10-18 05:51,Laptop Air,High,Email,A09,10.2,5.0,Closed
+T02137,2024-10-18 11:38,Phone X,Medium,Chat,A08,12.2,4.0,Closed
+T02138,2024-10-18 11:58,Smartwatch,Urgent,Email,A09,6.1,4.0,Closed
+T02139,2024-10-18 12:20,Phone X,Medium,Email,A06,30.6,3.0,Closed
+T02140,2024-10-18 13:31,Phone X,Low,Chat,A10,23.1,4.0,Closed
+T02141,2024-10-18 13:48,Smartwatch,Medium,Email,A07,105.5,1.0,Closed
+T02142,2024-10-19 00:46,Smartwatch,Medium,Chat,A02,15.8,4.0,Closed
+T02143,2024-10-19 11:43,Phone X,High,Phone,A06,7.6,5.0,Closed
+T02144,2024-10-19 11:45,Headphones,Low,Chat,A02,,4.0,Open
+T02145,2024-10-19 15:54,Phone Mini,Medium,Chat,A07,106.3,1.0,Closed
+T02146,2024-10-19 17:02,Smartwatch,High,Email,A12,16.0,4.0,Closed
+T02147,2024-10-19 18:21,Phone Mini,Medium,Chat,A07,37.5,5.0,Closed
+T02148,2024-10-19 23:07,Phone X,Medium,Chat,A03,17.0,4.0,Closed
+T02149,2024-10-20 03:25,Headphones,High,Chat,A09,12.9,4.0,Closed
+T02150,2024-10-20 06:39,Laptop Air,Medium,Email,A09,23.7,4.0,Closed
+T02151,2024-10-20 06:58,Headphones,Urgent,Chat,A03,5.4,5.0,Closed
+T02152,2024-10-20 10:47,Phone X,medium,Phone,A07,35.3,4.0,Closed
+T02153,2024-10-20 12:12,Phone Mini,Low,Email,A10,43.5,4.0,Closed
+T02154,2024-10-20 12:40,Smartwatch,Medium,Email,A08,13.9,3.0,Closed
+T02155,2024-10-20 13:21,Laptop Pro,Low,Phone,A09,30.0,4.0,Closed
+T02156,2024-10-20 17:31,Phone X,Low,Chat,A03,18.3,5.0,Closed
+T02157,2024-10-20 20:17,Headphones,low,Email,A11,28.7,4.0,Closed
+T02158,2024-10-20 21:22,Phone X,Low,Phone,A04,22.5,4.0,Closed
+T02159,2024-10-20 23:55,Headphones,Medium,Chat,A06,16.0,5.0,Closed
+T02160,2024-10-21 01:17,Phone X,Low,Phone,A10,36.9,3.0,Closed
+T02161,2024-10-21 01:31,Laptop Air,Medium,Email,A08,,4.0,Open
+T02162,2024-10-21 06:32,Laptop Air,High,Email,A01,7.2,,Closed
+T02163,2024-10-21 07:27,Headphones,Medium,Chat,A03,21.2,5.0,Closed
+T02164,2024-10-21 09:14,Laptop Air,Medium,Email,A03,17.8,4.0,Closed
+T02165,2024-10-21 11:01,Laptop Pro,Low,Email,A11,29.2,4.0,Closed
+T02166,2024-10-21 14:07,Laptop Pro,Medium,Phone,A05,18.0,3.0,Closed
+T02167,2024-10-21 15:14,Phone X,Low,Email,A12,,4.0,Open
+T02168,2024-10-21 16:26,Smartwatch,High,Email,A10,9.8,4.0,Closed
+T02169,2024-10-21 21:03,Laptop Air,Low,Phone,A11,55.5,,Closed
+T02170,2024-10-21 22:06,Phone X,Medium,Phone,A01,38.4,,Closed
+T02171,2024-10-21 22:56,Smartwatch,Low,Phone,A10,75.9,1.0,Closed
+T02172,2024-10-22 02:03,Smartwatch,High,Chat,A09,13.7,4.0,Closed
+T02173,2024-10-22 04:47,Phone X,Low,Email,A11,16.5,,Closed
+T02174,2024-10-22 07:51,Phone X,Medium,Email,A06,17.8,4.0,Closed
+T02175,2024-10-22 11:10,Headphones,Low,Email,A01,22.9,3.0,Closed
+T02176,2024-10-22 17:50,Laptop Pro,High,Phone,A02,13.6,4.0,Closed
+T02177,2024-10-22 20:41,Phone X,Medium,Email,A12,15.2,4.0,Closed
+T02178,2024-10-23 00:16,Phone Mini,Medium,Chat,A09,28.1,4.0,Closed
+T02179,2024-10-23 11:34,Phone X,Urgent,Email,A12,3.1,5.0,Closed
+T02180,2024-10-23 12:53,Laptop Pro,Medium,Chat,A01,23.8,3.0,Closed
+T02181,2024-10-23 15:20,Phone X,High,Email,A07,15.3,4.0,Closed
+T02182,2024-10-23 18:27,Laptop Pro,Low,Email,A11,27.5,3.0,Closed
+T02183,2024-10-23 19:29,Laptop Air,Medium,Email,A08,39.0,3.0,Closed
+T02184,2024-10-23 22:23,Phone Mini,High,Chat,A01,21.8,4.0,Closed
+T02185,2024-10-24 00:42,Smartwatch,low,Phone,A02,41.0,3.0,Closed
+T02186,2024-10-24 02:22,Laptop Pro,Medium,Chat,A09,15.3,,Closed
+T02187,2024-10-24 11:02,Smartwatch,Medium,Email,A01,11.1,,Closed
+T02188,2024-10-24 16:23,Phone Mini,High,Email,A12,13.6,4.0,Closed
+T02189,2024-10-24 17:19,Laptop Pro,Medium,Phone,A05,26.5,4.0,Closed
+T02190,2024-10-24 17:45,Headphones,Medium,Chat,A07,48.3,3.0,Closed
+T02191,2024-10-25 12:52,Laptop Pro,Low,Email,A03,15.8,4.0,Closed
+T02192,2024-10-25 15:53,Smartwatch,Low,Chat,A01,76.5,2.0,Closed
+T02193,2024-10-25 16:48,Smartwatch,Medium,Email,A03,34.1,3.0,Closed
+T02194,2024-10-26 12:29,Smartwatch,Medium,Email,A09,18.4,4.0,Closed
+T02195,2024-10-26 16:44,Laptop Air,Medium,Chat,A07,67.1,3.0,Closed
+T02196,2024-10-26 17:02,Headphones,Medium,Email,A08,30.5,4.0,Closed
+T02197,2024-10-26 20:08,Smartwatch, Low ,Email,A11,33.2,3.0,Closed
+T02198,2024-10-27 00:29,Laptop Pro,Medium,Phone,A05,22.0,4.0,Closed
+T02199,2024-10-27 08:09,Phone Mini,Urgent,Phone,A10,3.1,5.0,Closed
+T02200,2024-10-27 17:04,Phone X,Medium,Email,A12,24.6,4.0,Closed
+T02201,2024-10-27 20:09,Headphones,Medium,Phone,A08,39.3,3.0,Closed
+T02202,2024-10-28 00:07,Phone Mini,Urgent,Email,A09,2.5,4.0,Closed
+T02203,2024-10-28 00:46,Laptop Air,Low,Email,A05,17.7,4.0,Closed
+T02204,2024-10-28 02:22,Laptop Pro,Low,Email,A06,34.5,4.0,Closed
+T02205,2024-10-28 03:50,Headphones,Medium,Email,A12,18.8,4.0,Closed
+T02206,2024-10-28 05:06,Laptop Air,Medium,Email,A07,29.9,4.0,Closed
+T02207,2024-10-28 14:56,Laptop Air,Low,Email,A03,36.2,3.0,Closed
+T02208,2024-10-28 17:22,Laptop Pro,Urgent,Phone,A05,3.0,5.0,Closed
+T02209,2024-10-28 17:28,Laptop Pro,Urgent,Phone,A05,6.0,,Closed
+T02210,2024-10-28 17:32,Laptop Pro,Urgent,Phone,A04,4.9,5.0,Closed
+T02211,2024-10-28 17:44,Laptop Pro,Medium,Phone,A09,24.5,4.0,Closed
+T02212,2024-10-28 20:49,Laptop Pro,Urgent,Phone,A05,4.0,5.0,Closed
+T02213,2024-10-28 21:52,Smartwatch,Medium,Email,A07,34.2,3.0,Closed
+T02214,2024-10-29 00:52,Smartwatch,High,Email,A01,5.2,4.0,Closed
+T02215,2024-10-29 02:28,Phone Mini,Medium,Email,A12,9.8,5.0,Closed
+T02216,2024-10-29 02:47,Headphones,Medium,Email,A01,22.7,,Closed
+T02217,2024-10-29 03:32,Laptop Air,Medium,Email,A05,37.4,3.0,Closed
+T02218,2024-10-29 05:52,Laptop Air,Low,Chat,A09,17.9,4.0,Closed
+T02219,2024-10-29 07:08,Laptop Pro,Medium,Email,A08,24.5,4.0,Closed
+T02220,2024-10-29 09:04,Laptop Pro,Medium,Email,A05,22.1,3.0,Closed
+T02221,2024-10-29 11:32,Laptop Air,Low,Chat,A10,,4.0,Open
+T02222,2024-10-29 21:59,Laptop Pro,Low,Chat,A10,44.0,3.0,Closed
+T02223,2024-10-29 23:21,Laptop Air,Medium,Email,A02,24.2,3.0,Closed
+T02224,2024-10-30 00:35,Headphones,Medium,Chat,A06,23.9,4.0,Closed
+T02225,2024-10-30 09:42,Phone Mini,High,Chat,A03,12.8,4.0,Closed
+T02226,2024-10-30 17:10,Phone Mini,Medium,Chat,A01,12.5,5.0,Closed
+T02227,2024-10-30 20:14,Smartwatch,Medium,Phone,A03,18.5,3.0,Closed
+T02228,2024-10-30 23:15,Phone X,Medium,Chat,A11,18.3,4.0,Closed
+T02229,2024-10-31 03:58,Smartwatch,Medium,Email,A03,19.2,3.0,Closed
+T02230,2024-10-31 07:17,Laptop Pro,Urgent,Email,A04,3.1,4.0,Closed
+T02231,2024-10-31 08:19,Headphones,Low,Email,A01,28.1,4.0,Closed
+T02232,2024-10-31 14:34,Phone Mini,Low,Email,A10,27.7,,Closed
+T02233,2024-10-31 20:38,Laptop Air,Low,Chat,A03,25.9,,Closed
+T02234,2024-10-31 22:26,Smartwatch,Low,Email,A02,46.5,4.0,Closed
+T02235,2024-11-01 01:41,Phone X,Low,Chat,A03,25.8,4.0,Closed
+T02236,2024-11-01 02:13,Laptop Air,Urgent,Email,A05,4.3,,Closed
+T02237,2024-11-01 02:45,Smartwatch,Low,Chat,A03,57.3,1.0,Closed
+T02238,2024-11-01 03:20,Laptop Pro,Urgent,Email,A06,2.4,4.0,Closed
+T02239,2024-11-01 07:43,Smartwatch,Medium,Email,A12,35.6,,Closed
+T02240,2024-11-01 07:46,Laptop Pro,Low,Email,A06,48.8,,Closed
+T02241,2024-11-01 08:00,Smartwatch,Medium,Chat,A06,26.1,4.0,Closed
+T02242,2024-11-01 13:10,Smartwatch,Medium,Chat,A11,24.5,5.0,Closed
+T02243,2024-11-01 16:47,Phone Mini,Medium,Chat,A05,21.0,5.0,Closed
+T02244,2024-11-02 05:42,Phone X,Medium,Email,A11,11.0,,Closed
+T02245,2024-11-02 05:47,Smartwatch,low,Email,A08,24.3,5.0,Closed
+T02246,2024-11-02 11:18,Phone X,LOW,Email,A04,26.7,4.0,Closed
+T02247,2024-11-02 13:57,Laptop Air,Medium,Email,A08,11.2,4.0,Closed
+T02248,2024-11-02 14:32,Laptop Air,Medium,Chat,A03,10.5,,Closed
+T02249,2024-11-02 17:32,Phone X,High,Email,A09,18.5,4.0,Closed
+T02250,2024-11-02 18:19,Smartwatch,Low,Email,A01,42.4,4.0,Closed
+T02251,2024-11-03 03:42,Laptop Pro,Low,Chat,A12,,4.0,Open
+T02252,2024-11-03 11:42,Smartwatch,Medium,Chat,A03,18.7,,Closed
+T02253,2024-11-03 13:19,Phone Mini,Urgent,Phone,A01,3.3,4.0,Closed
+T02254,2024-11-03 18:38,Phone Mini,High,Email,A10,8.4,4.0,Closed
+T02255,2024-11-03 20:37,Laptop Pro,High,Email,A11,6.5,4.0,Closed
+T02256,2024-11-03 20:44,Phone Mini,High,Chat,A04,,4.0,Open
+T02257,2024-11-04 04:47,Smartwatch,Low,Email,A10,25.7,3.0,Closed
+T02258,2024-11-04 04:57,Phone Mini,Medium,Chat,A10,30.3,5.0,Closed
+T02259,2024-11-04 04:59,Smartwatch,High,Chat,A06,12.4,4.0,Closed
+T02260,2024-11-04 18:46,Laptop Pro,Medium,Email,A11,16.8,,Closed
+T02261,2024-11-04 22:25,Headphones,Medium,Email,A06,15.0,4.0,Closed
+T02262,2024-11-05 00:37,Phone X,Low,Chat,A06,53.0,3.0,Closed
+T02263,2024-11-05 02:02,Phone Mini,Low,Email,A10,19.8,4.0,Closed
+T02264,2024-11-05 02:18,Phone X,Low,Phone,A12,27.7,3.0,Closed
+T02265,2024-11-05 02:57,Phone X,Medium,Email,A04,13.5,5.0,Closed
+T02266,2024-11-05 09:24,Laptop Air,URGENT,Email,A12,4.7,4.0,Closed
+T02267,2024-11-05 11:21,Smartwatch,Medium,Email,A12,33.7,3.0,Closed
+T02268,2024-11-05 12:00,Phone X,High,Chat,A10,11.2,4.0,Closed
+T02269,2024-11-05 13:46,Smartwatch,Medium,Email,A11,12.6,,Closed
+T02270,2024-11-05 18:49,Laptop Pro,Urgent,Phone,A07,8.4,4.0,Closed
+T02271,2024-11-05 20:31,Laptop Pro,Urgent,Chat,A06,1.8,5.0,Closed
+T02272,2024-11-05 21:59,Phone Mini,Medium,Phone,A08,12.2,4.0,Closed
+T02273,2024-11-06 05:29,Smartwatch,Urgent,Email,A11,5.0,5.0,Closed
+T02274,2024-11-06 10:38,Smartwatch,Medium,Chat,A02,14.7,4.0,Closed
+T02275,2024-11-06 16:10,Phone X,High,Phone,A05,17.2,4.0,Closed
+T02276,2024-11-06 20:18,Laptop Air,Medium,Chat,A09,13.5,4.0,Closed
+T02277,2024-11-06 20:59,Phone X,Medium,Email,A09,52.1,2.0,Closed
+T02278,2024-11-06 23:50,Smartwatch,High,Email,A08,10.0,4.0,Closed
+T02279,2024-11-07 01:46,Headphones,Medium,Email,A11,13.5,3.0,Closed
+T02280,2024-11-07 03:25,Laptop Pro,Medium,Phone,A02,7.2,4.0,Closed
+T02281,2024-11-07 11:13,Laptop Air,Medium,Email,A12,15.8,3.0,Closed
+T02282,2024-11-07 12:05,Laptop Pro,Medium,Chat,A05,13.4,5.0,Closed
+T02283,2024-11-07 14:19,Phone Mini,Urgent,Chat,A11,4.4,,Closed
+T02284,2024-11-08 02:41,Smartwatch,Medium,Chat,A01,13.9,4.0,Closed
+T02285,2024-11-08 06:26,Phone X,Low,Email,A12,32.8,,Closed
+T02286,2024-11-08 17:00,Headphones,Medium,Email,A12,16.3,,Closed
+T02287,2024-11-08 20:07,Laptop Pro,Low,Chat,A11,21.3,3.0,Closed
+T02288,2024-11-09 06:18,Laptop Air,Medium,Email,A08,22.8,3.0,Closed
+T02289,2024-11-09 09:12,Headphones,Medium,Chat,A09,13.4,5.0,Closed
+T02290,2024-11-09 13:23,Phone Mini,High,Phone,A08,15.1,4.0,Closed
+T02291,2024-11-09 16:56,Laptop Pro,High,Email,A10,4.9,5.0,Closed
+T02292,2024-11-09 16:59,Laptop Air,Medium,Email,A04,25.0,4.0,Closed
+T02293,2024-11-10 10:37,Laptop Pro,Low,Chat,A08,34.0,,Closed
+T02294,2024-11-10 12:59,Headphones,Urgent,Chat,A04,5.0,5.0,Closed
+T02295,2024-11-10 13:11,Laptop Pro,High,Chat,A01,11.9,4.0,Closed
+T02296,2024-11-10 17:36,Phone X,Medium,Phone,A10,18.9,4.0,Closed
+T02297,2024-11-10 18:55,Headphones,Low,Phone,A10,50.6,2.0,Closed
+T02298,2024-11-11 03:27,Headphones,Urgent,Email,A06,4.5,4.0,Closed
+T02299,2024-11-11 05:57,Smartwatch,Medium,Chat,A09,8.3,,Closed
+T02300,2024-11-11 12:52,Laptop Pro,Medium,Chat,A08,20.4,3.0,Closed
+T02301,2024-11-11 17:42,Headphones,Low,Chat,A03,36.5,3.0,Closed
+T02302,2024-11-11 19:26,Smartwatch,Medium,Chat,A03,18.8,3.0,Closed
+T02303,2024-11-11 23:22,Phone X,Low,Chat,A04,23.5,5.0,Closed
+T02304,2024-11-12 00:07,Phone X,Medium,Email,A09,14.3,4.0,Closed
+T02305,2024-11-12 00:35,Headphones,High,Chat,A02,10.8,4.0,Closed
+T02306,2024-11-12 01:56,Laptop Pro,Medium,Phone,A02,36.6,3.0,Closed
+T02307,2024-11-12 07:23,Laptop Air,Low,Chat,A02,35.7,3.0,Closed
+T02308,2024-11-12 08:14,Laptop Pro,Medium,Email,A05,29.4,3.0,Closed
+T02309,2024-11-12 09:12,Phone Mini,Medium,Chat,A01,15.3,5.0,Closed
+T02310,2024-11-12 12:49,Phone X,Low,Phone,A07,94.4,1.0,Closed
+T02311,2024-11-12 16:42,Phone Mini,Medium,Email,A06,12.7,4.0,Closed
+T02312,2024-11-12 16:54,Smartwatch,Low,Phone,A01,73.0,2.0,Closed
+T02313,2024-11-12 18:50,Laptop Pro,Medium,Chat,A11,,4.0,Open
+T02314,2024-11-12 18:55,Phone Mini,High,Chat,A02,31.5,3.0,Closed
+T02315,2024-11-12 19:46,Laptop Air,Low,Email,A08,27.9,3.0,Closed
+T02316,2024-11-12 20:49,Phone X,Low,Chat,A12,33.0,,Closed
+T02317,2024-11-13 01:27,Phone Mini,Low,Chat,A12,16.3,,Closed
+T02318,2024-11-13 06:59,Phone X,High,Phone,A01,5.8,5.0,Closed
+T02319,2024-11-13 11:09,Phone Mini,Low,Chat,A08,46.2,3.0,Closed
+T02320,2024-11-13 13:13,Laptop Air,High,Email,A11,8.0,4.0,Closed
+T02321,2024-11-13 18:28,Headphones,Medium,Email,A01,12.9,,Closed
+T02322,2024-11-13 20:49,Laptop Pro,Low,Phone,A06,22.0,4.0,Closed
+T02323,2024-11-13 23:22,Phone X,High,Email,A10,9.3,5.0,Closed
+T02324,2024-11-14 00:33,Phone X,Medium,Chat,A09,21.4,4.0,Closed
+T02325,2024-11-14 05:16,Phone Mini,Medium,Email,A04,18.6,4.0,Closed
+T02326,2024-11-14 09:55,Laptop Air,High,Chat,A09,7.5,4.0,Closed
+T02327,2024-11-15 01:15,Smartwatch,High,Email,A07,24.5,2.0,Closed
+T02328,2024-11-15 02:02,Headphones,Medium,Phone,A06,13.0,3.0,Closed
+T02329,2024-11-15 03:42,Phone X,Low,Email,A06,25.4,4.0,Closed
+T02330,2024-11-15 03:45,Phone Mini,Medium,Chat,A08,17.4,4.0,Closed
+T02331,2024-11-15 20:00,Laptop Pro,Medium,Email,A08,19.3,4.0,Closed
+T02332,2024-11-16 06:29,Headphones,High,Email,A12,15.0,5.0,Closed
+T02333,2024-11-16 20:55,Phone X,Low,Email,A04,23.1,,Closed
+T02334,2024-11-17 11:09,Smartwatch,Low,Email,A04,40.9,3.0,Closed
+T02335,2024-11-17 12:47,Phone X,Low,Chat,A02,33.5,3.0,Closed
+T02336,2024-11-17 14:25,Phone Mini,Medium,Email,A04,25.5,4.0,Closed
+T02337,2024-11-17 15:15,Laptop Pro,Medium,Phone,A07,67.3,2.0,Closed
+T02338,2024-11-17 15:17,Laptop Air,High,Phone,A12,10.0,3.0,Closed
+T02339,2024-11-17 23:41,Phone X,Low,Phone,A01,18.8,5.0,Closed
+T02340,2024-11-18 13:37,Laptop Pro,Low,Email,A03,30.4,3.0,Closed
+T02341,2024-11-18 18:27,Phone Mini,Medium,Chat,A03,9.2,5.0,Closed
+T02342,2024-11-18 21:08,Laptop Pro,Medium,Chat,A06,13.1,4.0,Closed
+T02343,2024-11-19 00:38,Phone X,Low,Email,A01,25.6,5.0,Closed
+T02344,2024-11-19 02:27,Laptop Pro,Medium,Chat,A04,49.3,,Closed
+T02345,2024-11-19 10:33,Smartwatch,Low,Email,A10,37.5,3.0,Closed
+T02346,2024-11-19 17:38,Smartwatch,medium,Email,A07,28.8,4.0,Closed
+T02347,2024-11-19 21:17,Phone Mini,High,Phone,A02,19.2,5.0,Closed
+T02348,2024-11-19 22:48,Laptop Pro,MEDIUM,Chat,A08,20.4,4.0,Closed
+T02349,2024-11-20 03:25,Headphones,Medium,Chat,A02,20.8,,Closed
+T02350,2024-11-20 04:57,Laptop Pro,High,Chat,A04,5.7,5.0,Closed
+T02351,2024-11-20 05:23,Phone Mini,Medium,Email,A07,41.0,4.0,Closed
+T02352,2024-11-20 09:20,Headphones,Low,Email,A03,,3.0,Open
+T02353,2024-11-20 20:54,Phone X,Medium,Email,A08,37.9,,Closed
+T02354,2024-11-21 08:11,Laptop Air,Medium,Email,A06,21.0,4.0,Closed
+T02355,2024-11-21 10:30,Smartwatch,High,Chat,A01,,5.0,Open
+T02356,2024-11-21 15:22,Phone X,Low,Chat,A10,68.5,,Closed
+T02357,2024-11-21 16:19,Headphones,High,Chat,A08,4.2,,Closed
+T02358,2024-11-21 16:52,Phone X,Medium,Email,A05,10.8,,Closed
+T02359,2024-11-21 21:05,Phone X,Medium,Phone,A05,13.1,3.0,Closed
+T02360,2024-11-21 23:39,Laptop Air,Medium,Chat,A07,20.2,4.0,Closed
+T02361,2024-11-21 23:46,Laptop Pro,Urgent,Email,A10,2.7,5.0,Closed
+T02362,2024-11-22 04:47,Laptop Air,Medium,Email,A02,17.2,4.0,Closed
+T02363,2024-11-22 07:18,Laptop Air,Medium,Email,A05,13.0,4.0,Closed
+T02364,2024-11-22 08:13,Headphones,Urgent,Chat,A01,2.4,5.0,Closed
+T02365,2024-11-22 12:02,Phone Mini,Medium,Chat,A04,24.7,5.0,Closed
+T02366,2024-11-22 15:18,Phone X,Low,Phone,A03,38.4,3.0,Closed
+T02367,2024-11-22 18:06,Smartwatch,Medium,Email,A11,21.8,4.0,Closed
+T02368,2024-11-22 20:08,Laptop Air,Medium,Email,A05,12.1,4.0,Closed
+T02369,2024-11-23 04:08,Phone Mini,High,Chat,A07,12.0,5.0,Closed
+T02370,2024-11-23 05:48,Phone X,Medium,Chat,A04,,4.0,Open
+T02371,2024-11-23 07:27,Phone X,High,Phone,A12,22.5,4.0,Closed
+T02372,2024-11-23 11:08,Smartwatch,Medium,Phone,A09,16.7,,Closed
+T02373,2024-11-23 17:37,Phone X,High,Email,A03,12.5,,Closed
+T02374,2024-11-23 21:26,Phone Mini,Urgent,Email,A10,3.6,,Closed
+T02375,2024-11-24 00:08,Laptop Pro,Low,Email,A07,41.9,3.0,Closed
+T02376,2024-11-24 00:45,Headphones,Medium,Phone,A10,12.5,4.0,Closed
+T02377,2024-11-24 05:39,Phone X,Low,Phone,A02,27.2,4.0,Closed
+T02378,2024-11-24 06:22,Laptop Air,Low,Chat,A04,20.8,5.0,Closed
+T02379,2024-11-24 07:08,Laptop Pro,High,Phone,A07,32.4,4.0,Closed
+T02380,2024-11-24 23:53,Phone X,Low,Chat,A12,16.9,4.0,Closed
+T02381,2024-11-25 00:14,Laptop Pro,High,Phone,A12,13.9,4.0,Closed
+T02382,2024-11-25 19:05,Laptop Pro,Low,Email,A11,51.7,2.0,Closed
+T02383,2024-11-25 20:13,Laptop Air,High,Phone,A08,5.9,,Closed
+T02384,2024-11-25 23:48,Laptop Air,Medium,Email,A10,35.3,,Closed
+T02385,2024-11-26 02:46,Phone X,Medium,Email,A06,13.2,,Closed
+T02386,2024-11-26 04:26,Laptop Pro,Low,Email,A12,46.2,3.0,Closed
+T02387,2024-11-26 04:59,Laptop Pro,Medium,Email,A08,42.6,2.0,Closed
+T02388,2024-11-26 07:08,Smartwatch,Medium,Chat,A06,60.4,4.0,Closed
+T02389,2024-11-26 11:46,Phone X,Medium,Chat,A04,,5.0,Open
+T02390,2024-11-26 14:01,Smartwatch,Low,Chat,A04,91.4,1.0,Closed
+T02391,2024-11-26 14:21,Headphones,High,Email,A08,6.4,4.0,Closed
+T02392,2024-11-26 17:56,Phone Mini,Medium,Chat,A08,19.9,,Closed
+T02393,2024-11-26 18:45,Phone X,Low,Email,A07,65.7,2.0,Closed
+T02394,2024-11-26 21:08,Phone X,High,Email,A04,10.2,5.0,Closed
+T02395,2024-11-26 21:22,Phone X,High,Chat,A04,6.2,5.0,Closed
+T02396,2024-11-27 08:17,Smartwatch,Low,Chat,A06,28.1,5.0,Closed
+T02397,2024-11-27 11:22,Laptop Air,Medium,Chat,A05,40.0,4.0,Closed
+T02398,2024-11-27 12:53,Phone Mini,Low,Email,A12,53.4,,Closed
+T02399,2024-11-27 17:28,Laptop Air,Urgent,Chat,A09,7.3,5.0,Closed
+T02400,2024-11-27 18:34,Laptop Pro,Medium,Email,A05,20.4,5.0,Closed
+T02401,2024-11-27 22:27,Phone X,Low,Chat,A12,18.0,4.0,Closed
+T02402,2024-11-27 22:56,Smartwatch,Medium,Chat,A10,19.6,5.0,Closed
+T02403,2024-11-27 23:00,Laptop Pro,Low,Email,A12,17.7,4.0,Closed
+T02404,2024-11-28 01:14,Laptop Air,Low,Chat,A12,35.9,4.0,Closed
+T02405,2024-11-28 03:42,Phone X,Medium,Phone,A10,17.4,4.0,Closed
+T02406,2024-11-28 05:00,Headphones,High,Email,A08,9.3,4.0,Closed
+T02407,2024-11-28 06:38,Laptop Air,Low,Chat,A07,62.6,2.0,Closed
+T02408,2024-11-28 08:22,Laptop Air,Medium,Email,A01,15.8,4.0,Closed
+T02409,2024-11-28 16:09,Headphones,Medium,Chat,A12,24.3,,Closed
+T02410,2024-11-28 22:16,Smartwatch,Medium,Phone,A10,,4.0,Open
+T02411,2024-11-29 04:30,Smartwatch,Medium,Phone,A04,10.1,,Closed
+T02412,2024-11-29 06:53,Smartwatch,Medium,Phone,A01,8.5,4.0,Closed
+T02413,2024-11-29 08:05,Phone X,Low,Email,A07,58.6,,Closed
+T02414,2024-11-29 10:31,Headphones,Medium,Email,A09,15.1,4.0,Closed
+T02415,2024-11-29 11:02,Headphones,High,Chat,A06,6.4,5.0,Closed
+T02416,2024-11-29 14:02,Phone Mini,Low,Email,A10,53.6,2.0,Closed
+T02417,2024-11-29 15:49,Smartwatch,Medium,Phone,A11,26.5,4.0,Closed
+T02418,2024-11-29 18:38,Laptop Air,Low,Chat,A07,41.5,,Closed
+T02419,2024-11-29 20:01,Laptop Air,Medium,Email,A07,38.1,4.0,Closed
+T02420,2024-11-29 21:32,Phone Mini,Low,Chat,A06,28.1,4.0,Closed
+T02421,2024-11-29 21:44,Headphones,Low,Phone,A09,,,Open
+T02422,2024-11-30 00:05,Phone Mini,High,Email,A01,6.4,4.0,Closed
+T02423,2024-11-30 01:10,Headphones,Medium,Email,A01,15.6,,Closed
+T02424,2024-11-30 06:24,Phone Mini,High,Email,A02,7.6,4.0,Closed
+T02425,2024-11-30 11:44,Laptop Air,High,Chat,A09,7.4,4.0,Closed
+T02426,2024-11-30 14:46,Laptop Air,Low,Email,A05,,4.0,Open
+T02427,2024-11-30 14:50,Smartwatch,Medium,Chat,A02,13.8,4.0,Closed
+T02428,2024-11-30 14:55,Phone Mini,Low,Email,A07,36.5,3.0,Closed
+T02429,2024-11-30 15:48,Laptop Air,Medium,Phone,A01,16.1,4.0,Closed
+T02430,2024-11-30 21:02,Phone X,Urgent,Chat,A01,1.8,,Closed
+T02431,2024-11-30 22:33,Laptop Air,High,Phone,A03,8.3,4.0,Closed
+T02432,2024-12-01 02:42,Smartwatch,Low,Email,A06,29.4,3.0,Closed
+T02433,2024-12-01 07:29,Laptop Air,High,Chat,A08,,4.0,Open
+T02434,2024-12-01 08:15,Laptop Air,Medium,Chat,A04,16.0,,Closed
+T02435,2024-12-01 08:57,Phone X, Medium ,Email,A12,20.3,,Closed
+T02436,2024-12-01 10:38,Laptop Pro,Low,Email,A01,35.3,4.0,Closed
+T02437,2024-12-01 16:11,Smartwatch,Urgent,Email,A02,3.5,4.0,Closed
+T02438,2024-12-02 02:24,Headphones,Low,Email,A03,29.4,4.0,Closed
+T02439,2024-12-02 06:07,Laptop Air,High,Chat,A03,10.0,4.0,Closed
+T02440,2024-12-02 07:42,Smartwatch,Medium,Email,A11,18.2,4.0,Closed
+T02441,2024-12-02 09:44,Laptop Pro,Medium,Chat,A07,,5.0,Open
+T02442,2024-12-02 13:36,Laptop Air,Medium,Phone,A11,9.5,4.0,Closed
+T02443,2024-12-02 18:30,Phone Mini,Low,Phone,A11,30.0,4.0,Closed
+T02444,2024-12-02 23:05,Laptop Air,Urgent,Email,A02,,,Open
+T02445,2024-12-02 23:45,Phone Mini,Medium,Email,A01,11.5,4.0,Closed
+T02446,2024-12-03 07:58,Phone X,High,Chat,A12,14.5,5.0,Closed
+T02447,2024-12-03 22:02,Phone Mini,Medium,Email,A10,13.9,4.0,Closed
+T02448,2024-12-03 22:57,Headphones, High ,Chat,A11,5.0,,Closed
+T02449,2024-12-04 03:49,Laptop Pro,Medium,Email,A02,13.9,4.0,Closed
+T02450,2024-12-04 06:09,Laptop Pro,MEDIUM,Chat,A06,30.3,4.0,Closed
+T02451,2024-12-04 12:45,Phone Mini,High,Email,A02,3.6,4.0,Closed
+T02452,2024-12-04 22:36,Phone Mini,Medium,Email,A03,7.3,4.0,Closed
+T02453,2024-12-05 04:08,Phone Mini,High,Email,A07,29.7,4.0,Closed
+T02454,2024-12-05 05:27,Phone Mini,Medium,Email,A12,25.3,4.0,Closed
+T02455,2024-12-05 07:28,Smartwatch,Low,Phone,A06,10.4,4.0,Closed
+T02456,2024-12-05 07:56,Smartwatch,Low,Email,A04,33.2,3.0,Closed
+T02457,2024-12-05 09:54,Headphones,Medium,Phone,A10,28.5,4.0,Closed
+T02458,2024-12-05 12:53,Laptop Air, Urgent ,Phone,A02,3.2,4.0,Closed
+T02459,2024-12-05 13:07,Laptop Air,Low,Email,A05,48.2,,Closed
+T02460,2024-12-05 19:17,Laptop Pro,Medium,Email,A02,32.2,4.0,Closed
+T02461,2024-12-05 23:39,Phone X,High,Chat,A05,19.2,4.0,Closed
+T02462,2024-12-06 01:31,Phone X,Medium,Email,A08,16.6,,Closed
+T02463,2024-12-06 03:10,Phone Mini,Medium,Email,A04,23.5,,Closed
+T02464,2024-12-06 06:19,Headphones,High,Phone,A08,7.9,,Closed
+T02465,2024-12-06 12:46,Laptop Air,High,Chat,A01,7.2,4.0,Closed
+T02466,2024-12-06 13:57,Laptop Pro,Low,Email,A09,25.8,,Closed
+T02467,2024-12-06 16:42,Phone Mini,Low,Email,A06,28.4,3.0,Closed
+T02468,2024-12-06 18:38,Headphones,Medium,Email,A07,55.2,2.0,Closed
+T02469,2024-12-07 02:03,Headphones,High,Phone,A04,12.0,5.0,Closed
+T02470,2024-12-07 02:27,Smartwatch,Low,Chat,A11,18.0,,Closed
+T02471,2024-12-07 02:34,Laptop Pro,Medium,Chat,A09,29.4,4.0,Closed
+T02472,2024-12-07 05:22,Phone X,LOW,Phone,A10,21.2,3.0,Closed
+T02473,2024-12-07 12:06,Phone Mini,Medium,Chat,A01,32.7,4.0,Closed
+T02474,2024-12-07 13:40,Laptop Pro,Medium,Email,A07,27.7,,Closed
+T02475,2024-12-07 16:58,Smartwatch,Urgent,Email,A08,3.4,5.0,Closed
+T02476,2024-12-07 22:04,Laptop Pro,Urgent,Phone,A12,4.6,5.0,Closed
+T02477,2024-12-08 00:51,Phone Mini,Low,Phone,A01,15.9,,Closed
+T02478,2024-12-08 06:31,Laptop Air,Medium,Email,A02,24.7,4.0,Closed
+T02479,2024-12-08 09:08,Smartwatch,Low,Email,A05,38.0,3.0,Closed
+T02480,2024-12-08 09:23,Headphones,High,Chat,A04,8.7,4.0,Closed
+T02481,2024-12-08 14:33,Phone X,Low,Email,A08,23.8,3.0,Closed
+T02482,2024-12-08 15:25,Phone X,High,Phone,A12,11.1,4.0,Closed
+T02483,2024-12-08 17:47,Laptop Pro,Medium,Email,A06,15.7,,Closed
+T02484,2024-12-09 00:46,Phone X,Medium,Phone,A11,26.0,4.0,Closed
+T02485,2024-12-09 09:18,Smartwatch,Medium,Email,A02,27.7,4.0,Closed
+T02486,2024-12-09 17:56,Headphones,Medium,Email,A10,27.8,3.0,Closed
+T02487,2024-12-10 10:10,Phone Mini,Low,Chat,A10,37.6,4.0,Closed
+T02488,2024-12-10 12:03,Laptop Air, High ,Chat,A01,23.0,4.0,Closed
+T02489,2024-12-10 22:38,Laptop Air,HIGH,Email,A02,6.6,5.0,Closed
+T02490,2024-12-11 02:46,Smartwatch,Low,Chat,A10,23.1,4.0,Closed
+T02491,2024-12-11 14:27,Laptop Pro,Low,Phone,A02,23.6,4.0,Closed
+T02492,2024-12-11 16:03,Laptop Pro,High,Email,A02,7.0,4.0,Closed
+T02493,2024-12-11 18:32,Phone Mini,Medium,Email,A06,37.3,3.0,Closed
+T02494,2024-12-11 20:00,Phone X,Medium,Chat,A10,14.8,,Closed
+T02495,2024-12-11 23:54,Smartwatch,Medium,Email,A11,54.6,4.0,Closed
+T02496,2024-12-12 01:18,Phone X,Low,Email,A12,25.9,4.0,Closed
+T02497,2024-12-12 03:13,Headphones,LOW,Email,A12,29.6,4.0,Closed
+T02498,2024-12-12 07:07,Laptop Air,High,Email,A03,9.4,,Closed
+T02499,2024-12-12 09:46,Laptop Air,Low,Chat,A10,34.4,4.0,Closed
+T02500,2024-12-12 10:53,Smartwatch,Low,Email,A09,29.2,,Closed
+T02501,2024-12-12 11:01,Smartwatch,Medium,Chat,A10,33.6,3.0,Closed
+T02502,2024-12-12 23:06,Headphones,Low,Phone,A03,19.1,,Closed
+T02503,2024-12-12 23:21,Phone X,Medium,Chat,A09,29.3,4.0,Closed
+T02504,2024-12-13 04:50,Phone Mini,Medium,Chat,A07,19.2,4.0,Closed
+T02505,2024-12-13 11:48,Smartwatch,Medium,Chat,A06,14.2,5.0,Closed
+T02506,2024-12-13 16:17,Smartwatch,Medium,Email,A04,32.3,,Closed
+T02507,2024-12-14 00:06,Laptop Pro,Low,Email,A10,83.9,1.0,Closed
+T02508,2024-12-14 02:37,Smartwatch,Low,Email,A07,99.0,1.0,Closed
+T02509,2024-12-14 02:52,Laptop Pro,Medium,Email,A08,22.0,5.0,Closed
+T02510,2024-12-14 18:52,Phone X,Low,Phone,A05,30.6,3.0,Closed
+T02511,2024-12-15 04:39,Laptop Air,High,Chat,A04,7.3,5.0,Closed
+T02512,2024-12-15 06:06,Phone X,Low,Email,A01,30.1,,Closed
+T02513,2024-12-15 09:46,Phone Mini,Low,Chat,A08,13.9,4.0,Closed
+T02514,2024-12-15 13:07,Phone Mini,Low,Phone,A06,25.1,4.0,Closed
+T02515,2024-12-15 14:13,Phone X,High,Chat,A06,3.7,,Closed
+T02516,2024-12-15 14:36,Laptop Air,High,Chat,A01,5.4,5.0,Closed
+T02517,2024-12-15 20:15,Phone X,Low,Email,A03,31.1,,Closed
+T02518,2024-12-15 23:59,Phone Mini,Medium,Chat,A07,39.3,4.0,Closed
+T02519,2024-12-16 09:08,Phone Mini,Low,Chat,A12,44.6,,Closed
+T02520,2024-12-16 11:52,Smartwatch,Medium,Chat,A02,37.4,,Closed
+T02521,2024-12-16 12:29,Laptop Air,Medium,Chat,A04,30.1,4.0,Closed
+T02522,2024-12-16 19:50,Headphones,Medium,Chat,A04,29.9,3.0,Closed
+T02523,2024-12-16 22:01,Headphones,Low,Phone,A11,26.3,3.0,Closed
+T02524,2024-12-16 23:45,Smartwatch,Low,Email,A04,38.9,4.0,Closed
+T02525,2024-12-17 00:47,Laptop Air,High,Email,A01,7.1,,Closed
+T02526,2024-12-17 02:42,Phone X,Low,Email,A08,35.4,4.0,Closed
+T02527,2024-12-17 03:08,Phone Mini,Low,Phone,A06,37.0,,Closed
+T02528,2024-12-17 04:22,Headphones,Medium,Email,A07,70.0,2.0,Closed
+T02529,2024-12-17 06:10,Phone Mini,Low,Email,A06,34.8,,Closed
+T02530,2024-12-17 07:30,Headphones,Medium,Chat,A09,11.2,3.0,Closed
+T02531,2024-12-17 08:41,Smartwatch,High,Phone,A03,,5.0,Open
+T02532,2024-12-17 12:55,Headphones,Low,Email,A05,17.0,,Closed
+T02533,2024-12-17 14:54,Laptop Pro,Medium,Email,A04,18.6,4.0,Closed
+T02534,2024-12-17 22:22,Smartwatch,Low,Phone,A03,14.5,4.0,Closed
+T02535,2024-12-17 23:57,Phone Mini,Medium,Chat,A03,19.7,4.0,Closed
+T02536,2024-12-18 08:19,Phone Mini,Medium,Email,A02,17.7,4.0,Closed
+T02537,2024-12-18 09:46,Headphones,Medium,Email,A04,21.6,4.0,Closed
+T02538,2024-12-18 14:58,Laptop Air,Medium,Email,A11,26.0,4.0,Closed
+T02539,2024-12-18 16:24,Phone X,Medium,Chat,A04,8.1,5.0,Closed
+T02540,2024-12-18 16:43,Headphones,Low,Chat,A07,73.0,2.0,Closed
+T02541,2024-12-18 19:14,Laptop Pro,High,Phone,A08,11.3,4.0,Closed
+T02542,2024-12-19 01:22,Laptop Air,Urgent,Email,A11,1.3,5.0,Closed
+T02543,2024-12-19 02:59,Smartwatch,Urgent,Email,A02,7.1,4.0,Closed
+T02544,2024-12-19 04:38,Smartwatch,Medium,Email,A12,27.1,3.0,Closed
+T02545,2024-12-19 07:07,Laptop Air,Medium,Email,A11,19.0,4.0,Closed
+T02546,2024-12-19 08:40,Smartwatch,Low,Chat,A07,77.9,3.0,Closed
+T02547,2024-12-19 08:58,Laptop Pro,Medium,Chat,A05,19.4,4.0,Closed
+T02548,2024-12-19 10:04,Phone Mini,High,Chat,A04,7.5,5.0,Closed
+T02549,2024-12-19 17:52,Smartwatch,Low,Email,A08,29.4,2.0,Closed
+T02550,2024-12-20 05:04,Laptop Pro,Medium,Phone,A11,9.2,4.0,Closed
+T02551,2024-12-20 06:36,Laptop Pro,Medium,Email,A11,41.8,4.0,Closed
+T02552,2024-12-20 07:33,Headphones,Low,Email,A07,44.6,3.0,Closed
+T02553,2024-12-20 11:39,Phone Mini,Medium,Chat,A03,23.0,4.0,Closed
+T02554,2024-12-20 15:47,Smartwatch,High,Email,A05,6.6,4.0,Closed
+T02555,2024-12-20 22:18,Phone X,High,Email,A12,13.7,4.0,Closed
+T02556,2024-12-21 07:04,Laptop Air,Medium,Phone,A02,18.3,4.0,Closed
+T02557,2024-12-21 07:50,Laptop Air,Medium,Chat,A05,2000.0,2.0,Closed
+T02558,2024-12-21 08:56,Headphones,Low,Chat,A09,17.0,4.0,Closed
+T02559,2024-12-21 09:14,Laptop Air,Medium,Phone,A11,30.5,3.0,Closed
+T02560,2024-12-21 11:06,Laptop Air,High,Email,A12,30.1,3.0,Closed
+T02561,2024-12-21 17:38,Phone X,High,Email,A05,8.7,,Closed
+T02562,2024-12-21 18:07,Laptop Air,Medium,Phone,A05,18.4,5.0,Closed
+T02563,2024-12-21 23:05,Phone Mini,Low,Chat,A04,41.3,,Closed
+T02564,2024-12-22 00:03,Headphones,Medium,Email,A10,25.5,3.0,Closed
+T02565,2024-12-22 01:47,Phone X,LOW,Chat,A02,39.2,5.0,Closed
+T02566,2024-12-22 02:59,Headphones,Medium,Phone,A08,27.6,,Closed
+T02567,2024-12-22 04:29,Phone X,Low,Email,A11,29.5,3.0,Closed
+T02568,2024-12-22 05:44,Phone Mini,Low,Chat,A04,25.7,4.0,Closed
+T02569,2024-12-22 05:46,Phone X,High,Chat,A10,,5.0,Open
+T02570,2024-12-22 08:13,Phone X,Urgent,Chat,A12,3.2,5.0,Closed
+T02571,2024-12-22 12:49,Headphones,Medium,Chat,A08,11.6,,Closed
+T02572,2024-12-22 13:19,Phone X,Low,Chat,A08,40.5,,Closed
+T02573,2024-12-22 17:10,Phone Mini,High,Chat,A12,24.8,4.0,Closed
+T02574,2024-12-22 17:37,Headphones,Medium,Email,A06,21.6,4.0,Closed
+T02575,2024-12-22 19:05,Phone Mini,High,Email,A03,12.3,4.0,Closed
+T02576,2024-12-22 23:09,Laptop Pro,Medium,Email,A06,52.3,3.0,Closed
+T02577,2024-12-22 23:59,Headphones,Medium,Email,A12,17.9,4.0,Closed
+T02578,2024-12-23 14:05,Phone Mini,Medium,Phone,A11,37.6,3.0,Closed
+T02579,2024-12-23 16:29,Laptop Air,High,Email,A10,8.0,5.0,Closed
+T02580,2024-12-23 17:31,Laptop Air,Low,Phone,A06,41.7,3.0,Closed
+T02581,2024-12-24 07:14,Smartwatch,Low,Chat,A07,71.7,,Closed
+T02582,2024-12-24 16:05,Phone X,Low,Phone,A01,37.2,3.0,Closed
+T02583,2024-12-25 03:44,Phone Mini,Medium,Chat,A07,38.4,,Closed
+T02584,2024-12-25 03:49,Phone X,Low,Email,A01,45.6,,Closed
+T02585,2024-12-25 05:45,Headphones,Medium,Chat,A06,21.9,4.0,Closed
+T02586,2024-12-25 06:00,Headphones,Medium,Email,A02,25.1,4.0,Closed
+T02587,2024-12-25 06:13,Headphones,Medium,Chat,A04,26.8,4.0,Closed
+T02588,2024-12-25 09:10,Smartwatch,Urgent,Email,A09,3.6,4.0,Closed
+T02589,2024-12-25 15:48,Laptop Pro,Low,Email,A01,50.8,,Closed
+T02590,2024-12-26 02:05,Smartwatch,Low,Email,A03,33.3,3.0,Closed
+T02591,2024-12-26 04:47,Phone Mini,Medium,Chat,A01,20.3,5.0,Closed
+T02592,2024-12-26 07:23,Phone X,Low,Chat,A03,,4.0,Open
+T02593,2024-12-26 08:19,Smartwatch,Medium,Email,A06,18.0,,Closed
+T02594,2024-12-26 10:49,Headphones,Low,Phone,A10,23.8,3.0,Closed
+T02595,2024-12-26 22:43,Headphones,Medium,Chat,A04,30.7,,Closed
+T02596,2024-12-27 02:47,Smartwatch,Low,Email,A03,31.0,4.0,Closed
+T02597,2024-12-27 07:25,Phone Mini,Low,Phone,A10,22.9,4.0,Closed
+T02598,2024-12-27 12:18,Laptop Pro,Medium,Email,A07,,3.0,Open
+T02599,2024-12-27 19:36,Laptop Air,Medium,Email,A07,35.8,3.0,Closed
+T02600,2024-12-27 20:49,Laptop Pro,Medium,Email,A08,19.0,4.0,Closed
+T02601,2024-12-27 23:42,Phone X,Medium,Email,A01,18.1,4.0,Closed
+T02602,2024-12-28 06:28,Phone X,Low,Phone,A06,46.6,4.0,Closed
+T02603,2024-12-28 07:02,Laptop Air,Low,Chat,A01,23.1,,Closed
+T02604,2024-12-28 16:00,Laptop Pro,Low,Chat,A03,9.9,5.0,Closed
+T02605,2024-12-28 21:08,Smartwatch,Low,Phone,A07,57.6,,Closed
+T02606,2024-12-28 23:00,Smartwatch,Medium,Chat,A01,36.7,4.0,Closed
+T02607,2024-12-29 00:13,Phone X,Low,Phone,A11,33.7,,Closed
+T02608,2024-12-29 00:30,Headphones,Medium,Email,A06,7.4,,Closed
+T02609,2024-12-29 04:17,Laptop Pro,High,Email,A06,8.7,,Closed
+T02610,2024-12-29 08:13,Headphones,Medium,Phone,A06,23.8,4.0,Closed
+T02611,2024-12-29 17:17,Headphones,MEDIUM,Chat,A12,26.3,,Closed
+T02612,2024-12-30 01:17,Phone X,Medium,Email,A05,14.2,4.0,Closed
+T02613,2024-12-30 11:43,Headphones,High,Chat,A09,7.4,4.0,Closed
+T02614,2024-12-30 16:05,Phone Mini,Medium,Email,A06,22.9,4.0,Closed
+T02615,2024-12-30 19:24,Smartwatch,High,Email,A12,24.5,3.0,Closed
+T02616,2024-12-30 19:25,Phone X,High,Chat,A02,9.3,,Closed
+T02617,2024-12-30 22:36,Smartwatch,High,Email,A11,5.3,,Closed
+T02618,2024-12-30 23:00,Smartwatch,Low,Phone,A07,143.4,1.0,Closed
+T02619,2024-12-31 13:54,Laptop Air,High,Chat,A09,8.4,4.0,Closed
+T02620,2024-12-31 23:56,Phone X,Medium,Email,A12,24.1,,Closed
