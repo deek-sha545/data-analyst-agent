@@ -11,7 +11,7 @@ This file tracks the build so work can be resumed if interrupted.
 | M1 | Synthetic datasets with planted patterns + messy data (`data/generate_datasets.py`) + tests | ✅ done |
 | M2 | Config + model-agnostic LLM layer + run tracker (tokens / cost / latency / retries) | ✅ done |
 | M3 | Safe code sandbox (AST safety check + subprocess + timeout + temp dir + no network) + tests | ✅ done |
-| M4 | LangGraph agents: Planner → Coder → Executor → Reviewer → Reporter, self-correction loop, human-in-the-loop approval, single-agent & no-reviewer variants, markdown report with charts + tests (fake LLM) | ⏳ |
+| M4 | LangGraph agents: Planner → Coder → Executor → Reviewer → Reporter, self-correction loop, human-in-the-loop approval, single-agent & no-reviewer variants, markdown report with charts + tests (fake LLM) | ✅ done |
 | M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ⏳ |
 | M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ⏳ |
 | M7 | FastAPI backend (streaming steps, approval endpoint) + Streamlit UI + tests | ⏳ |
@@ -29,3 +29,7 @@ This file tracks the build so work can be resumed if interrupted.
   This key gets 404 for gemini-2.5-*; probed models: `gemini-3.5-flash-lite` ~1s/call (now the default),
   `gemini-3.5-flash` ~13s/call and sometimes times out (kept as the "stronger" model for experiments).
 - 2026-10-31 — M3: `analyst/sandbox.py` (AST allow-list, `python -I` subprocess, rlimits, socket block, scrubbed env, figure capture) + 30 tests.
+- 2026-10-31 — M4: `analyst/agents/*`, `analyst/graph.py`, `analyst/runner.py` (CLI: `python -m analyst.runner "question" data/sales.csv [--variant single|no_reviewer] [--approve]`),
+  `analyst/profiling.py`. First live run gave a wrong answer (999-unit outliers kept; reviewer approved a +440% swing) ->
+  profile now lists outlier values, planner must address every profile note, reviewer told to distrust implausible swings.
+  After the fix: West -27.24% (matches reference). Live single-agent + approval-with-feedback runs verified.
