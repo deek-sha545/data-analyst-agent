@@ -1,0 +1,10 @@
+[project]
+name = "data-analyst-agent"
+version = "0.1.0"
+description = "Autonomous multi-agent data analyst (LangGraph): plans, codes, self-corrects, reviews and reports."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
