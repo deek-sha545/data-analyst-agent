@@ -10,7 +10,7 @@ This file tracks the build so work can be resumed if interrupted.
 | M0 | Scaffolding: venv (`uv venv --python 3.12 .venv`), `.gitignore`, requirements, this plan | ✅ done |
 | M1 | Synthetic datasets with planted patterns + messy data (`data/generate_datasets.py`) + tests | ✅ done |
 | M2 | Config + model-agnostic LLM layer + run tracker (tokens / cost / latency / retries) | ✅ done |
-| M3 | Safe code sandbox (AST safety check + subprocess + timeout + temp dir + no network) + tests | ⏳ |
+| M3 | Safe code sandbox (AST safety check + subprocess + timeout + temp dir + no network) + tests | ✅ done |
 | M4 | LangGraph agents: Planner → Coder → Executor → Reviewer → Reporter, self-correction loop, human-in-the-loop approval, single-agent & no-reviewer variants, markdown report with charts + tests (fake LLM) | ⏳ |
 | M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ⏳ |
 | M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ⏳ |
@@ -28,3 +28,4 @@ This file tracks the build so work can be resumed if interrupted.
 - 2026-10-31 — M2: `analyst/config.py`, `analyst/llm.py` (retries w/ backoff, FakeLLM), `analyst/tracker.py`.
   This key gets 404 for gemini-2.5-*; probed models: `gemini-3.5-flash-lite` ~1s/call (now the default),
   `gemini-3.5-flash` ~13s/call and sometimes times out (kept as the "stronger" model for experiments).
+- 2026-10-31 — M3: `analyst/sandbox.py` (AST allow-list, `python -I` subprocess, rlimits, socket block, scrubbed env, figure capture) + 30 tests.
