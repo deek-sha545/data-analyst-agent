@@ -70,3 +70,18 @@ def test_grade_signed_and_tolerances():
     count = BY_ID["tickets_open_count"]
     assert grade(count, "There are 141 open tickets.").correct
     assert not grade(count, "There are 142 open tickets.").correct
+
+
+def test_unhinted_suite_removes_only_error_hints():
+    from eval.questions import HINTS
+
+    hinted = [q for q in QUESTIONS if q.has_hints]
+    assert len(hinted) >= 12
+    for q in hinted:
+        text = q.text("unhinted")
+        assert all(h.strip() not in text for h in HINTS), q.id
+        assert text.endswith(("?", ".")) and "  " not in text
+    sales = BY_ID["sales_total_revenue"].text("unhinted")
+    assert "100 units" not in sales and "Keep orders with a missing region" in sales  # scope rule stays
+    assert not BY_ID["web_outage_days"].has_hints
+    assert BY_ID["web_outage_days"].text("unhinted") == BY_ID["web_outage_days"].question

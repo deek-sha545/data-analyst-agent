@@ -31,7 +31,7 @@ RESULTS = ROOT / "results" / "runs.jsonl"
 RUNS_DIR = ROOT / "eval" / "runs"   # per-run reports/logs (gitignored)
 
 
-def load_done(path: Path) -> set[tuple[str, str, str]]:
+def load_done(path: Path) -> set[tuple[str, str, str, str]]:
     done = set()
     if path.exists():
         for line in path.read_text().splitlines():
@@ -39,14 +39,14 @@ def load_done(path: Path) -> set[tuple[str, str, str]]:
                 continue
             r = json.loads(line)
             if r["status"] != "error":
-                done.add((r["model"], r["variant"], r["qid"]))
+                done.add((r["model"], r["variant"], r.get("suite", "hinted"), r["qid"]))
     return done
 
 
-def run_one(q: Question, model: str, variant: str, provider: str) -> dict:
+def run_one(q: Question, model: str, variant: str, provider: str, suite: str = "hinted") -> dict:
     settings = get_settings(provider, model, outputs_dir=RUNS_DIR / "outputs", logs_dir=RUNS_DIR / "logs")
     t0 = time.time()
-    res = run_analysis(q.question, [DATA_DIR / q.file], variant, settings=settings)
+    res = run_analysis(q.text(suite), [DATA_DIR / q.file], variant, settings=settings)
     g = grade(q, res.answer) if res.status != "error" else None
     m = res.metrics
     return {
@@ -54,6 +54,7 @@ def run_one(q: Question, model: str, variant: str, provider: str) -> dict:
         "dataset": q.file,
         "model": model,
         "variant": variant,
+        "suite": suite,
         "status": res.status,
         "correct": bool(g and g.correct),
         "category_ok": g.category_ok if g else None,
@@ -85,26 +86,31 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--models", nargs="+", default=[get_settings().model])
     p.add_argument("--variants", nargs="+", default=list(VARIANTS), choices=VARIANTS)
     p.add_argument("--questions", nargs="+", default=["all"], help="question ids, or 'all'")
+    p.add_argument("--suite", choices=["hinted", "unhinted"], default="hinted",
+                   help="unhinted = questions with their data-error hints removed (only questions that have hints)")
     p.add_argument("--workers", type=int, default=3)
     p.add_argument("--out", type=Path, default=RESULTS)
     args = p.parse_args(argv)
 
     questions = QUESTIONS if args.questions == ["all"] else [BY_ID[q] for q in args.questions]
+    if args.suite == "unhinted":
+        questions = [q for q in questions if q.has_hints]
     args.out.parent.mkdir(parents=True, exist_ok=True)
     done = load_done(args.out)
-    jobs = [(q, m, v) for m in args.models for v in args.variants for q in questions if (m, v, q.id) not in done]
+    jobs = [(q, m, v) for m in args.models for v in args.variants for q in questions
+            if (m, v, args.suite, q.id) not in done]
     print(f"{len(jobs)} runs to do ({len(done)} already in {args.out.name})", flush=True)
 
     lock = threading.Lock()
     n_ok = 0
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(run_one, q, m, v, args.provider): (q, m, v) for q, m, v in jobs}
+        futures = {pool.submit(run_one, q, m, v, args.provider, args.suite): (q, m, v) for q, m, v in jobs}
         for i, fut in enumerate(as_completed(futures), 1):
             q, m, v = futures[fut]
             try:
                 row = fut.result()
             except Exception as e:  # bug in the harness itself: record and move on
-                row = {"qid": q.id, "model": m, "variant": v, "status": "error", "correct": False,
+                row = {"qid": q.id, "model": m, "variant": v, "suite": args.suite, "status": "error", "correct": False,
                        "error": f"{type(e).__name__}: {e}"}
             with lock:
                 with args.out.open("a") as f:

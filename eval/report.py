@@ -3,7 +3,7 @@ Summarise results/runs.jsonl into tables and charts:
 
     results/summary.md      human-readable tables (accuracy, cost, latency, per dataset, failures)
     results/summary.csv     one row per (model, variant)
-    results/comparison.png  accuracy / tokens / latency per configuration (small multiples)
+    results/comparison_<suite>.png  accuracy / tokens / latency per configuration (small multiples)
 
     python -m eval.report
 """
@@ -34,10 +34,11 @@ def load(path: Path = RESULTS / "runs.jsonl") -> pd.DataFrame:
     rows = [json.loads(l) for l in path.read_text().splitlines() if l.strip()]
     df = pd.DataFrame(rows)
     df["ts"] = pd.to_datetime(df["ts"], errors="coerce")
+    df["suite"] = df["suite"].fillna("hinted") if "suite" in df else "hinted"
     # Latest attempt per combination; infra errors only count if nothing else exists.
     df["is_error"] = df["status"] == "error"
     df = df.sort_values(["is_error", "ts"], ascending=[False, True])
-    df = df.drop_duplicates(["model", "variant", "qid"], keep="last").reset_index(drop=True)
+    df = df.drop_duplicates(["suite", "model", "variant", "qid"], keep="last").reset_index(drop=True)
     df["review_revisions"] = df["run_id"].map(_count_revisions)
     return df
 
@@ -52,7 +53,7 @@ def _count_revisions(run_id) -> int:
 
 
 def summarise(df: pd.DataFrame) -> pd.DataFrame:
-    g = df.groupby(["model", "variant"])
+    g = df.groupby(["suite", "model", "variant"])
     out = pd.DataFrame({
         "runs": g.size(),
         "accuracy_pct": g["correct"].mean() * 100,
@@ -69,7 +70,7 @@ def summarise(df: pd.DataFrame) -> pd.DataFrame:
         "avg_retries": g["retries"].mean(),
     }).reset_index()
     out["variant"] = pd.Categorical(out["variant"], VARIANT_ORDER, ordered=True)
-    return out.sort_values(["model", "variant"]).reset_index(drop=True)
+    return out.sort_values(["suite", "model", "variant"]).reset_index(drop=True)
 
 
 def _style(ax):
@@ -82,7 +83,7 @@ def _style(ax):
     ax.set_axisbelow(True)
 
 
-def chart(summary: pd.DataFrame, path: Path) -> None:
+def chart(summary: pd.DataFrame, path: Path, title: str) -> None:
     rows = summary.copy()
     rows["label"] = rows["model"].str.replace("gemini-", "") + "\n" + rows["variant"].map(VARIANT_LABEL).astype(str)
     rows = rows.iloc[::-1]  # first configuration on top
@@ -101,7 +102,7 @@ def chart(summary: pd.DataFrame, path: Path) -> None:
         ax.set_xlim(0, (100 if col == "accuracy_pct" else vmax) * 1.18)
         ax.set_title(title, loc="left", color=INK, fontsize=11, fontweight="bold")
     axes[0].tick_params(axis="y", colors=INK, labelsize=9)
-    fig.suptitle("Variant comparison on 35 analysis questions", x=0.01, ha="left", color=INK, fontsize=13)
+    fig.suptitle(title, x=0.01, ha="left", color=INK, fontsize=13)
     fig.tight_layout()
     fig.savefig(path, dpi=130, facecolor=SURFACE)
     plt.close(fig)
@@ -111,20 +112,21 @@ def _md_table(df: pd.DataFrame, floatfmt: str = ".2f") -> str:
     return df.to_markdown(index=False, floatfmt=floatfmt)
 
 
+SUITE_TEXT = {
+    "hinted": "Questions as written: cleaning rules that change the answer are stated in the question.",
+    "unhinted": "The same questions with the data-error hints removed (999-unit orders, x10 salary typos, invalid "
+                "resolution times, casing notes): the agents must find the errors themselves. Only the 16 "
+                "questions that carry such hints are in this suite.",
+}
+
+
 def main() -> None:
     df = load()
     summary = summarise(df)
     summary.to_csv(RESULTS / "summary.csv", index=False)
-    chart(summary, RESULTS / "comparison.png")
-
-    by_dataset = (df.groupby(["model", "variant", "dataset"])["correct"].mean().mul(100).round(0)
-                  .unstack("dataset").reset_index())
-    failures = df[~df["correct"]][["model", "variant", "qid", "status", "answer", "grade_reason"]].copy()
-    failures["answer"] = failures["answer"].fillna("").str.slice(0, 140)
-
-    shown = summary[["model", "variant", "runs", "accuracy_pct", "completed_pct", "avg_executions",
-                     "runs_with_self_correction", "runs_revised_by_reviewer", "avg_llm_calls", "avg_tokens",
-                     "avg_cost_usd", "avg_llm_latency_s"]]
+    cols = ["model", "variant", "runs", "accuracy_pct", "completed_pct", "avg_executions",
+            "runs_with_self_correction", "runs_revised_by_reviewer", "avg_llm_calls", "avg_tokens",
+            "avg_cost_usd", "avg_llm_latency_s"]
     md = [
         "# Experiment results",
         "",
@@ -136,25 +138,38 @@ def main() -> None:
         "- **runs_revised_by_reviewer** - runs where the reviewer asked for at least one revision",
         "- **avg_llm_latency_s** - summed model response time per question; time queued by the client-side "
         "rate limiter (free tier: 15 requests/min) is excluded",
-        "- **avg_cost_usd** - estimate from `analyst/config.py` price table (free tier was actually used)",
-        "",
-        "## Summary",
-        "",
-        _md_table(shown),
-        "",
-        "![comparison](comparison.png)",
-        "",
-        "## Accuracy by dataset (%)",
-        "",
-        _md_table(by_dataset, ".0f"),
-        "",
-        "## Incorrect answers",
-        "",
-        _md_table(failures) if len(failures) else "None.",
+        "- **avg_cost_usd** - estimate from the `analyst/config.py` price table (the free tier was actually used)",
         "",
     ]
+    for suite in [s for s in ("hinted", "unhinted") if s in set(summary["suite"])]:
+        part = summary[summary["suite"] == suite]
+        sub = df[df["suite"] == suite]
+        png = f"comparison_{suite}.png"
+        chart(part, RESULTS / png, f"{suite.capitalize()} suite - {sub['qid'].nunique()} questions")
+        by_dataset = (sub.groupby(["model", "variant", "dataset"])["correct"].mean().mul(100).round(0)
+                      .unstack("dataset").reset_index())
+        failures = sub[~sub["correct"]][["model", "variant", "qid", "status", "answer", "grade_reason"]].copy()
+        failures["answer"] = failures["answer"].fillna("").str.slice(0, 140)
+        md += [
+            f"## {suite.capitalize()} suite",
+            "",
+            SUITE_TEXT[suite],
+            "",
+            _md_table(part[cols]),
+            "",
+            f"![{suite} comparison]({png})",
+            "",
+            "Accuracy by dataset (%):",
+            "",
+            _md_table(by_dataset, ".0f"),
+            "",
+            "Incorrect answers:",
+            "",
+            _md_table(failures) if len(failures) else "None.",
+            "",
+        ]
     (RESULTS / "summary.md").write_text("\n".join(md))
-    print("\n".join(md[:16]))
+    print("\n".join(md))
 
 
 if __name__ == "__main__":

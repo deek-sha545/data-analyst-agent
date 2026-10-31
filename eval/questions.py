@@ -29,10 +29,16 @@ REGIONS = ["North", "South", "East", "West"]
 PRODUCTS = ["Laptop Pro", "Laptop Air", "Phone X", "Phone Mini", "Headphones", "Smartwatch"]
 DEPARTMENTS = ["Engineering", "Sales", "Support", "Marketing", "Finance", "HR"]
 
-SALES_RULES = ("Remove exact duplicate rows and exclude orders with more than 100 units (data-entry errors); "
-               "keep orders with a missing region unless the question is about regions.")
+# Error-detection hints. The "unhinted" suite removes exactly these, so the agents must find
+# the data-entry errors themselves; definitional rules (scope, what to keep) always stay.
+SALES_ERRORS = "Remove exact duplicate rows and exclude orders with more than 100 units (data-entry errors); "
 HR_RULES = "Salaries above 1,000,000 are typos with an extra zero: divide them by 10."
 TICKET_RULES = "Treat resolution times below 0 or above 1000 hours as invalid (ignore them)."
+OVERTIME_NOTE = " (The overtime column mixes Yes/No/Y/N in different cases.)"
+PRIORITY_NOTE = " Note the priority column has inconsistent casing."
+HINTS = [SALES_ERRORS, HR_RULES, TICKET_RULES, OVERTIME_NOTE, PRIORITY_NOTE]
+
+SALES_RULES = SALES_ERRORS + "keep orders with a missing region unless the question is about regions."
 
 
 @dataclass
@@ -50,6 +56,21 @@ class Question:
     @property
     def answer(self) -> dict:
         return _cached_answer(self.id)
+
+    def text(self, suite: str = "hinted") -> str:
+        """The question as asked in a suite: "hinted" (as written) or "unhinted" (error hints removed)."""
+        if suite == "hinted":
+            return self.question
+        q = self.question
+        for h in HINTS:
+            q = q.replace(h.strip(), "").replace(h, "")
+        if q.startswith("keep orders") or " keep orders" in q:
+            q = q.replace("keep orders", "Keep orders")
+        return " ".join(q.split())
+
+    @property
+    def has_hints(self) -> bool:
+        return self.text("unhinted") != " ".join(self.question.split())
 
 
 # ---------------------------------------------------------------- helpers
@@ -189,7 +210,7 @@ QUESTIONS: list[Question] = [
              lambda: {"category": H().groupby("department")["left"].mean().idxmin()}, DEPARTMENTS),
     Question("hr_overtime_ratio", "hr_employees.xlsx",
              "How many times higher is the attrition rate of employees who work overtime than of those who don't? "
-             "(The overtime column mixes Yes/No/Y/N in different cases.)",
+             + OVERTIME_NOTE.strip(),
              lambda: {"number": H().groupby("overtime")["left"].mean()["Yes"] / H().groupby("overtime")["left"].mean()["No"]},
              tol=0.2),
     Question("hr_eng_median_salary", "hr_employees.xlsx",
@@ -233,8 +254,8 @@ QUESTIONS: list[Question] = [
              "How many tickets are still open?",
              lambda: {"number": int((T()["status"] == "Open").sum())}, tol=0),
     Question("tickets_urgent_satisfaction", "support_tickets.csv",
-             "What is the average satisfaction score for Urgent-priority tickets (ignoring missing scores)? "
-             "Note the priority column has inconsistent casing.",
+             "What is the average satisfaction score for Urgent-priority tickets (ignoring missing scores)?"
+             + PRIORITY_NOTE,
              lambda: {"number": T()[T()["priority"] == "Urgent"]["satisfaction_score"].mean()}, tol=0.05),
     Question("tickets_corr", "support_tickets.csv",
              f"What is the Pearson correlation between resolution time and satisfaction score? {TICKET_RULES} "

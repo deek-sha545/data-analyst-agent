@@ -1,0 +1,3 @@
+suite,model,variant,runs,accuracy_pct,completed_pct,infra_errors,avg_executions,runs_with_self_correction,runs_revised_by_reviewer,avg_llm_calls,avg_tokens,avg_cost_usd,total_cost_usd,avg_llm_latency_s,avg_retries
+hinted,gemini-3.5-flash-lite,multi,35,100.0,100.0,0,1.0,0,0,4.0,6401.371428571429,0.0009801428571428572,0.034305,17.187885714285716,0.02857142857142857
+hinted,gemini-3.5-flash-lite,no_reviewer,16,100.0,100.0,0,1.0625,1,0,3.0625,4598.0625,0.0008241874999999999,0.013186999999999999,7.8862499999999995,0.0
