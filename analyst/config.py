@@ -24,6 +24,7 @@ class Provider:
     base_url: str
     key_env: str          # env var holding the API key ("" = no key needed)
     default_model: str
+    default_rpm: int = 0  # client-side requests/minute cap (0 = none); override with LLM_RPM
 
 
 PROVIDERS: dict[str, Provider] = {
@@ -32,6 +33,7 @@ PROVIDERS: dict[str, Provider] = {
         "https://generativelanguage.googleapis.com/v1beta/openai/",
         "GEMINI_API_KEY",
         "gemini-3.5-flash-lite",  # fast + reliable; "gemini-3.5-flash" is stronger but ~10x slower
+        default_rpm=14,           # free tier allows 15 requests/minute per model
     ),
     "groq": Provider("groq", "https://api.groq.com/openai/v1", "GROQ_API_KEY", "llama-3.3-70b-versatile"),
     "openai": Provider("openai", "https://api.openai.com/v1", "OPENAI_API_KEY", "gpt-4o-mini"),
@@ -65,7 +67,8 @@ class Settings:
     temperature: float = 0.1
     max_tokens: int = 8192          # thinking models spend part of this on reasoning
     request_timeout: float = 120.0  # seconds per LLM HTTP request
-    max_retries: int = 5            # LLM-call retries on rate limits / 5xx / timeouts
+    max_retries: int = 8            # LLM-call retries on rate limits / 5xx / timeouts
+    rpm: int = 0                    # client-side rate limit, requests per minute per model (0 = off)
     max_fix_attempts: int = 3       # Coder self-correction rounds after a failed execution
     max_review_rounds: int = 2      # Reviewer "revise" rounds before we accept the answer
     sandbox_timeout: int = 60       # seconds a generated script may run
@@ -96,4 +99,6 @@ def get_settings(provider: str | None = None, model: str | None = None, **overri
     for key, env in env_ints.items():
         if key not in overrides and os.getenv(env):
             overrides[key] = int(os.environ[env])
+    if "rpm" not in overrides:
+        overrides["rpm"] = int(os.getenv("LLM_RPM") or PROVIDERS[provider].default_rpm)
     return Settings(provider=provider, model=model, **overrides)

@@ -33,6 +33,7 @@ class LLMCall:
     priced: bool
     ok: bool = True
     error: str = ""
+    wait_s: float = 0.0     # time spent queued by the rate limiter or in retry backoff (not model latency)
 
 
 @dataclass
@@ -91,6 +92,7 @@ class RunTracker:
             "cost_usd": round(sum(c.cost_usd for c in calls), 6),
             "all_priced": all(c.priced for c in calls),
             "llm_latency_s": round(sum(c.latency_s for c in calls), 3),
+            "rate_limit_wait_s": round(sum(c.wait_s for c in calls), 3),
             "retries": sum(c.retries for c in calls),
             "wall_time_s": round(time.time() - self.started, 3),
             "by_agent": self._by_agent(calls),

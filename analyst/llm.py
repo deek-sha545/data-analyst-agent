@@ -14,7 +14,9 @@ from __future__ import annotations
 import json
 import random
 import re
+import threading
 import time
+from collections import deque
 from typing import Callable, Sequence
 
 import openai
@@ -34,6 +36,39 @@ class LLMError(RuntimeError):
 
 class EmptyResponse(RuntimeError):
     """The model returned no text (e.g. reasoning used the whole token budget). Retried."""
+
+
+class RateLimiter:
+    """
+    Process-wide sliding-window limiter: at most `rpm` request starts per 60s
+    per key (provider URL + model). Shared by all threads, so parallel eval
+    workers queue politely instead of all hitting HTTP 429 at once.
+    """
+
+    _windows: dict[str, deque] = {}
+    _lock = threading.Lock()
+
+    @classmethod
+    def acquire(cls, key: str, rpm: int, sleep: Callable[[float], None] = time.sleep) -> float:
+        """Block until a request may start; return seconds waited."""
+        if rpm <= 0:
+            return 0.0
+        waited = 0.0
+        while True:
+            with cls._lock:
+                win = cls._windows.setdefault(key, deque())
+                now = time.monotonic()
+                while win and now - win[0] >= 60.0:
+                    win.popleft()
+                if len(win) < rpm:
+                    win.append(now)
+                    return waited
+                delay = 60.0 - (now - win[0]) + 0.05
+            sleep(delay)
+            waited += delay
+
+
+_RETRY_IN_RE = re.compile(r"retry in ([\d.]+)s", re.IGNORECASE)
 
 
 class LLM:
@@ -61,6 +96,7 @@ class LLM:
                 max_retries=0,  # we retry ourselves so retries are counted
             )
         self.client = client
+        self._limit_key = f"{self.settings.provider_info.base_url}|{self.model}"
 
     def chat(self, messages: Sequence[Message], agent: str = "agent", json_mode: bool = False) -> str:
         kwargs = dict(
@@ -73,8 +109,11 @@ class LLM:
             kwargs["response_format"] = {"type": "json_object"}
 
         retries = 0
+        waited = 0.0
         start = time.time()
         while True:
+            waited += RateLimiter.acquire(self._limit_key, self.settings.rpm, self._sleep)
+            t_req = time.time()
             try:
                 resp = self.client.chat.completions.create(**kwargs)
                 text = (resp.choices[0].message.content or "").strip() if resp.choices else ""
@@ -83,39 +122,49 @@ class LLM:
                 c_tok = getattr(usage, "completion_tokens", 0) or 0
                 if not text:
                     # Count the tokens we were billed for, then retry.
-                    self._record(agent, p_tok, c_tok, 0.0, 0, ok=False, error="empty response")
+                    self._record(agent, p_tok, c_tok, time.time() - t_req, 0, ok=False, error="empty response")
                     raise EmptyResponse("model returned an empty message")
-                self._record(agent, p_tok, c_tok, time.time() - start, retries)
+                self._record(agent, p_tok, c_tok, time.time() - t_req, retries, wait=waited)
                 return text
             except (*RETRYABLE, EmptyResponse) as e:
                 if retries >= self.settings.max_retries:
-                    self._record(agent, 0, 0, time.time() - start, retries, ok=False, error=str(e)[:300])
+                    self._record(agent, 0, 0, time.time() - t_req, retries, ok=False, error=str(e)[:300],
+                                 wait=time.time() - start)
                     raise LLMError(f"{agent}: LLM call failed after {retries} retries: {e}") from e
                 delay = self._backoff(retries, e)
                 retries += 1
                 self.tracker.event("system", "retry", f"{agent}: {type(e).__name__}, retry {retries} in {delay:.1f}s")
                 self._sleep(delay)
+                waited += delay + (time.time() - t_req if isinstance(e, openai.RateLimitError) else 0.0)
             except openai.APIStatusError as e:  # 4xx other than 429: bad key / model / request
                 self._record(agent, 0, 0, time.time() - start, retries, ok=False, error=str(e)[:300])
                 raise LLMError(f"{agent}: LLM request rejected ({e.status_code}): {e}") from e
 
     @staticmethod
     def _backoff(attempt: int, err: Exception) -> float:
-        """Exponential backoff with jitter; honours a Retry-After header when present."""
-        retry_after = None
+        """
+        Exponential backoff with jitter. Honours the server's hint when there is
+        one: a Retry-After header, or Gemini's "Please retry in 57.06s" message.
+        """
+        hint = None
         resp = getattr(err, "response", None)
         if resp is not None:
             try:
-                retry_after = float(resp.headers.get("retry-after"))
+                hint = float(resp.headers.get("retry-after"))
             except (TypeError, ValueError):
-                retry_after = None
-        base = retry_after if retry_after is not None else 2 ** attempt * 2
-        return min(base + random.uniform(0, 1), 60.0)
+                hint = None
+        if hint is None:
+            m = _RETRY_IN_RE.search(str(err))
+            if m:
+                hint = float(m.group(1))
+        base = hint if hint is not None else 2 ** attempt * 2
+        return min(base + random.uniform(0, 1), 65.0)
 
-    def _record(self, agent, p_tok, c_tok, latency, retries, ok=True, error=""):
+    def _record(self, agent, p_tok, c_tok, latency, retries, ok=True, error="", wait=0.0):
         cost, priced = estimate_cost(self.model, p_tok, c_tok)
         self.tracker.record_call(
-            LLMCall(agent, self.model, p_tok, c_tok, round(latency, 3), retries, cost, priced, ok, error)
+            LLMCall(agent, self.model, p_tok, c_tok, round(latency, 3), retries, cost, priced, ok, error,
+                    round(wait, 3))
         )
 
 

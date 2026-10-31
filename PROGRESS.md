@@ -12,7 +12,7 @@ This file tracks the build so work can be resumed if interrupted.
 | M2 | Config + model-agnostic LLM layer + run tracker (tokens / cost / latency / retries) | ✅ done |
 | M3 | Safe code sandbox (AST safety check + subprocess + timeout + temp dir + no network) + tests | ✅ done |
 | M4 | LangGraph agents: Planner → Coder → Executor → Reviewer → Reporter, self-correction loop, human-in-the-loop approval, single-agent & no-reviewer variants, markdown report with charts + tests (fake LLM) | ✅ done |
-| M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ⏳ |
+| M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ✅ done |
 | M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ⏳ |
 | M7 | FastAPI backend (streaming steps, approval endpoint) + Streamlit UI + tests | ⏳ |
 | M8 | MCP server exposing the analysis tools + tests + docs | ⏳ |
@@ -33,3 +33,8 @@ This file tracks the build so work can be resumed if interrupted.
   `analyst/profiling.py`. First live run gave a wrong answer (999-unit outliers kept; reviewer approved a +440% swing) ->
   profile now lists outlier values, planner must address every profile note, reviewer told to distrust implausible swings.
   After the fix: West -27.24% (matches reference). Live single-agent + approval-with-feedback runs verified.
+- 2026-10-31 — M5: `eval/questions.py` (35 questions, answers computed from reference cleaners, all category
+  answers lead the runner-up by >=8%), `eval/grader.py` (deterministic), `eval/harness.py` (resumable, parallel).
+  Pilot 12/12 correct but exposed Gemini free-tier limit (15 req/min/model, 429 says "retry in Ns") ->
+  added a process-wide sliding-window RateLimiter (default 14 rpm for gemini, `LLM_RPM`), server-hinted backoff,
+  and `rate_limit_wait_s` tracked separately from model latency.

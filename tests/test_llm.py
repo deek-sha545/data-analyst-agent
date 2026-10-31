@@ -6,7 +6,7 @@ import openai
 import pytest
 
 from analyst.config import PROVIDERS, get_settings
-from analyst.llm import LLM, FakeLLM, LLMError, extract_code, parse_json
+from analyst.llm import LLM, FakeLLM, LLMError, RateLimiter, extract_code, parse_json
 from analyst.tracker import RunTracker, estimate_cost
 
 
@@ -39,6 +39,7 @@ class FakeClient:
 
 
 def make_llm(outcomes, **settings):
+    settings.setdefault("rpm", 0)
     s = get_settings("gemini", "gemini-3.5-flash", **settings)
     return LLM(s, RunTracker(), client=FakeClient(outcomes), sleep=lambda _: None)
 
@@ -140,3 +141,34 @@ def test_tracker_events_listeners_and_save(tmp_path):
     path = t.save(tmp_path)
     assert path.exists() and t.run_id in path.name
     assert t.to_dict()["summary"]["llm_calls"] == 0
+
+
+def test_rate_limiter_sliding_window(monkeypatch):
+    clock = {"t": 1000.0}
+    monkeypatch.setattr("analyst.llm.time.monotonic", lambda: clock["t"])
+    sleeps = []
+
+    def fake_sleep(d):
+        sleeps.append(d)
+        clock["t"] += d
+
+    key = "test-key-window"
+    RateLimiter._windows.pop(key, None)
+    waits = [RateLimiter.acquire(key, 3, fake_sleep) for _ in range(4)]
+    assert waits[:3] == [0.0, 0.0, 0.0]
+    assert waits[3] == pytest.approx(60.05)  # 4th request waits for the 1st to leave the window
+    assert RateLimiter.acquire("other-key", 0, fake_sleep) == 0.0  # rpm=0 disables limiting
+
+
+def test_backoff_uses_gemini_retry_hint():
+    req = httpx.Request("POST", "https://x")
+    err = openai.RateLimitError("Quota exceeded. Please retry in 7.5s.", response=httpx.Response(429, request=req), body=None)
+    assert 7.5 <= LLM._backoff(0, err) <= 8.5
+
+
+def test_default_rpm_for_gemini(monkeypatch):
+    monkeypatch.delenv("LLM_RPM", raising=False)
+    assert get_settings("gemini").rpm == 14
+    assert get_settings("openai").rpm == 0
+    monkeypatch.setenv("LLM_RPM", "5")
+    assert get_settings("gemini").rpm == 5
