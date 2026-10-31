@@ -83,3 +83,15 @@ persistent LangGraph checkpointer (SQLite/Postgres) so paused approvals survive 
 A top-level package named `mcp` would shadow the MCP SDK. Dataset access is restricted to
 `data/` and `uploads/` by default; absolute paths need `ANALYST_MCP_ALLOW_ANY_PATH=1`,
 because the MCP client (an LLM) chooses the arguments.
+
+### 13. A second, "unhinted" evaluation suite
+With cleaning rules spelled out in the questions, all three variants scored 35/35, which
+measures pandas fluency, not analyst judgement. The unhinted suite removes exactly the
+error-detection hints (outlier orders, salary typos, invalid durations, casing notes) and
+keeps definitional rules, so the expected answers are unchanged but the agents must find
+the data errors themselves. That is where the variants start to differ.
+
+### 14. Infrastructure errors are not wrong answers
+Runs that die on API errors (503 overload, exhausted daily quota) are recorded with status
+`error`, retried when the harness is re-run, and reported as `infra_errors`, excluded from
+accuracy. Counting them as wrong would blame the agent for the provider's outage.

@@ -44,7 +44,7 @@
 | `api/main.py` | FastAPI: datasets, runs, events, NDJSON stream, approval, files |
 | `ui/app.py` | Streamlit front-end on top of the API |
 | `analyst_mcp/server.py` | MCP server: `list_datasets`, `profile_dataset`, `run_python`, `ask_analyst` |
-| `eval/` | Reference cleaners, 35 questions, deterministic grader, resumable harness, report |
+| `eval/` | Reference cleaners, 35 questions (+ a 16-question *unhinted* suite without data-error hints), deterministic grader, resumable harness, report |
 
 ## The agents
 

@@ -84,7 +84,9 @@ def _hinted_wait(err: Exception) -> float | None:
             return float(resp.headers.get("retry-after"))
         except (TypeError, ValueError):
             pass
-    m = _RETRY_IN_RE.search(str(err))
+    # The SDK's str(err) can be just "Error code: 429"; the hint lives in the response body.
+    text = f"{err} {getattr(err, 'body', '') or ''} {getattr(err, 'message', '') or ''}"
+    m = _RETRY_IN_RE.search(text)
     if m and any(m.groups()):
         h, mi, sec = (float(g) if g else 0.0 for g in m.groups())
         return h * 3600 + mi * 60 + sec

@@ -13,10 +13,10 @@ This file tracks the build so work can be resumed if interrupted.
 | M3 | Safe code sandbox (AST safety check + subprocess + timeout + temp dir + no network) + tests | ✅ done |
 | M4 | LangGraph agents: Planner → Coder → Executor → Reviewer → Reporter, self-correction loop, human-in-the-loop approval, single-agent & no-reviewer variants, markdown report with charts + tests (fake LLM) | ✅ done |
 | M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ✅ done |
-| M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ⏳ |
+| M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ✅ done (partial: see log) |
 | M7 | FastAPI backend (streaming steps, approval endpoint) + Streamlit UI + tests | ✅ done |
 | M8 | MCP server exposing the analysis tools + tests + docs | ✅ done |
-| M9 | Dockerfile, README, ARCHITECTURE, DECISIONS final pass | ⏳ |
+| M9 | Dockerfile, README, ARCHITECTURE, DECISIONS final pass | ✅ done |
 
 ## Log
 
@@ -50,3 +50,12 @@ This file tracks the build so work can be resumed if interrupted.
   Hinted suite was ~100% for every variant so far -> added the **unhinted** suite (`--suite unhinted`, 16 questions
   with the data-error hints removed) to test whether agents find data errors themselves.
   Resume: `python -m eval.harness --models <m> --variants ... [--suite unhinted]` then `python -m eval.report`.
+- 2026-10-31 — M6 results: hinted suite 105/105 (all 3 variants). Unhinted: multi 14/16, no_reviewer 1/3 graded,
+  single 0 graded - `gemini-3.5-flash-lite` daily free quota (500 req/day) ran out at ~18:20. 24 ungraded runs are
+  `status: error` rows in results/runs.jsonl. **To finish after the quota resets (~17.8 h later):**
+  `python -m eval.harness --variants no_reviewer single --suite unhinted && python -m eval.report`, then update README.
+  Second model not run: gemini-3.5-flash = 20 req/day; 3.1-flash-lite/3.7/3.8/flash-latest returned 503.
+  Found + fixed: quota hint lives only in the SDK error *body* (str(err) is "Error code: 429") -> QuotaExhausted now
+  fails fast (verified against the live API: 0.7 s instead of ~5 min of retries).
+- 2026-10-31 — M9: Dockerfile + docker-compose (not built locally: docker not installed on this machine), README with
+  results, ARCHITECTURE, DECISIONS. 101 tests passing; ruff (F, E9, B) clean.

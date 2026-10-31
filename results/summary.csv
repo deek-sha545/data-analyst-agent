@@ -1,3 +1,7 @@
-suite,model,variant,runs,accuracy_pct,completed_pct,infra_errors,avg_executions,runs_with_self_correction,runs_revised_by_reviewer,avg_llm_calls,avg_tokens,avg_cost_usd,total_cost_usd,avg_llm_latency_s,avg_retries
-hinted,gemini-3.5-flash-lite,multi,35,100.0,100.0,0,1.0,0,0,4.0,6401.371428571429,0.0009801428571428572,0.034305,17.187885714285716,0.02857142857142857
-hinted,gemini-3.5-flash-lite,no_reviewer,16,100.0,100.0,0,1.0625,1,0,3.0625,4598.0625,0.0008241874999999999,0.013186999999999999,7.8862499999999995,0.0
+suite,model,variant,graded,accuracy_pct,completed_pct,avg_executions,runs_with_self_correction,runs_revised_by_reviewer,avg_llm_calls,avg_tokens,avg_cost_usd,total_cost_usd,avg_llm_latency_s,avg_retries,infra_errors
+hinted,gemini-3.5-flash-lite,multi,35,100.0,100.0,1.0,0,0,4.0,6401.371428571429,0.0009801428571428572,0.034305,17.187885714285716,0.02857142857142857,0
+hinted,gemini-3.5-flash-lite,no_reviewer,35,100.0,100.0,1.0285714285714285,1,0,3.0285714285714285,4249.428571428572,0.0007596857142857142,0.026588999999999998,7.833885714285714,0.05714285714285714,0
+hinted,gemini-3.5-flash-lite,single,35,100.0,100.0,1.0571428571428572,1,0,2.4,4903.057142857143,0.0007154571428571429,0.025041,6.2494000000000005,0.34285714285714286,0
+unhinted,gemini-3.5-flash-lite,multi,16,87.5,100.0,1.0,0,0,4.0,6889.6875,0.0010586875,0.016939,7.47475,0.0,0
+unhinted,gemini-3.5-flash-lite,no_reviewer,3,33.33333333333333,100.0,1.0,0,0,3.0,6048.666666666667,0.0011836666666666666,0.003551,8.475,0.0,13
+unhinted,gemini-3.5-flash-lite,single,0,,,,,,,,,,,,11

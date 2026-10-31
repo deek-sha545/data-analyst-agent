@@ -191,3 +191,16 @@ def test_daily_quota_fails_fast():
     with pytest.raises(QuotaExhausted, match="quota exhausted"):
         llm.chat([{"role": "user", "content": "hi"}])
     assert len(llm.client.requests) == 1  # no pointless retries
+
+
+def test_quota_hint_read_from_error_body():
+    """Real SDK errors: str(err) is just 'Error code: 429'; the hint is only in .body."""
+    req = httpx.Request("POST", "https://x")
+    body = [{"error": {"code": 429, "message": "Requests per day limit exceeded. Please retry in 17h50m44.6s.",
+                       "status": "RESOURCE_EXHAUSTED"}}]
+    err = openai.RateLimitError("Error code: 429", response=httpx.Response(429, request=req), body=body)
+    assert str(err) == "Error code: 429"
+    assert _hinted_wait(err) == pytest.approx(17 * 3600 + 50 * 60 + 44.6)
+    llm = make_llm([err, _resp("never")])
+    with pytest.raises(QuotaExhausted):
+        llm.chat([{"role": "user", "content": "hi"}])

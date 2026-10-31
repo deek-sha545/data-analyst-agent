@@ -85,14 +85,57 @@ Claude Code: `claude mcp add data-analyst -- /path/to/.venv/bin/python -m analys
 
 ## Experiments
 
-<!-- RESULTS -->
+All runs use `gemini-3.5-flash-lite` on the free tier. Full tables are in [results/summary.md](results/summary.md),
+and every raw run is in `results/runs.jsonl`.
+
+**Hinted suite (35 questions, cleaning rules stated in the question): every variant scored 35/35.**
+
+| Variant | Accuracy | LLM calls / question | Tokens / question |
+|---|---|---|---|
+| Multi-agent + reviewer | 100% | 4.0 | 6,401 |
+| Multi-agent, no reviewer | 100% | 3.0 | 4,249 |
+| Single agent | 100% | 2.4 | 4,903 |
+
+![hinted](results/comparison_hinted.png)
+
+**Unhinted suite (the 16 questions whose data-error hints were removed: the agents must notice the
+999-unit orders, ×10 salary typos and invalid resolution times on their own).**
+
+| Variant | Graded runs | Accuracy |
+|---|---|---|
+| Multi-agent + reviewer | 16 / 16 | 88% (14/16) |
+| Multi-agent, no reviewer | 3 / 16 | 33% (1/3) |
+| Single agent | 0 / 16 | – |
+
+![unhinted](results/comparison_unhinted.png)
+
+What the numbers show, and what they don't:
+
+- **When the task is fully specified, the extra agents add cost, not accuracy.** On the hinted suite the
+  single agent was as accurate as the full team with ~40% fewer LLM calls.
+- **Messy data is where the pipeline earns its keep, but this run can't yet say which part matters.** With hints
+  removed, the full pipeline still got 14/16. Both no-reviewer failures (of 3 graded) were the 999-unit outlier
+  trap (*"North fell 76.6%"*). However, the reviewer requested **zero** revisions in these runs, so the difference
+  can't be credited to it. More likely it comes from run-to-run variation in whether the Planner includes outlier
+  removal, on a very small sample.
+- **The unhinted comparison is incomplete.** The free tier allows 500 requests/day for this model, and the quota ran
+  out partway through, so 24 runs were never graded (they are counted as `infra_errors`, not as wrong answers).
+  To finish it after the quota resets:
+  `python -m eval.harness --variants no_reviewer single --suite unhinted && python -m eval.report`.
+- **The second-model comparison is not done.** `gemini-3.5-flash` allows only 20 requests/day, and the other
+  models were overloaded (HTTP 503) or retired (404) at run time. Use `--models` with any model you have quota for.
+- Latency: the multi-agent hinted batch ran first, while the API was slow (~4.3 s/call vs ~2.6 s later), so
+  its latency is partly inflated by API load. Rate-limiter queueing is excluded from all latencies.
+- The two unhinted multi-agent misses were judgement calls: keeping the six 999-unit orders when counting "valid"
+  orders, and not dropping negative or 2000-hour resolution times (right agent, A07, but 38.3 h vs 39.95 h).
+
 
 Reproduce with:
 
 ```bash
 python -m eval.harness --models gemini-3.5-flash-lite --variants multi no_reviewer single
-python -m eval.harness --models gemini-3.1-flash-lite --variants multi single
-python -m eval.report          # -> results/summary.md, summary.csv, comparison.png
+python -m eval.harness --models gemini-3.5-flash-lite --variants multi no_reviewer single --suite unhinted
+python -m eval.report          # -> results/summary.md, summary.csv, comparison_<suite>.png
 ```
 
 The harness can resume: re-running it skips finished combinations and retries runs that hit API errors.
@@ -122,7 +165,7 @@ and [DECISIONS.md](DECISIONS.md).
 ## Tests
 
 ```bash
-python -m pytest          # ~100 tests, offline: agents run against a scripted FakeLLM
+python -m pytest          # 101 tests, offline: agents run against a scripted FakeLLM
 ```
 
 The tests cover the LLM layer (retries, rate limiter, cost), sandbox escape attempts, every graph
