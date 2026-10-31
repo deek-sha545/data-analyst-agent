@@ -58,6 +58,7 @@ class RunTracker:
     calls: list[LLMCall] = field(default_factory=list)
     events: list[Event] = field(default_factory=list)
     started: float = field(default_factory=time.time)
+    finished: float | None = None   # set by finish(); freezes wall_time_s
     listeners: list[Callable[[Event], None]] = field(default_factory=list, repr=False)
     _lock: threading.RLock = field(default_factory=threading.RLock, repr=False)  # re-entrant: to_dict() calls summary()
 
@@ -78,6 +79,9 @@ class RunTracker:
                 pass
         return ev
 
+    def finish(self) -> None:
+        self.finished = time.time()
+
     # --------------------------------------------------------------- summary
     def summary(self) -> dict:
         with self._lock:
@@ -94,7 +98,7 @@ class RunTracker:
             "llm_latency_s": round(sum(c.latency_s for c in calls), 3),
             "rate_limit_wait_s": round(sum(c.wait_s for c in calls), 3),
             "retries": sum(c.retries for c in calls),
-            "wall_time_s": round(time.time() - self.started, 3),
+            "wall_time_s": round((self.finished or time.time()) - self.started, 3),
             "by_agent": self._by_agent(calls),
         }
 

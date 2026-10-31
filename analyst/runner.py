@@ -114,6 +114,7 @@ def run_analysis(
         result.status = "error"
         result.error = f"{type(e).__name__}: {e}"
         tracker.event("system", "error", result.error)
+    tracker.finish()
     result.metrics = tracker.summary()
     tracker.event("system", "done", {"status": result.status, "metrics": result.metrics})
     tracker.save(settings.logs_dir)

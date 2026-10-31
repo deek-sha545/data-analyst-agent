@@ -14,7 +14,7 @@ This file tracks the build so work can be resumed if interrupted.
 | M4 | LangGraph agents: Planner → Coder → Executor → Reviewer → Reporter, self-correction loop, human-in-the-loop approval, single-agent & no-reviewer variants, markdown report with charts + tests (fake LLM) | ✅ done |
 | M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ✅ done |
 | M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ⏳ |
-| M7 | FastAPI backend (streaming steps, approval endpoint) + Streamlit UI + tests | ⏳ |
+| M7 | FastAPI backend (streaming steps, approval endpoint) + Streamlit UI + tests | ✅ done |
 | M8 | MCP server exposing the analysis tools + tests + docs | ⏳ |
 | M9 | Dockerfile, README, ARCHITECTURE, DECISIONS final pass | ⏳ |
 
@@ -38,3 +38,7 @@ This file tracks the build so work can be resumed if interrupted.
   Pilot 12/12 correct but exposed Gemini free-tier limit (15 req/min/model, 429 says "retry in Ns") ->
   added a process-wide sliding-window RateLimiter (default 14 rpm for gemini, `LLM_RPM`), server-hinted backoff,
   and `rate_limit_wait_s` tracked separately from model latency.
+- 2026-10-31 — M7: `api/main.py` (background-thread runs, JSON polling + NDJSON stream, approval endpoint, safe
+  upload/file serving), `ui/app.py` (Streamlit, polls the API). 8 API tests; UI verified headlessly with
+  streamlit AppTest against a fake-LLM uvicorn (run -> approve plan -> report + chart + metrics).
+- 2026-10-31 — M6 started: flash-lite x {multi, no_reviewer, single} x 35 questions running (`results/runs.jsonl`).
