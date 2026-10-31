@@ -18,14 +18,18 @@ The Groq free quota was exhausted during development, so the default moved to Ge
 This API key returns 404 for the `gemini-2.5-*` models; probing the available ones showed
 `gemini-3.5-flash-lite` at ~1–3 s per call versus `gemini-3.5-flash` at ~13 s per call
 with occasional timeouts. The fast model is the default; the stronger one is selectable
-(`LLM_MODEL`) and compared in the experiments.
+(`LLM_MODEL`). It could not be used in the experiments: its free tier allows only 20
+requests per day (one full evaluation needs ~400), so the second model in the comparison
+is the previous-generation `gemini-3.1-flash-lite`.
 
 ### 4. Client-side rate limiting + server-hinted backoff
 The free tier allows 15 requests/minute per model. Parallel evaluation workers retrying
 blindly produced bursts of 429s (5 retries, ~70 s per run in the pilot). A process-wide
 sliding-window limiter (14 rpm default for Gemini, `LLM_RPM` to change) queues requests
 instead, and backoff uses Gemini's "retry in N s" hint. Queueing time is tracked separately
-from model latency so reported latencies stay honest.
+from model latency so reported latencies stay honest. When the server's hint is long
+(Gemini answers "retry in 18h41m" once a *daily* quota is used up) the client fails fast
+with a clear `QuotaExhausted` error instead of retrying for minutes.
 
 ### 5. Deterministic dataset profile before any LLM call
 The first live run produced a confidently wrong answer: six 999-unit orders (data-entry

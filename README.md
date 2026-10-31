@@ -91,7 +91,7 @@ Reproduce with:
 
 ```bash
 python -m eval.harness --models gemini-3.5-flash-lite --variants multi no_reviewer single
-python -m eval.harness --models gemini-3.5-flash --variants multi single
+python -m eval.harness --models gemini-3.1-flash-lite --variants multi single
 python -m eval.report          # -> results/summary.md, summary.csv, comparison.png
 ```
 

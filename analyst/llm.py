@@ -68,7 +68,27 @@ class RateLimiter:
             waited += delay
 
 
-_RETRY_IN_RE = re.compile(r"retry in ([\d.]+)s", re.IGNORECASE)
+_RETRY_IN_RE = re.compile(r"retry in (?:(\d+)h)?(?:(\d+)m(?!s))?(?:([\d.]+)s)?", re.IGNORECASE)
+MAX_HINTED_WAIT_S = 120.0  # a longer server hint means a daily quota is exhausted: fail fast instead
+
+
+class QuotaExhausted(LLMError):
+    """The provider says to come back much later (e.g. daily free-tier quota used up)."""
+
+
+def _hinted_wait(err: Exception) -> float | None:
+    """Seconds the server asks us to wait: Retry-After header or Gemini's 'retry in 1h2m3.4s'."""
+    resp = getattr(err, "response", None)
+    if resp is not None:
+        try:
+            return float(resp.headers.get("retry-after"))
+        except (TypeError, ValueError):
+            pass
+    m = _RETRY_IN_RE.search(str(err))
+    if m and any(m.groups()):
+        h, mi, sec = (float(g) if g else 0.0 for g in m.groups())
+        return h * 3600 + mi * 60 + sec
+    return None
 
 
 class LLM:
@@ -127,6 +147,13 @@ class LLM:
                 self._record(agent, p_tok, c_tok, time.time() - t_req, retries, wait=waited)
                 return text
             except (*RETRYABLE, EmptyResponse) as e:
+                hint = _hinted_wait(e) if isinstance(e, openai.RateLimitError) else None
+                if hint is not None and hint > MAX_HINTED_WAIT_S:
+                    self._record(agent, 0, 0, time.time() - t_req, retries, ok=False, error=str(e)[:300])
+                    raise QuotaExhausted(
+                        f"{agent}: {self.model} quota exhausted - the provider asks to retry in "
+                        f"{hint / 3600:.1f} h. Use another model (LLM_MODEL) or wait."
+                    ) from e
                 if retries >= self.settings.max_retries:
                     self._record(agent, 0, 0, time.time() - t_req, retries, ok=False, error=str(e)[:300],
                                  wait=time.time() - start)
@@ -146,17 +173,7 @@ class LLM:
         Exponential backoff with jitter. Honours the server's hint when there is
         one: a Retry-After header, or Gemini's "Please retry in 57.06s" message.
         """
-        hint = None
-        resp = getattr(err, "response", None)
-        if resp is not None:
-            try:
-                hint = float(resp.headers.get("retry-after"))
-            except (TypeError, ValueError):
-                hint = None
-        if hint is None:
-            m = _RETRY_IN_RE.search(str(err))
-            if m:
-                hint = float(m.group(1))
+        hint = _hinted_wait(err)
         base = hint if hint is not None else 2 ** attempt * 2
         return min(base + random.uniform(0, 1), 65.0)
 

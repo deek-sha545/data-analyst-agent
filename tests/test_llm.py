@@ -6,7 +6,7 @@ import openai
 import pytest
 
 from analyst.config import PROVIDERS, get_settings
-from analyst.llm import LLM, FakeLLM, LLMError, RateLimiter, extract_code, parse_json
+from analyst.llm import LLM, FakeLLM, LLMError, QuotaExhausted, RateLimiter, _hinted_wait, extract_code, parse_json
 from analyst.tracker import RunTracker, estimate_cost
 
 
@@ -172,3 +172,22 @@ def test_default_rpm_for_gemini(monkeypatch):
     assert get_settings("openai").rpm == 0
     monkeypatch.setenv("LLM_RPM", "5")
     assert get_settings("gemini").rpm == 5
+
+
+def _quota_error(msg):
+    req = httpx.Request("POST", "https://x")
+    return openai.RateLimitError(msg, response=httpx.Response(429, request=req), body=None)
+
+
+def test_hinted_wait_parses_durations():
+    assert _hinted_wait(_quota_error("Please retry in 57.06s.")) == pytest.approx(57.06)
+    assert _hinted_wait(_quota_error("Please retry in 18h41m59.7s.")) == pytest.approx(18 * 3600 + 41 * 60 + 59.7)
+    assert _hinted_wait(_quota_error("Please retry in 2m5s.")) == pytest.approx(125)
+    assert _hinted_wait(_quota_error("slow down")) is None
+
+
+def test_daily_quota_fails_fast():
+    llm = make_llm([_quota_error("Requests per day exceeded. Please retry in 18h41m59.7s."), _resp("never")])
+    with pytest.raises(QuotaExhausted, match="quota exhausted"):
+        llm.chat([{"role": "user", "content": "hi"}])
+    assert len(llm.client.requests) == 1  # no pointless retries
