@@ -15,7 +15,7 @@ This file tracks the build so work can be resumed if interrupted.
 | M5 | Evaluation: 30+ questions with reference answers, grader, harness + tests | ✅ done |
 | M6 | Run experiments (single vs multi, ± reviewer, 2 LLMs) → `results/` tables + charts | ⏳ |
 | M7 | FastAPI backend (streaming steps, approval endpoint) + Streamlit UI + tests | ✅ done |
-| M8 | MCP server exposing the analysis tools + tests + docs | ⏳ |
+| M8 | MCP server exposing the analysis tools + tests + docs | ✅ done |
 | M9 | Dockerfile, README, ARCHITECTURE, DECISIONS final pass | ⏳ |
 
 ## Log
@@ -42,3 +42,6 @@ This file tracks the build so work can be resumed if interrupted.
   upload/file serving), `ui/app.py` (Streamlit, polls the API). 8 API tests; UI verified headlessly with
   streamlit AppTest against a fake-LLM uvicorn (run -> approve plan -> report + chart + metrics).
 - 2026-10-31 — M6 started: flash-lite x {multi, no_reviewer, single} x 35 questions running (`results/runs.jsonl`).
+- 2026-10-31 — M8: `analyst_mcp/server.py` (mcp 2.x `MCPServer`; tools list_datasets / profile_dataset / run_python /
+  ask_analyst; dataset paths restricted to data/ + uploads/ unless ANALYST_MCP_ALLOW_ANY_PATH=1). 5 in-process
+  client tests + verified over real stdio transport.
